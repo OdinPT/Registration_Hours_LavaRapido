@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="a mostrar grid ao lado do form em registos do dia" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="RegEntrada" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print $ID_PPistas2;</find>
+      <find>$DataEdit</find>
+      <find>nClickregistaHoras</find>
+      <find>Contagem_Req</find>
+      <find>registarfun</find>
+      <find>$ID_Request</find>
+      <find>Apaga</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/php/Apaga/DelContactoFunc.php" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/SelectFuncionarioPosto0.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/ListEmpresaFuncionario0.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoFuncionario.js" />
+        <option value="$PROJECT_DIR$/app/php/Edit/Edit.php" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/HorarioFunc.js" />
+        <option value="$PROJECT_DIR$/app/Application.js" />
+        <option value="$PROJECT_DIR$/app/php/Apaga/DelHorarioFunc.php" />
+        <option value="$PROJECT_DIR$/app/php/Apaga/Del.php" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/ContactosFuncionario.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/JuncaoFuncEmpresaContacto.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/MostraLocalSelect.js" />
+        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/MostraFuncSelect.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/GridEquiLavagemSelect.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/RegLocalSelect.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/ListFuncionario.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/ListLocais.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/ListEmpresas.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/GridLimConPosto.js" />
+        <option value="$PROJECT_DIR$/app/php/Registar/RegistarContagem.php" />
+        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/JuncaoRegAnteriores.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" />
+        <option value="$PROJECT_DIR$/app/php/Edit/EditRegPostoSelect.php" />
+        <option value="$PROJECT_DIR$/app/php/CarregaStore/CarregaEquipamentoLavagemSelect.php" />
+        <option value="$PROJECT_DIR$/app/model/CarregaGridContagemDiaAnt.js" />
+        <option value="$PROJECT_DIR$/app/store/Admin/CarregaGridContagemDiaAnt.js" />
+        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAnt.js" />
+        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListRegistosTodosPosto.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/JuncaoFuncHorarioPosto.js" />
+        <option value="$PROJECT_DIR$/app/php/VerificaAcessos/FuncFLocal.php" />
+        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ContagensPrincipal.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/GridContagem.js" />
+        <option value="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagemDiaAnt.php" />
+        <option value="$PROJECT_DIR$/app/store/Admin/CarregaWinContagemXLocal.js" />
+        <option value="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" />
+        <option value="$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php" />
+        <option value="$PROJECT_DIR$/app/php/Pesquisa/Pesquisa2Dates.php" />
+        <option value="$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php" />
+        <option value="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagem_DA_Dia.php" />
+        <option value="$PROJECT_DIR$/app/model/CarregaGridContagemAntRegistosDia.js" />
+        <option value="$PROJECT_DIR$/app/store/Admin/CarregaGridContagemAntRegistosDia.js" />
+        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAntRD.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogContadorDiaAnt0.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js" />
+        <option value="$PROJECT_DIR$/app/php/CarregaStore/CarregaRegistosContadorSelect.php" />
+        <option value="$PROJECT_DIR$/app/php/Edit/EditRegContDiario.php" />
+        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js" />
+        <option value="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="1080" />
+    <option name="width" value="683" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <autoscrollToSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Registration_Hours_LavaRapido" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.25794032" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="" />
+      <created>1510154303808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510154303808</updated>
+      <workItem from="1510154306578" duration="8465000" />
+      <workItem from="1510357879010" duration="1840000" />
+      <workItem from="1511171529842" duration="860000" />
+      <workItem from="1511265023481" duration="27738000" />
+      <workItem from="1511543531205" duration="38858000" />
+      <workItem from="1511751285037" duration="5761000" />
+      <workItem from="1511911056667" duration="4124000" />
+      <workItem from="1511976227328" duration="15973000" />
+      <workItem from="1512426610239" duration="673000" />
+      <workItem from="1512427547209" duration="11977000" />
+      <workItem from="1512674303558" duration="15880000" />
+      <workItem from="1513447255248" duration="25285000" />
+      <workItem from="1513865572104" duration="8342000" />
+      <workItem from="1514235136949" duration="4420000" />
+      <workItem from="1514247139176" duration="745000" />
+      <workItem from="1514390894593" duration="5306000" />
+      <workItem from="1514397554058" duration="6000" />
+      <workItem from="1514406010322" duration="1849000" />
+      <workItem from="1514754769250" duration="1644000" />
+      <workItem from="1514838721973" duration="14652000" />
+      <workItem from="1515188033880" duration="14150000" />
+      <workItem from="1515367168083" duration="12000000" />
+      <workItem from="1515491440689" duration="92000" />
+      <workItem from="1515492265621" duration="115000" />
+      <workItem from="1515497935326" duration="6041000" />
+      <workItem from="1515694294093" duration="37296000" />
+      <workItem from="1516113615370" duration="17616000" />
+      <workItem from="1516200526074" duration="2094000" />
+      <workItem from="1516206733844" duration="16891000" />
+      <workItem from="1517312853427" duration="21000" />
+      <workItem from="1517315893436" duration="1251000" />
+      <workItem from="1517844931058" duration="34695000" />
+      <workItem from="1517964644467" duration="583000" />
+      <workItem from="1518022175005" duration="26126000" />
+      <workItem from="1518303153712" duration="43631000" />
+      <workItem from="1518817208212" duration="29875000" />
+      <workItem from="1518925974308" duration="975000" />
+      <workItem from="1518926996704" duration="1108000" />
+      <workItem from="1519044242627" duration="1741000" />
+      <workItem from="1519078145474" duration="155000" />
+      <workItem from="1519170866949" duration="105000" />
+      <workItem from="1519224054994" duration="141000" />
+      <workItem from="1519226571630" duration="529000" />
+      <workItem from="1519230543838" duration="25646000" />
+      <workItem from="1519391788809" duration="13357000" />
+      <workItem from="1519466063873" duration="2314000" />
+      <workItem from="1519570555308" duration="8859000" />
+      <workItem from="1519922887080" duration="2289000" />
+      <workItem from="1519926408965" duration="707000" />
+      <workItem from="1519931767344" duration="501000" />
+      <workItem from="1520004512758" duration="611000" />
+      <workItem from="1520735708729" duration="8000" />
+      <workItem from="1521379732274" duration="599000" />
+      <workItem from="1521393819784" duration="5753000" />
+      <workItem from="1521405951113" duration="6627000" />
+      <workItem from="1521467529043" duration="1768000" />
+      <workItem from="1521564936044" duration="40684000" />
+      <workItem from="1521758814574" duration="4500000" />
+      <workItem from="1521922066780" duration="7253000" />
+      <workItem from="1522064508514" duration="2282000" />
+      <workItem from="1522068642171" duration="4556000" />
+      <workItem from="1522291560945" duration="14367000" />
+      <workItem from="1522431756138" duration="9440000" />
+      <workItem from="1522507292162" duration="3316000" />
+      <workItem from="1522697373705" duration="2263000" />
+      <workItem from="1522766231866" duration="599000" />
+      <workItem from="1522966560850" duration="2670000" />
+      <workItem from="1523458725446" duration="6185000" />
+      <workItem from="1523758460108" duration="10000" />
+      <workItem from="1523797367518" duration="867000" />
+      <workItem from="1524659030533" duration="14172000" />
+      <workItem from="1524747361299" duration="8513000" />
+      <workItem from="1524812059109" duration="7795000" />
+      <workItem from="1524924893092" duration="1202000" />
+      <workItem from="1524942743692" duration="2439000" />
+      <workItem from="1524954848682" duration="8951000" />
+      <workItem from="1525123349725" duration="601000" />
+      <workItem from="1525165636725" duration="8911000" />
+      <workItem from="1525263044796" duration="619000" />
+      <workItem from="1525280770406" duration="3932000" />
+      <workItem from="1525298293732" duration="3958000" />
+      <workItem from="1525523458858" duration="598000" />
+      <workItem from="1525707519926" duration="22000" />
+      <workItem from="1525707601671" duration="648000" />
+      <workItem from="1525815990259" duration="3267000" />
+      <workItem from="1525821115831" duration="13467000" />
+      <workItem from="1526049564889" duration="5001000" />
+      <workItem from="1526825015576" duration="698000" />
+      <workItem from="1526826167147" duration="7479000" />
+      <workItem from="1526853889198" duration="10315000" />
+      <workItem from="1527164638581" duration="1319000" />
+      <workItem from="1527171378541" duration="482000" />
+      <workItem from="1527334151279" duration="25068000" />
+      <workItem from="1527580318512" duration="2127000" />
+      <workItem from="1527690377231" duration="2864000" />
+      <workItem from="1527771610609" duration="4689000" />
+      <workItem from="1527884335210" duration="7745000" />
+      <workItem from="1528043827994" duration="4863000" />
+      <workItem from="1528109000133" duration="1222000" />
+      <workItem from="1528124019019" duration="14650000" />
+      <workItem from="1528577337462" duration="6363000" />
+      <workItem from="1528649331711" duration="10261000" />
+      <workItem from="1528731742886" duration="163000" />
+      <workItem from="1528815413235" duration="64000" />
+      <workItem from="1528834678321" duration="22000" />
+      <workItem from="1530057751833" duration="3447000" />
+      <workItem from="1530093695172" duration="18620000" />
+      <workItem from="1530133809537" duration="1040000" />
+      <workItem from="1530200112698" duration="2522000" />
+      <workItem from="1530266241393" duration="4390000" />
+      <workItem from="1530463812005" duration="721000" />
+      <workItem from="1530466755876" duration="387000" />
+      <workItem from="1530894472039" duration="1293000" />
+      <workItem from="1530968440194" duration="366000" />
+      <workItem from="1531059405927" duration="1951000" />
+      <workItem from="1531076745948" duration="1848000" />
+      <workItem from="1531160534213" duration="16563000" />
+      <workItem from="1531208608736" duration="14728000" />
+      <workItem from="1531251240358" duration="4450000" />
+      <workItem from="1531297077017" duration="3087000" />
+      <workItem from="1531321086264" duration="1538000" />
+      <workItem from="1531330537997" duration="1756000" />
+      <workItem from="1531434916554" duration="4629000" />
+      <workItem from="1531481571867" duration="40376000" />
+      <workItem from="1531574225319" duration="68000" />
+      <workItem from="1531574563798" duration="4631000" />
+      <workItem from="1531665419847" duration="16000" />
+      <workItem from="1531838484019" duration="554000" />
+      <workItem from="1531839362934" duration="880000" />
+      <workItem from="1534294782739" duration="9541000" />
+      <workItem from="1534333236894" duration="635000" />
+      <workItem from="1534369981968" duration="1847000" />
+      <workItem from="1534402530793" duration="162000" />
+      <workItem from="1534538385216" duration="3368000" />
+      <workItem from="1534556097929" duration="2170000" />
+      <workItem from="1534606425585" duration="4443000" />
+      <workItem from="1534618171030" duration="561000" />
+      <workItem from="1534641396233" duration="4774000" />
+      <workItem from="1534702742519" duration="322000" />
+      <workItem from="1534703347240" duration="1429000" />
+      <workItem from="1534704961742" duration="65000" />
+      <workItem from="1534705329974" duration="1410000" />
+      <workItem from="1534716689665" duration="891000" />
+      <workItem from="1534718717351" duration="888000" />
+      <workItem from="1534720196687" duration="8413000" />
+      <workItem from="1534780148897" duration="24234000" />
+      <workItem from="1534979236191" duration="6614000" />
+      <workItem from="1535058560011" duration="6876000" />
+      <workItem from="1535097072005" duration="2927000" />
+      <workItem from="1535100887746" duration="163000" />
+      <workItem from="1535128147262" duration="10039000" />
+      <workItem from="1535148866313" duration="1378000" />
+      <workItem from="1535667966999" duration="5536000" />
+      <workItem from="1535749683572" duration="6002000" />
+      <workItem from="1535787344888" duration="598000" />
+      <workItem from="1535808138751" duration="9544000" />
+      <workItem from="1535892463064" duration="11848000" />
+      <workItem from="1535915501339" duration="1867000" />
+      <workItem from="1535971706539" duration="452000" />
+      <workItem from="1536102791597" duration="1298000" />
+      <workItem from="1536195222297" duration="16032000" />
+      <workItem from="1536326617820" duration="2428000" />
+      <workItem from="1536341616101" duration="1916000" />
+      <workItem from="1536494559570" duration="33518000" />
+      <workItem from="1536758385916" duration="9065000" />
+      <workItem from="1536851602619" duration="4476000" />
+      <workItem from="1536931991897" duration="2200000" />
+      <workItem from="1537030097866" duration="1197000" />
+      <workItem from="1537134929574" duration="4213000" />
+      <workItem from="1537187674796" duration="28349000" />
+      <workItem from="1537369211750" duration="10220000" />
+      <workItem from="1537470483892" duration="12000" />
+      <workItem from="1537564279602" duration="2091000" />
+      <workItem from="1537712170204" duration="522000" />
+      <workItem from="1537716510942" duration="871000" />
+      <workItem from="1537727445356" duration="333000" />
+      <workItem from="1537745784940" duration="1073000" />
+      <workItem from="1537747696534" duration="4335000" />
+      <workItem from="1537752221717" duration="20000" />
+      <workItem from="1537752378874" duration="829000" />
+      <workItem from="1537817883640" duration="2881000" />
+      <workItem from="1537824463698" duration="503000" />
+      <workItem from="1537889248924" duration="2795000" />
+      <workItem from="1537969497782" duration="599000" />
+      <workItem from="1538257152070" duration="599000" />
+      <workItem from="1538302181747" duration="45489000" />
+      <workItem from="1538751970971" duration="7219000" />
+      <workItem from="1541422839592" duration="1192000" />
+      <workItem from="1541461596158" duration="1524000" />
+      <workItem from="1541463523919" duration="34555000" />
+      <workItem from="1541680524463" duration="1730000" />
+      <workItem from="1541785144860" duration="2155000" />
+      <workItem from="1541795211322" duration="1625000" />
+      <workItem from="1541963515360" duration="16055000" />
+      <workItem from="1542018196899" duration="1285000" />
+      <workItem from="1542223875260" duration="5412000" />
+      <workItem from="1542401655261" duration="374000" />
+      <workItem from="1542627506650" duration="618000" />
+      <workItem from="1542630307179" duration="8089000" />
+      <workItem from="1542656213976" duration="1091000" />
+      <workItem from="1542663312706" duration="13625000" />
+      <workItem from="1542758264219" duration="544000" />
+      <workItem from="1542758899556" duration="36000" />
+      <workItem from="1542759305301" duration="1273000" />
+      <workItem from="1542815731102" duration="7459000" />
+      <workItem from="1542880318097" duration="1009000" />
+      <workItem from="1543002197733" duration="4195000" />
+      <workItem from="1543081331059" duration="4030000" />
+      <workItem from="1543095866739" duration="26405000" />
+      <workItem from="1543340047846" duration="23594000" />
+      <workItem from="1543517381641" duration="2450000" />
+      <workItem from="1543750387302" duration="2084000" />
+      <workItem from="1543767562797" duration="3970000" />
+      <workItem from="1543864544969" duration="756000" />
+      <workItem from="1543870485133" duration="1367000" />
+      <workItem from="1543945009271" duration="1776000" />
+      <workItem from="1544120618541" duration="28047000" />
+      <workItem from="1544493583385" duration="287000" />
+      <workItem from="1544555913615" duration="594000" />
+      <workItem from="1544557846420" duration="19178000" />
+      <workItem from="1544694310945" duration="23129000" />
+      <workItem from="1544907357804" duration="7276000" />
+      <workItem from="1545085305606" duration="17677000" />
+      <workItem from="1545227098587" duration="22715000" />
+      <workItem from="1545594958559" duration="6570000" />
+      <workItem from="1545938417563" duration="14027000" />
+      <workItem from="1546113768493" duration="43327000" />
+      <workItem from="1546476347004" duration="2963000" />
+      <workItem from="1546528901472" duration="49477000" />
+      <workItem from="1546954836006" duration="11547000" />
+      <workItem from="1547134892131" duration="6779000" />
+      <workItem from="1547168822631" duration="596000" />
+      <workItem from="1547215007506" duration="2361000" />
+      <workItem from="1547228598545" duration="6274000" />
+      <workItem from="1547558453897" duration="1095000" />
+      <workItem from="1547570612187" duration="3310000" />
+      <workItem from="1547732591226" duration="478000" />
+      <workItem from="1547747010479" duration="4031000" />
+      <workItem from="1547805612010" duration="8313000" />
+      <workItem from="1547833933538" duration="717000" />
+      <workItem from="1547834898747" duration="377000" />
+      <workItem from="1547836105211" duration="400000" />
+      <workItem from="1548542912128" duration="15395000" />
+      <workItem from="1548938916102" duration="41552000" />
+      <workItem from="1549250756612" duration="229000" />
+      <workItem from="1549269944539" duration="2886000" />
+      <workItem from="1549364094628" duration="2299000" />
+      <workItem from="1549366848322" duration="2065000" />
+      <workItem from="1549395371121" duration="446000" />
+      <workItem from="1549565601954" duration="5173000" />
+      <workItem from="1549712202060" duration="1506000" />
+      <workItem from="1549891850360" duration="23201000" />
+      <workItem from="1550088478626" duration="29838000" />
+      <workItem from="1550443818785" duration="837000" />
+      <workItem from="1550445617069" duration="1038000" />
+      <workItem from="1550460327400" duration="4393000" />
+      <workItem from="1550607680725" duration="599000" />
+      <workItem from="1550743302782" duration="9466000" />
+      <workItem from="1550832093076" duration="3504000" />
+      <workItem from="1550954455874" duration="9014000" />
+      <workItem from="1551055224615" duration="1126000" />
+      <workItem from="1551088718854" duration="5787000" />
+      <workItem from="1551103781209" duration="14364000" />
+      <workItem from="1551213091563" duration="7654000" />
+      <workItem from="1551865873313" duration="10000" />
+      <workItem from="1552318384274" duration="31814000" />
+      <workItem from="1552491049696" duration="6119000" />
+    </task>
+    <task id="LOCAL-00127" summary="Admins a inserir entrada do funcionário.&#10;&#10;A converter a data e hora para caso seja inserida do genero &#10;dd/mm/yyyy to dd-mm-yyyy">
+      <created>1542757782839</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1542757782841</updated>
+    </task>
+    <task id="LOCAL-00128" summary="EN___&#10;phase 1 of window creation to record equipment count&#10;&#10;PT___&#10;fase 1 da criação da janela para registar contagem dos equipamentos">
+      <created>1543111556541</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1543111556569</updated>
+    </task>
+    <task id="LOCAL-00129" summary="EN___&#10;&#10;Search between 2 dates to work&#10;&#10;PT___&#10;Pesquisa entre 2 datas a funcionar">
+      <created>1543277913480</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1543277913481</updated>
+    </task>
+    <task id="LOCAL-00130" summary="EN___&#10;&#10;Search between 2 dates to work&#10;&#10;PT___&#10;Pesquisa entre 2 datas a funcionar">
+      <created>1543519586943</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1543519586945</updated>
+    </task>
+    <task id="LOCAL-00131" summary="EN___&#10;&#10;Search between 2 dates to work&#10;&#10;PT___&#10;Pesquisa entre 2 datas a funcionar">
+      <created>1544005887800</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1544005887801</updated>
+    </task>
+    <task id="LOCAL-00132" summary="__bakups antes de experimento com o sucess e failure">
+      <created>1544294758388</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1544294758391</updated>
+    </task>
+    <task id="LOCAL-00133" summary="__backup depois de ao carregar no botão verifica se o funcionário trabalha em mais que um Local">
+      <created>1544566761872</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1544566761873</updated>
+    </task>
+    <task id="LOCAL-00134" summary="____&#10;com funcionário em mais que um local a  aparecer form e a colocar na bd &#10;&#10;__">
+      <created>1545085167692</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1545085167693</updated>
+    </task>
+    <task id="LOCAL-00135" summary="__PT__&#10;a mostrar registo dos postos dos funcionarios de um só posto e de mais de um posto &#10;&#10;__EN__&#10;show registration of the posts of the employees of a single station and of more than one station">
+      <created>1545167201420</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1545167201423</updated>
+    </task>
+    <task id="LOCAL-00136" summary="A Mostrar Contagem do dia se existir contagem do equipamento.&#10;&#10;Happy 2019 to everyone">
+      <created>1546278359844</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1546278359846</updated>
+    </task>
+    <task id="LOCAL-00137" summary="A mostrar a contagem na grid de funcionários de mais de um posto se existir contagem já inserida do dia atual&#10;Happy 2019 to everyone">
+      <created>1546360961155</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1546360961156</updated>
+    </task>
+    <task id="LOCAL-00138" summary="A mostrar a contagem na grid de funcionários de mais de um posto se existir contagem já inserida do dia atual&#10;&#10;Se não existir registos em POSTO_PISTA cria o request para fazer a contagem a mesma">
+      <created>1546370480644</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1546370480644</updated>
+    </task>
+    <task id="LOCAL-00139" summary="A mostrar a contagem na grid de funcionários de mais de um posto se existir contagem já inserida do dia atual&#10;&#10;Se não existir registos em POSTO_PISTA cria o request para fazer a contagem á mesma">
+      <created>1546457977408</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1546457977409</updated>
+    </task>
+    <task id="LOCAL-00140" summary="A Mostrar Registo selecionado&#10;&#10;Show selected record">
+      <created>1546478648389</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1546478648390</updated>
+    </task>
+    <task id="LOCAL-00141" summary="a registar contagem e a fazer update da contagem na grid do request">
+      <created>1546537335876</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1546537335882</updated>
+    </task>
+    <task id="LOCAL-00142" summary="a registar contagem e a fazer update da contagem na grid do request">
+      <created>1546538850794</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1546538850795</updated>
+    </task>
+    <task id="LOCAL-00143" summary="a registar contagem e a fazer update da contagem na grid do request">
+      <created>1546538900676</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1546538900676</updated>
+    </task>
+    <task id="LOCAL-00144" summary="a registar contagem e a fazer update da contagem na grid do request">
+      <created>1546542548368</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1546542548369</updated>
+    </task>
+    <task id="LOCAL-00145" summary="EN___&#10;&#10;Showing new washing equipment and associating washing equipment&#10;&#10;__PT__&#10;A mostrar novos equipamentos da lavagem e a associar equipamentos a lavagem">
+      <created>1546717209868</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1546717209869</updated>
+    </task>
+    <task id="LOCAL-00146" summary="clean code">
+      <created>1546719442057</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1546719442057</updated>
+    </task>
+    <task id="LOCAL-00147" summary="clean code">
+      <created>1546851671666</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1546851671666</updated>
+    </task>
+    <task id="LOCAL-00148" summary="clean code">
+      <created>1546882177051</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1546882177051</updated>
+    </task>
+    <task id="LOCAL-00149" summary="A registar contagem, com limite diario a funcionar">
+      <created>1547115911076</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1547115911078</updated>
+    </task>
+    <task id="LOCAL-00150" summary="A registar contagem, com limite diario a funcionar">
+      <created>1547168688802</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1547168688803</updated>
+    </task>
+    <task id="LOCAL-00151" summary="A registar e a atualizar a grid do limite por equipamento de cada posto">
+      <created>1547751499297</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1547751499299</updated>
+    </task>
+    <task id="LOCAL-00152" summary=".Ao selecionar registo em REGISTO DE TODOS OS POSTOS mostrar os dados.  &#10;.Editar registo de contagem em RDP&#10;A apagar tbm está a funcionar">
+      <created>1548554603110</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1548554603112</updated>
+    </task>
+    <task id="LOCAL-00153" summary=".Ao selecionar registo em REGISTO DE TODOS OS POSTOS mostrar os dados.  &#10;.Editar registo de contagem em RDP&#10;. A registar no log&#10;A apagar tbm está a funcionar">
+      <created>1548558469622</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1548558469622</updated>
+    </task>
+    <task id="LOCAL-00154" summary=".Ao selecionar registo em REGISTO DE TODOS OS POSTOS mostrar os dados.  &#10;.Editar registo de contagem em RDP&#10;. A registar no log&#10;A apagar tbm está a funcionar&#10;A aparecer registo selecionado do contador diario e a inserir contagem">
+      <created>1548559990830</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1548559990830</updated>
+    </task>
+    <task id="LOCAL-00155" summary="A registar no Log ao registar contagem , problema de não inserir contagem se tabela estive-se vazia resolvido">
+      <created>1549045105517</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1549045105522</updated>
+    </task>
+    <task id="LOCAL-00156" summary="A registar no Log ao registar contagem , problema de não inserir contagem se tabela estive-se vazia resolvido">
+      <created>1549244305372</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1549244305372</updated>
+    </task>
+    <task id="LOCAL-00157" summary="A registar no Log ao registar contagem , problema de não inserir contagem se tabela estive-se vazia resolvido">
+      <created>1549245785467</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1549245785471</updated>
+    </task>
+    <task id="LOCAL-00158" summary="fazer os request e a só mostrar contagem dos Postos se a contagem não for do dia atual">
+      <created>1549367046755</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1549367046770</updated>
+    </task>
+    <task id="LOCAL-00159" summary="A Registar contagem em RTP (registos de todos os postos) de qualquer equipamento e a permitir fazer override ao limite diário">
+      <created>1550088338421</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1550088338422</updated>
+    </task>
+    <task id="LOCAL-00160" summary="a registar contagem de um equipamento em RTP com a data especifica">
+      <created>1550160953339</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1550160953343</updated>
+    </task>
+    <task id="LOCAL-00161" summary="A apagar registo da contagem do equipamento.">
+      <created>1550192032020</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1550192032020</updated>
+    </task>
+    <task id="LOCAL-00162" summary="25-02">
+      <created>1551055320352</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1551055320354</updated>
+    </task>
+    <task id="LOCAL-00163" summary="25-02-19&#10;&#10;backup">
+      <created>1551094657078</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1551094657080</updated>
+    </task>
+    <task id="LOCAL-00164" summary="a registar Limite diário no mesmo formulairo de registar equipamentos a uma lavagem">
+      <created>1551207429116</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1551207429118</updated>
+    </task>
+    <task id="LOCAL-00165" summary="28-03-2019&#10;&#10;mudança no layout dos funcionários e dos postos">
+      <created>1551373332961</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1551373332962</updated>
+    </task>
+    <task id="LOCAL-00166" summary="redefinição do layout do funcionário selecionado">
+      <created>1551459049567</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1551459049567</updated>
+    </task>
+    <task id="LOCAL-00167" summary="alterações no layout do funcionário selecionado">
+      <created>1551658182860</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1551658182860</updated>
+    </task>
+    <task id="LOCAL-00168" summary="alterações no layout do funcionário selecionado e limpeza de funcionalidades desnecessárias a projeto">
+      <created>1551668091690</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1551668091690</updated>
+    </task>
+    <task id="LOCAL-00169" summary="alterações no layout do funcionário selecionado e limpeza de funcionalidades desnecessárias a projeto">
+      <created>1551670039347</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1551670039347</updated>
+    </task>
+    <task id="LOCAL-00170" summary="alterações no layout do funcionário selecionado e limpeza de funcionalidades desnecessárias a projeto">
+      <created>1551715937184</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1551715937185</updated>
+    </task>
+    <task id="LOCAL-00171" summary="Otimizações no controler e add funcionalidade para editar registos do dia anterior">
+      <created>1551802177332</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1551802177332</updated>
+    </task>
+    <task id="LOCAL-00172" summary="Otimizações no controler e add funcionalidade para editar registos do dia anterior">
+      <created>1551814893514</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1551814893515</updated>
+    </task>
+    <task id="LOCAL-00173" summary="mudança do algoritmo que gerava ID do pedido porque gerava problema.&#10;&#10;Inicio de Mostrar registos anteriores de um determinado contador em Registos do dia&#10;. falta query&#10;. ficheiros php a fazer load&#10;. store&#10;. e nova grid com os dados carregos">
+      <created>1552326597574</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1552326597577</updated>
+    </task>
+    <task id="LOCAL-00174" summary="mudança do algoritmo que gerava ID do pedido porque gerava problema.&#10;&#10;Inicio de Mostrar registos anteriores de um determinado contador em Registos do dia&#10;. falta query&#10;. ficheiros php a fazer load&#10;. store&#10;. e nova grid com os dados carregos">
+      <created>1552407081854</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1552407081859</updated>
+    </task>
+    <task id="LOCAL-00175" summary="mudança do algoritmo que gerava ID do pedido porque gerava problema.&#10;&#10;Inicio de Mostrar registos anteriores de um determinado contador em Registos do dia&#10;. falta query&#10;. ficheiros php a fazer load&#10;. store&#10;. e nova grid com os dados carregos">
+      <created>1552409327254</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1552409327255</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2173859000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="170" y="165" width="1360" height="741" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49337748" visible="true" weight="0.25093633" />
+      <window_info id="Favorites" order="1" sideWeight="0.5066225" side_tool="true" weight="0.329429" />
+      <window_info id="Structure" order="2" weight="0.24944155" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5242881" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.11092715" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32566372" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4996277" weight="0.54941374" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003723" side_tool="true" weight="0.49748743" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="A mostrar a contagem na grid de funcionários de mais de um posto se existir contagem já inserida do dia atual&#10;&#10;Se não existir registos em POSTO_PISTA cria o request para fazer a contagem á mesma" />
+    <MESSAGE value="A Mostrar Registo selecionado&#10;&#10;Show selected record" />
+    <MESSAGE value="a registar contagem e a fazer update da contagem na grid do request" />
+    <MESSAGE value="EN___&#10;&#10;Showing new washing equipment and associating washing equipment&#10;&#10;__PT__&#10;A mostrar novos equipamentos da lavagem e a associar equipamentos a lavagem" />
+    <MESSAGE value="clean code" />
+    <MESSAGE value="A registar contagem, com limite diario a funcionar" />
+    <MESSAGE value="A registar e a atualizar a grid do limite por equipamento de cada posto" />
+    <MESSAGE value=".Ao selecionar registo em REGISTO DE TODOS OS POSTOS mostrar os dados.  &#10;.Editar registo de contagem em RDP&#10;A apagar tbm está a funcionar" />
+    <MESSAGE value=".Ao selecionar registo em REGISTO DE TODOS OS POSTOS mostrar os dados.  &#10;.Editar registo de contagem em RDP&#10;. A registar no log&#10;A apagar tbm está a funcionar" />
+    <MESSAGE value=".Ao selecionar registo em REGISTO DE TODOS OS POSTOS mostrar os dados.  &#10;.Editar registo de contagem em RDP&#10;. A registar no log&#10;A apagar tbm está a funcionar&#10;A aparecer registo selecionado do contador diario e a inserir contagem" />
+    <MESSAGE value="A registar no Log ao registar contagem , problema de não inserir contagem se tabela estive-se vazia resolvido" />
+    <MESSAGE value="fazer os request e a só mostrar contagem dos Postos se a contagem não for do dia atual" />
+    <MESSAGE value="A Registar contagem em RTP (registos de todos os postos) de qualquer equipamento e a permitir fazer override ao limite diário" />
+    <MESSAGE value="a registar contagem de um equipamento em RTP com a data especifica" />
+    <MESSAGE value="A apagar registo da contagem do equipamento." />
+    <MESSAGE value="25-02" />
+    <MESSAGE value="25-02-19&#10;&#10;backup" />
+    <MESSAGE value="a registar Limite diário no mesmo formulairo de registar equipamentos a uma lavagem" />
+    <MESSAGE value="28-03-2019&#10;&#10;mudança no layout dos funcionários e dos postos" />
+    <MESSAGE value="redefinição do layout do funcionário selecionado" />
+    <MESSAGE value="alterações no layout do funcionário selecionado" />
+    <MESSAGE value="alterações no layout do funcionário selecionado e limpeza de funcionalidades desnecessárias a projeto" />
+    <MESSAGE value="Otimizações no controler e add funcionalidade para editar registos do dia anterior" />
+    <MESSAGE value="mudança do algoritmo que gerava ID do pedido porque gerava problema.&#10;&#10;Inicio de Mostrar registos anteriores de um determinado contador em Registos do dia&#10;. falta query&#10;. ficheiros php a fazer load&#10;. store&#10;. e nova grid com os dados carregos" />
+    <MESSAGE value="a mostrar grid ao lado do form em registos do dia" />
+    <option name="LAST_COMMIT_MESSAGE" value="a mostrar grid ao lado do form em registos do dia" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
+        <item name="Registration_Hours_LavaRapido" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoFuncEmpresaContacto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/MostraRegistoFuncionario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/AcessoAdministracao.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/AcessoATodosPostos.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/FuncFLocal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/GridContagem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="32" column="77" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/ContagensPrincipal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoContagemDia2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegContadorDiario2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="84" column="10" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="84" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/Admin/CarregaWinContagemXLocal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/Pesquisa2Dates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestPesquisa.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegistoContMultiLocal/SelectLocalFuncCont.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/MainWidgetRegTodosPostos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="103" column="54" lean-forward="true" selection-start-line="103" selection-start-column="54" selection-end-line="103" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegContadorSearch2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Forms/FormSelectListMesAnt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="115" column="8" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Pesquisa/Pesquisa2Dates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="59" column="150" lean-forward="true" selection-start-line="59" selection-start-column="150" selection-end-line="59" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/CarregaStore/CarregaGridTodosRegistosPosto.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/Registo_Horas/GridRegistosTodosPosto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/CarregaStore/CarregaGridRegContagemAntDia.php" />
+    <entry file="file://$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagemDiaAnt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/CarregaGridContagemDiaAnt.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/CarregaGridContagemAntRegistosDia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/Admin/CarregaGridContagemDiaAnt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAnt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/Admin/CarregaGridContagemAntRegistosDia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAntRD.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogContadorDiaAnt0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListRegistosTodosPosto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/JuncaoRegAnteriores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagem_DA_Dia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/CarregaStore/CarregaRegistosContadorSelect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/Registo_Horas/RegistosTodosPostoSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Edit/EditRegContDiario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/RegistosContagemSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarContagemRTP.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarContagem.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1079">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="1622" column="57" selection-start-line="1622" selection-start-column="57" selection-end-line="1622" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegConDiaria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
