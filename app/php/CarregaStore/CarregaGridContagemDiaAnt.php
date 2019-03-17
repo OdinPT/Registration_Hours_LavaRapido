@@ -3,7 +3,7 @@
  //error_reporting(0);
  include "../config.php";
 
-$id = $_COOKIE['cookieID_ContadoresRDP'];
+$id = $_COOKIE['cookieContagemSelect'];
 
 $mysqli->set_charset("utf8");
 $return_arr = array();

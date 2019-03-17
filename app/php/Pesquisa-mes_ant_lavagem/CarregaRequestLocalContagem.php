@@ -41,15 +41,15 @@ foreach($Total as $indice => $valor) {
 
                                               while ($ru = mysqli_fetch_array($resut, MYSQLI_ASSOC)) {
 
-                                                  $row_array['ID_Request'] = $ru['ID_Request'];
-                                                  $row_array['ID_Local_Req'] = $ru['ID_Local_Req'];
-                                                  $row_array['ID_Tipo_Req'] = $ru['ID_Tipo_Req'];
-                                                  $row_array['Contagem_Req'] = $ru['Contagem_Req'];
+                                                  $row_array['ID_Request'] = $ru['ID_Request'];     //
+                                                  $row_array['ID_Local_Req'] = $ru['ID_Local_Req']; //
+                                                  $row_array['ID_Tipo_Req'] = $ru['ID_Tipo_Req'];   //
+                                                  $row_array['Contagem_Req'] = $ru['Contagem_Req']; //
 
                                                   $row_array['Data_Req'] = $ru['Data_Req'];
                                                   $row_array['ID_PPista'] = $ru['ID_PPista'];
-                                                  $row_array['Data_Pedido'] = $ru['Data_Pedido'];
-                                                  $row_array['Num_Equip'] = $ru['Num_Equip'];
+                                                  $row_array['Data_Pedido'] = $ru['Data_Pedido'];   //
+                                                  $row_array['Num_Equip'] = $ru['Num_Equip'];       //
                                                   $row_array['ID_Func_Req'] = $ru['ID_Func_Req'];
 
                                                   $row_array['ID_Pedido'] = $ru['ID_Pedido'];

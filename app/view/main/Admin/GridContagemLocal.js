@@ -39,7 +39,7 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
             filter: {
             type: 'string'
             }},
-        { text: ' Tipo de Registo :',  dataIndex: 'ID_Tipo_Req', flex: 1.2 ,
+        { text: ' ID Pista :',  dataIndex: 'ID_PPista', flex: 1.2 ,
             filter: {
                 type: 'string'
             }},
@@ -58,6 +58,10 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
         { text: 'ID Pedido :',  dataIndex: 'ID_Pedido', flex: 1.2 ,
             filter: {
                 type: 'string'
+            }},
+        { text: 'Data registo :',  dataIndex: 'Data_Req', flex: 1.2 ,
+            filter: {
+                type: 'string'
             }}
     ],
 
@@ -65,6 +69,10 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
         itemclick: function(view, record, item, index, e) {
             var id = record.get('ID_Request');
             Ext.util.Cookies.set('cookieContagemSelect', id);
+
+            var idpista = record.get('ID_PPista');
+            Ext.util.Cookies.set('cookieID_PPista', idpista);
+
 
             myRequest4 = Ext.Ajax.request({
                 url: 'app/php/VerificaAcessos/verificaUtilizador.php',

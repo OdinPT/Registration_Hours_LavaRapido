@@ -38,7 +38,7 @@ Ext.define('ConLogin.view.main.Admin.JuncaoRegLogConDiaAntRD', {
         {
             title: 'Contagens anteriores deste Posto',
             collapsible:true,
-            collapsed:true,
+            collapsed:false,
             collapseDirection: "right",
             flex: 1,
             margin: '0 0 0 0',

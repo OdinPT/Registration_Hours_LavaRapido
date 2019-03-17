@@ -76,13 +76,14 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect0', {
         xtype: 'toolbar',
         items: [
             {
-                text: 'Insere Contagem',
+                text: 'registar Contagem (se já existir contagem faz update da contagem) ',
                 glyph: 43,
                 formBind: true,
                 listeners: {
                     click: 'onClickInsereContdiarioRA'
                 }
-            }]
+            }
+        ]
     },
 
     listeners: {
