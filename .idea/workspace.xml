@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="a mostrar grid ao lado do form em registos do dia">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagemDiaAnt.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagemDiaAnt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Edit/EditRegContDiario.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Edit/EditRegContDiario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="1215">
               <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
             </state>
           </provider>
@@ -53,20 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="91" column="54" selection-start-line="91" selection-start-column="54" selection-end-line="91" selection-end-column="54" />
+            <state relative-caret-position="400">
+              <caret line="88" column="50" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+            <state relative-caret-position="630">
+              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -74,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
+            <state relative-caret-position="24120">
               <caret line="1608" column="4" selection-start-line="1608" selection-start-column="4" selection-end-line="1608" selection-end-column="4" />
             </state>
           </provider>
@@ -148,11 +140,11 @@
         <option value="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagemDiaAnt.php" />
         <option value="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" />
         <option value="$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php" />
-        <option value="$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js" />
         <option value="$PROJECT_DIR$/app/php/Edit/EditRegContDiario.php" />
         <option value="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" />
         <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js" />
         <option value="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js" />
       </list>
     </option>
   </component>
@@ -524,6 +516,7 @@
       <workItem from="1552491049696" duration="6119000" />
       <workItem from="1552497607130" duration="2741000" />
       <workItem from="1552574173685" duration="39197000" />
+      <workItem from="1552846825272" duration="453000" />
     </task>
     <task id="LOCAL-00127" summary="Admins a inserir entrada do funcionário.&#10;&#10;A converter a data e hora para caso seja inserida do genero &#10;dd/mm/yyyy to dd-mm-yyyy">
       <created>1542757782839</created>
@@ -872,7 +865,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2215797000" />
+    <option name="totallyTimeSpent" value="2216250000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -885,8 +878,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="746" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49337748" weight="0.24348474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49337748" visible="true" weight="0.24348474" />
       <window_info id="Favorites" order="1" sideWeight="0.5066225" side_tool="true" weight="0.329429" />
       <window_info id="Structure" order="2" weight="0.24944155" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1169,13 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1223,13 +1210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="1608" column="4" selection-start-line="1608" selection-start-column="4" selection-end-line="1608" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1237,16 +1217,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php">
+    <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        <state relative-caret-position="1290">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="1215">
           <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
         </state>
       </provider>
@@ -1258,17 +1238,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js">
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="91" column="54" selection-start-line="91" selection-start-column="54" selection-end-line="91" selection-end-column="54" />
+        <state relative-caret-position="24120">
+          <caret line="1608" column="4" selection-start-line="1608" selection-start-column="4" selection-end-line="1608" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        <state relative-caret-position="15">
+          <caret line="13" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="88" column="50" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="50" />
         </state>
       </provider>
     </entry>

@@ -87,7 +87,6 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
                             {
                                 flex: 1,
                                 margin: '0 5 0 0',
-                                //width:415,
                                 items: [{
                                     xtype: 'uniaoRegLogConDiaAntRD',
                                 }]
