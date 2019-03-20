@@ -1473,7 +1473,7 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                 url: 'app/php/Registar/RegistarEquipamentoLocal1.php',
 
                 success: function (response, opts) {
-                    Ext.MessageBox.alert('Atenção ', ' Equipamento Registado.');
+                    Ext.MessageBox.alert('Atenção ', ' Equipamento e Limite Registado.');
 
                     function hide_message() {
                         Ext.defer(function () {
@@ -1487,7 +1487,7 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
 
                 failure: function () {
                     alert('Erro...');
-                    Ext.MessageBox.alert('Atenção', ' não registad0!');
+                    Ext.MessageBox.alert('Atenção', ' Não foi possivel efetuar a operação');
                 },
 
                 params: {

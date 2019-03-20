@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="Alteração no algormito de inserir contagem em registos do dia para cas já exista contagem efetuar update aliás de inserir nova contagem">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/RegistosPosto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/RegistosPosto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagemDiaAnt.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagemDiaAnt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridTodosRegistosPosto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridTodosRegistosPosto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistarEquipamentoLocal1.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistarEquipamentoLocal1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistarLimaxPosto1.php" beforeDir="false" />
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="=&gt; Ao criar novo equipamento é inserido o limite diário no mesmo formulário.&#10;&#10;=&gt; Numero do equipamento é gerado automáticamente.">
       <change beforePath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/FormRegistaEquipamentoLavagem1.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/FormRegistaEquipamentoLavagem1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridEquiLav.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridEquiLav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogContadorDiaAnt0.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogContadorDiaAnt0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/ListFuncionario.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/ListFuncionario.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/MostraFuncSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/MostraFuncSelect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/MostraLocalSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/MostraLocalSelect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAnt.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAnt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListRegistosTodosPosto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListRegistosTodosPosto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,19 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/view/main/Admin/FormRegistaEquipamentoLavagem1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="69" column="39" lean-forward="true" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="1493" column="82" selection-start-line="1493" selection-start-column="82" selection-end-line="1493" selection-end-column="82" />
+            <state relative-caret-position="302">
+              <caret line="1489" column="89" selection-start-line="1489" selection-start-column="89" selection-end-line="1489" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -503,14 +474,7 @@
       <workItem from="1552923898557" duration="284000" />
       <workItem from="1552997725375" duration="20281000" />
       <workItem from="1553044754269" duration="228000" />
-      <workItem from="1553071454252" duration="4743000" />
-    </task>
-    <task id="LOCAL-00128" summary="EN___&#10;phase 1 of window creation to record equipment count&#10;&#10;PT___&#10;fase 1 da criação da janela para registar contagem dos equipamentos">
-      <created>1543111556541</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1543111556569</updated>
+      <workItem from="1553071454252" duration="4964000" />
     </task>
     <task id="LOCAL-00129" summary="EN___&#10;&#10;Search between 2 dates to work&#10;&#10;PT___&#10;Pesquisa entre 2 datas a funcionar">
       <created>1543277913480</created>
@@ -848,11 +812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552847318808</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="=&gt; Ao criar novo equipamento é inserido o limite diário no mesmo formulário.&#10;&#10;=&gt; Numero do equipamento é gerado automáticamente.">
+      <created>1553076293030</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1553076293033</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2242445000" />
+    <option name="totallyTimeSpent" value="2242666000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -897,7 +868,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="A Mostrar Registo selecionado&#10;&#10;Show selected record" />
     <MESSAGE value="a registar contagem e a fazer update da contagem na grid do request" />
     <MESSAGE value="EN___&#10;&#10;Showing new washing equipment and associating washing equipment&#10;&#10;__PT__&#10;A mostrar novos equipamentos da lavagem e a associar equipamentos a lavagem" />
     <MESSAGE value="clean code" />
@@ -922,7 +892,8 @@
     <MESSAGE value="mudança do algoritmo que gerava ID do pedido porque gerava problema.&#10;&#10;Inicio de Mostrar registos anteriores de um determinado contador em Registos do dia&#10;. falta query&#10;. ficheiros php a fazer load&#10;. store&#10;. e nova grid com os dados carregos" />
     <MESSAGE value="a mostrar grid ao lado do form em registos do dia" />
     <MESSAGE value="Alteração no algormito de inserir contagem em registos do dia para cas já exista contagem efetuar update aliás de inserir nova contagem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração no algormito de inserir contagem em registos do dia para cas já exista contagem efetuar update aliás de inserir nova contagem" />
+    <MESSAGE value="=&gt; Ao criar novo equipamento é inserido o limite diário no mesmo formulário.&#10;&#10;=&gt; Numero do equipamento é gerado automáticamente." />
+    <option name="LAST_COMMIT_MESSAGE" value="=&gt; Ao criar novo equipamento é inserido o limite diário no mesmo formulário.&#10;&#10;=&gt; Numero do equipamento é gerado automáticamente." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -1267,17 +1238,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js">
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/FormRegistaEquipamentoLavagem1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="1493" column="82" selection-start-line="1493" selection-start-column="82" selection-end-line="1493" selection-end-column="82" />
+        <state relative-caret-position="328">
+          <caret line="69" column="39" lean-forward="true" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/FormRegistaEquipamentoLavagem1.js">
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="69" column="39" lean-forward="true" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+        <state relative-caret-position="302">
+          <caret line="1489" column="89" selection-start-line="1489" selection-start-column="89" selection-end-line="1489" selection-end-column="89" />
         </state>
       </provider>
     </entry>
