@@ -117,9 +117,12 @@ Ext.define('ConLogin.view.main.Admin.RetornaListTodosContadores', {
                         var myWin = Ext.create("Ext.window.Window", {
                             title: 'Registar Contagem de um Equipamento',
                             modal: true,
-                            width: 1100,
-                            height: 410,
+
+
+                            width: 655,
+                            height: 500,
                             scroll:true,
+
                             items: {
                                 xtype: 'GridRegContagemRDP'
 
@@ -160,7 +163,7 @@ Ext.define('ConLogin.view.main.Admin.RetornaListTodosContadores', {
         setInterval(function(){
             grid.store.load();
 
-        }, 1200);
+        }, 120);
     }
 
 });

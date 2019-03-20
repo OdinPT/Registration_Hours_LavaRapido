@@ -55,6 +55,11 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
             filter: {
                 type: 'string'
             }
+        },
+        { text: 'ID Equipamento por Lavagem', dataIndex: 'ID_EquiPorLav_PP', flex: 1.0 ,hidden:true,
+            filter: {
+                type: 'string'
+            }
         }
     ],
 
@@ -62,6 +67,9 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
         itemclick: function(view, record, item, index, e) {
             var id = record.get('ID_Pista');
             Ext.util.Cookies.set('cookieID_ContadoresRDP', id);
+
+            var ID_EquiPorLav_PP = record.get('ID_EquiPorLav_PP');
+            Ext.util.Cookies.set('cookieID_EquiLav', ID_EquiPorLav_PP);
 
             myRequest4 = Ext.Ajax.request({
                 url: 'app/php/VerificaAcessos/verificaUtilizador.php',

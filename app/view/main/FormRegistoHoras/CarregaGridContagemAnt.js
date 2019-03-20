@@ -36,7 +36,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.CarregaGridContagemAnt', {
             filter: {
                 type: 'string'
             }},
-        { text: 'username', dataIndex: 'username', flex: 0.8 ,
+        { text: 'Funcionário ', dataIndex: 'username', flex: 0.8 ,
             filter: {
                 type: 'string'
             }

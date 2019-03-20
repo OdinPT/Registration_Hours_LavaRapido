@@ -1361,10 +1361,8 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                              Ext.getCmp('gridContagemLocal').getStore().load();
                         }, 120);
                     }
-                                                            //gridContagemXXLocal
                     hide_message();
                 },
-
                 failure: function () {
                     alert('Erro...');
                     Ext.MessageBox.alert(' Não foi possivel', 'Erro !');
@@ -1473,35 +1471,6 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
         method:'POST',
             myRequest1 = Ext.Ajax.request({
                 url: 'app/php/Registar/RegistarEquipamentoLocal1.php',
-
-                success: function (response, opts) {
-                    Ext.MessageBox.alert('Atenção ', ' Equipamento Registado.');
-
-                    function hide_message() {
-                        Ext.defer(function () {
-                            Ext.MessageBox.hide();
-                            Ext.getCmp('gridEquiLavagem').getStore().load();
-
-                        }, 120);
-                    }
-                    hide_message();
-                },
-
-                failure: function () {
-                    alert('Erro...');
-                    Ext.MessageBox.alert('Atenção', ' não registad0!');
-                },
-
-                params: {
-                    TipoEquipamentoxS: Ext.getCmp('TipoEquipamentoxS').getValue(),
-                    NumEquix: Ext.getCmp('NumEquix').getValue()
-                }
-            });
-    },
-    onClickRegistaLiMaxPosto: function () {
-        method:'POST',
-            myRequest1 = Ext.Ajax.request({
-                url: 'app/php/Registar/RegistarLimaxPosto1.php',
 
                 success: function (response, opts) {
                     Ext.MessageBox.alert('Atenção ', ' Equipamento Registado.');

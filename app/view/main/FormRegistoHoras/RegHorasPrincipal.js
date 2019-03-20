@@ -76,7 +76,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
                                 var MockmyWin = Ext.create("Ext.window.Window", {
                                     title: 'Contagem de mais de um Local',
                                     modal: true,
-                                    width: 730,
+                                    width: 800,
                                     height: 400,
                                     items: [
                                         {xtype: 'JuncaoRegContDiaria'}

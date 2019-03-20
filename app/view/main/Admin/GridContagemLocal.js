@@ -15,7 +15,7 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
         'Ext.toolbar.Paging'
     ],
 
-    width: 690,
+    //width: 730,
     height: 200,
 
     xtype: 'mainContagemLocal',
@@ -35,11 +35,11 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
     }],
 
     columns: [
-        {text: 'ID Request',  dataIndex: 'ID_Request', flex: 0.8 ,hidden:false,
+        {text: 'ID Request',  dataIndex: 'ID_Request', flex: 0.8 ,hidden:true,
             filter: {
             type: 'string'
             }},
-        { text: ' ID Pista :',  dataIndex: 'ID_PPista', flex: 1.2 ,
+        { text: ' ID Pista :',  dataIndex: 'ID_PPista', flex: 1.2 ,hidden:true,
             filter: {
                 type: 'string'
             }},
@@ -47,6 +47,10 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
             filter: {
                 type: 'string'
             }},
+        { text: 'Tipo Equipamento :',  dataIndex: 'ID_Tipo_Req', flex: 1.2 ,
+            filter: {
+                type: 'string'
+        }},
         { text: 'Numero do Equipamento :',  dataIndex: 'Num_Equip', flex: 1.2 ,
             filter: {
                 type: 'string'
@@ -55,14 +59,18 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
             filter: {
                 type: 'string'
             }},
-        { text: 'ID Pedido :',  dataIndex: 'ID_Pedido', flex: 1.2 ,
+        { text: 'ID Pedido :',  dataIndex: 'ID_Pedido', flex: 1.2 ,hidden:true,
             filter: {
                 type: 'string'
             }},
-        { text: 'Data registo :',  dataIndex: 'Data_Req', flex: 1.2 ,
+        { text: 'Data registo :',  dataIndex: 'Data_Req', flex: 1.2 ,hidden:true,
             filter: {
                 type: 'string'
-            }}
+            }},
+        { text: 'ID EquiLav :',  dataIndex: 'ID_EquiLav', flex: 1.2 ,hidden:false,
+            filter: {
+                type: 'string'
+        }}
     ],
 
     listeners: {
@@ -73,6 +81,8 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
             var idpista = record.get('ID_PPista');
             Ext.util.Cookies.set('cookieID_PPista', idpista);
 
+            var ID_EquiLav = record.get('ID_EquiLav');
+            Ext.util.Cookies.set('cookieID_EquiLav', ID_EquiLav);
 
             myRequest4 = Ext.Ajax.request({
                 url: 'app/php/VerificaAcessos/verificaUtilizador.php',

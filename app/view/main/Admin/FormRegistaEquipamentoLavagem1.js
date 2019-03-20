@@ -48,15 +48,6 @@ Ext.define('ConLogin.view.main.Admin.FormRegistaEquipamentoLavagem1', {
         },{
 
             xtype: 'textfield',
-            fieldLabel: 'Numero do equipamento',
-            id: 'NumEquix',
-            name: 'NumEqui',
-            emptyText : 'Insira o Tipo Equipamento',
-            allowBlank: true,
-            blankText: 'Campo obrigatório'
-        },{
-
-            xtype: 'textfield',
             fieldLabel: 'Limite diário',
             id: 'LimMax',
             name: 'LimMax',
@@ -71,7 +62,7 @@ Ext.define('ConLogin.view.main.Admin.FormRegistaEquipamentoLavagem1', {
         xtype: 'toolbar',
         items: [
             {
-                text: 'Registar Equipamento na Lavagem',
+                text: 'Registar Equipamento e limite diário à Lavagem',
                 glyph: 43,
 
                 formBind: true,
@@ -79,19 +70,7 @@ Ext.define('ConLogin.view.main.Admin.FormRegistaEquipamentoLavagem1', {
                     click: 'onClickRegistaEquipamentoLavagem1'
                 }
 
-            },{
-                text: 'Registar Limite ao Tipo de Equipamento',
-                glyph: 43,
-
-                formBind: true,
-                listeners: {
-                    click: 'onClickRegistaLiMaxPosto'
-
-                }
-
             }
-
-
         ]
     }
 });

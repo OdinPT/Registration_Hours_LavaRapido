@@ -8,8 +8,9 @@ Ext.define('ConLogin.view.main.Admin.GridEquiLav', {
     ],
 
     xtype: 'GridRegContagemRDP',
-    width: 1100,
-    height: 350,
+
+    width: 650,
+    height: 490,
 
     tabBar: {
 
@@ -35,19 +36,19 @@ Ext.define('ConLogin.view.main.Admin.GridEquiLav', {
     }],
 
     columns: [
-        {text: 'ID Registo',  dataIndex: 'ID_EquiLav', flex: 0.5 ,hidden:false,
+        {text: 'ID Registo',  dataIndex: 'ID_EquiLav', flex: 0.5 ,hidden:true,
             filter: {
             type: 'string'
             }},
-        { text: 'Local :',  dataIndex: 'Local', flex: 1.2 ,
+        { text: 'Local:',  dataIndex: 'Local', flex: 1.0 ,
             filter: {
                 type: 'string'
             }},
-        { text: 'Tipo Equipamento :',  dataIndex: 'TipoEquipamento', flex: 1.2 ,
+        { text: 'Tipo Equipamento:',  dataIndex: 'TipoEquipamento', flex: 1.0 ,
             filter: {
                 type: 'string'
             }},
-        { text: 'Numero do Equipamento :',  dataIndex: 'Num_EquiLav', flex: 1.2 ,
+        { text: 'Numero do Equipamento :',  dataIndex: 'Num_EquiLav', flex: 1.4 ,
             filter: {
                 type: 'string'
             }}

@@ -30,7 +30,7 @@ Ext.define('ConLogin.view.main.Admin.JuncaoRegLogConDiaAntRD', {
         {
             flex: 1,
             margin: '0 5 0 0',
-            width:415,
+            width:435,
             items: [{
                 xtype: 'MostraRegistoPostoSelect0'
             }]

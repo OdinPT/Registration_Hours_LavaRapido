@@ -160,7 +160,7 @@ Ext.define('ConLogin.view.main.Admin.MostraFuncSelect', {
                 }
 
             },{
-                text: 'Adiconar Contacto',
+                text: 'Adicionar Contacto',
                 iconCls:'fa fa-plus',
                 listeners: {
                     click: function(){

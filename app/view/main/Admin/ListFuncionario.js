@@ -81,7 +81,7 @@ Ext.define('ConLogin.view.main.Admin.ListFuncionario', {
                         scrollable: true,
                         autoScroll: true,
                         scroll:true,
-                        width: 1400,
+                        width: 1395,
 
                         items: [{
                             xtype: 'MostraRegFuncXL'

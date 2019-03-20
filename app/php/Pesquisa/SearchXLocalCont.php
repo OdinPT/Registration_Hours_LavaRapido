@@ -3,12 +3,10 @@
  include "../config.php";
 
     $Local = $_POST['ID_Localz1'];
-
     $username = $_COOKIE['cookieEmail'];
 
     $dataAtualx= date('Y-m-d');
     $dataAtual= date('y/m/d');
-
     print $dataAtual;
 
     $mysqli->set_charset("utf8");
@@ -78,7 +76,7 @@ foreach($Total as $indice => $valor) {
             print "NumEquipamento $NumeroEqui <br>";
             print "_____________________________<br><br>";
 
-      $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local',' ','$dataAtual',' ', $NumRequest,'$dataAtual','$username','$NumeroEqui')");
+      $insert = mysqli_query($mysqli, "call InserirPedido2 ('$TipoReg','$Local',' ','$dataAtual',' ', $NumRequest,'$dataAtual','$username','$NumeroEqui','$ID_EquiLav')");
 
 }
 }

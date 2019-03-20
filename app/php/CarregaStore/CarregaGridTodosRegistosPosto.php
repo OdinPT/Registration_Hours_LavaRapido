@@ -23,6 +23,9 @@
         $row_array['Data'] = $row['Data'];
         $row_array['username'] = $row['username'];
 
+        $row_array['ID_EquiPorLav_PP'] = $row['ID_EquiPorLav_PP'];
+
+
        array_push($return_arr,$row_array);
     }
      echo json_encode($return_arr);

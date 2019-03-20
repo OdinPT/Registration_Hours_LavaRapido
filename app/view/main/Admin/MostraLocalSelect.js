@@ -80,7 +80,7 @@ Ext.define('ConLogin.view.main.Admin.MostraLocalSelect', {
                     click: 'onClickApagaLocal'
                 }
             },{
-                text: 'Registar Equipamentos a uma Lavagem',
+                text: 'Registar Equipamentos à Lavagem',
                 glyph: 43,
                 listeners: {
                     click: function(){
