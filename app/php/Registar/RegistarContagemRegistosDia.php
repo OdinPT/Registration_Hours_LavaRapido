@@ -10,8 +10,8 @@ $Tipo_RegistoZ = $_POST['TipoEquiz'];
 $LocalZ = $_POST['Localz'];
 $Contagem = $_POST['ContagemPPz'];
 $Num_Equip = $_POST['NumEquiz'];
-$DataAtual = date("Y-m-d");
 
+$DataAtual = date("Y-m-d");
 $mysqli->set_charset("utf8");
 
 $con = get_numeric($Contagem);
@@ -40,7 +40,7 @@ if ($con != $Contagem){
 
 // verifica se existe IDPPIsta
 if ($ID_PPista == " "){
-        print "cookie fazio => Insert";
+        print "cookie fazio => Insert <br><br>";
 
         //lim máximo diráiro de cada equipamento
         $query1 = mysqli_query($mysqli, "SELECT `ID_LimMaxCont`,`Limit_Diario`
@@ -60,7 +60,7 @@ if ($ID_PPista == " "){
         while($res = mysqli_fetch_array($query02)){
 
     	        $ID_EquiLav = $res['ID_EquiLav'];
-	            print "<br> ID EquiLav :$ID_EquiLav";
+	            print "<br><br> ID EquiLav :$ID_EquiLav <br>";
         }
 
         $query3 = mysqli_query($mysqli, "SELECT * FROM `Postos_Pistas` WHERE `ID_Func_PP` = RetornaIdFuncionario('$username') and
@@ -78,7 +78,7 @@ if ($ID_PPista == " "){
 
            while ($ruw1 = mysqli_fetch_array($resutw1, MYSQLI_ASSOC)) {
                   $ResultCheck = $ruw1['Result'];
-                                                                    print "</br> <b>Existe Dados : $ResultCheck</br></b>";
+                print "</br> <b>Existe Dados : $ResultCheck</br></b>";
             }
 
         if ($LastCongemFunc == 0){
@@ -93,16 +93,17 @@ if ($ID_PPista == " "){
                             header('HTTP', true, 502);
                  }
         } else {
-                                                                print "<br><b>primeiro else #1</b><br>";
+                  print "<br><b>primeiro else #1</b><br>";
                 $AntMaisLim = $LastCongemFunc + $LimMaxDiario;
 
-                      print "($Contagem < $AntMaisLim)";
+                      print "Antiga contagem mais limite diário $AntMaisLim<br><br><br><br>";
+                      print "($Contagem < $AntMaisLim )";
 
                      if ($Contagem < $AntMaisLim){
 
                          print "<p>dentro do if #2.1 <p>";
-                                print "call InsereContagem01('$Contagem','$DataAtual','$username',$Num_Equip,$ID_Request)";
 
+                         print "call InsereContagem01('$Contagem','$DataAtual','$username',$Num_Equip,$ID_Request)";
                        $query2 = mysqli_query($mysqli, "call InsereContagem01('$Contagem','$DataAtual','$username',$Num_Equip,$ID_Request)");
 
                      }else{
