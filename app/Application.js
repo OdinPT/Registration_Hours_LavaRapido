@@ -30,7 +30,9 @@ Ext.define('ConLogin.Application', {
         //'ConLogin.store.Admin.RetornaRequestPesquisa2Dates',
         //'ConLogin.store.Admin.CarregaWinContagem',
         'ConLogin.store.Registo_Horas.RegistosTodosPostoSelectDiario',
-        'ConLogin.store.Admin.CarregaGridEquiLavSelect'
+        'ConLogin.store.Admin.CarregaGridEquiLavSelect',
+        'ConLogin.store.Registo_Horas.RegistosTodosPostoSelect1',
+        'ConLogin.store.Admin.CarregaGridContagemDiaAnt2'
 
 
     ],

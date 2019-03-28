@@ -7,7 +7,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect', {
 
     requires: [
         'ConLogin.view.main.Admin.AdministracaoController',
-        'ConLogin.store.Registo_Horas.RegistosTodosPostoSelect',
+        'ConLogin.store.Registo_Horas.RegistosTodosPostoSelect1',
 
         'ConLogin.store.Registo_Horas.Multiuso',
         'ConLogin.store.Registo_Horas.LocalFuncionarios'
@@ -26,7 +26,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect', {
     },
 
     store: {
-        type: 'RegPostoSelect'
+        type: 'RegPostoSelect1'
     },
 
     items: [
@@ -39,7 +39,8 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect', {
         },{
             xtype: 'textfield',
             fieldLabel: 'Local:',
-            id: 'Localz'
+            id: 'Localz',
+            readOnly: true
         },{
             xtype: 'textfield',
             fieldLabel: 'Tipo Equipamento :',
@@ -100,7 +101,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect', {
 
     listeners: {
         afterrender: function () {
-            var store = Ext.getStore('RegPostoSelect');
+            var store = Ext.getStore('RegPostoSelect1');
             store.load({
                 callback: function (records, operation, success) {
                     var record = store.getAt(0);

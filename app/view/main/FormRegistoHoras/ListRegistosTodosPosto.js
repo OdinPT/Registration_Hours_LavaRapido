@@ -9,7 +9,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
         'ConLogin.store.Registo_Horas.GridRegistosTodosPosto',
 
         'ConLogin.view.main.Admin.JuncaoRegLogContadorTodosPostos',
-        'ConLogin.view.main.Admin.JuncaoRegLogContadorDiaAnt0',
+        'ConLogin.view.main.Admin.JuncaoRegLogContadorDiaAnt1',
         'Ext.toolbar.Paging'
     ],
 
@@ -63,13 +63,12 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
         }
     ],
 
+    // seleciona pelo id PPPista
+
     listeners: {
         itemclick: function(view, record, item, index, e) {
             var id = record.get('ID_Pista');
-            Ext.util.Cookies.set('cookieID_ContadoresRDP', id);
-
-            var ID_EquiPorLav_PP = record.get('ID_EquiPorLav_PP');
-            Ext.util.Cookies.set('cookieID_EquiLav', ID_EquiPorLav_PP);
+            Ext.util.Cookies.set('cookieID_EquiLav', id);
 
             myRequest4 = Ext.Ajax.request({
                 url: 'app/php/VerificaAcessos/verificaUtilizador.php',
@@ -79,7 +78,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
                         modal: true,
 
                         items: [{
-                            xtype: 'JuncaoRegLogContadorDiaAnt0'
+                            xtype: 'JuncaoRegLogContadorDiaAnt1',
                         }]
                     });
                     Win.show();

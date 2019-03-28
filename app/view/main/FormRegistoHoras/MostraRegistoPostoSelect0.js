@@ -34,39 +34,39 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect0', {
          {
             xtype: 'textfield',
             fieldLabel: 'ID:',
-            id: 'ID_Pistaz',
+            id: 'ID_Pistazzz1',
             hidden:true,
             readOnly: true
         },{
             xtype: 'textfield',
             fieldLabel: 'Local:',
-            id: 'Localz',
+            id: 'Localzzz1',
             readOnly: true
         },{
             xtype: 'textfield',
             fieldLabel: 'Tipo Equipamento :',
-            id: 'TipoEquiz',
+            id: 'TipoEquizzz1',
             readOnly: true
         },{
             xtype: 'textfield',
             fieldLabel: 'Contagem :',
-            id: 'ContagemPPz'
+            id: 'ContagemPPzzz1'
         },{
             xtype: 'textfield',
             fieldLabel: 'Data :',
-            id: 'DataPPz',
+            id: 'DataPPzzz1',
             readOnly: true
         },{
             xtype: 'textfield',
             fieldLabel: 'username :',
-            id: 'utilizadorz',
+            id: 'utilizadorzzz1',
             readOnly: true
 
         },{
             hidden:false,
             xtype: 'textfield',
             fieldLabel: 'Numero do equipamento',
-            id: 'NumEquiz',
+            id: 'NumEquizzz1',
             name: 'NumEquiz',
             readOnly: true
         }],
@@ -92,14 +92,14 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect0', {
             store.load({
                 callback: function (records, operation, success) {
                     var record = store.getAt(0);
-                    var a = Ext.getCmp('ID_Pistaz').setValue(record.data.ID_PPista);
-                    var b = Ext.getCmp('ContagemPPz').setValue(record.data.ContagemPP);
-                    var c = Ext.getCmp('DataPPz').setValue(record.data.DataPP);
-                    var f = Ext.getCmp('utilizadorz').setValue(record.data.utilizador);
+                    var a = Ext.getCmp('ID_Pistazzz1').setValue(record.data.ID_PPista);
+                    var b = Ext.getCmp('ContagemPPzzz1').setValue(record.data.ContagemPP);
+                    var c = Ext.getCmp('DataPPzzz1').setValue(record.data.DataPP);
+                    var f = Ext.getCmp('utilizadorzzz1').setValue(record.data.utilizador);
 
-                    var d = Ext.getCmp('Localz').setValue(record.data.Local);
-                    var e = Ext.getCmp('NumEquiz').setValue(record.data.NumEqui);
-                    var f = Ext.getCmp('TipoEquiz').setValue(record.data.TipoEqui);
+                    var d = Ext.getCmp('Localzzz1').setValue(record.data.Local);
+                    var e = Ext.getCmp('NumEquizzz1').setValue(record.data.NumEqui);
+                    var f = Ext.getCmp('TipoEquizzz1').setValue(record.data.TipoEqui);
                 }
             });
         }
