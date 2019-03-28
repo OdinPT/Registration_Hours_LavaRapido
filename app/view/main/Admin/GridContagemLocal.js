@@ -89,19 +89,15 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
                 success: function (response, opts) {
                     var Win = Ext.create("Ext.window.Window", {
                         title:'Contagem diária',
-
                         modal: true,
 
-                        items: [
-
-                            {
+                        items: [{
                                 flex: 1,
                                 margin: '0 5 0 0',
                                 items: [{
-                                    xtype: 'uniaoRegLogConDiaAntRD',
+                                    xtype: 'uniaoRegLogConDiaAntRD'
                                 }]
-                            }
-                            ]
+                            }]
                     });
                     Win.show();
                 }

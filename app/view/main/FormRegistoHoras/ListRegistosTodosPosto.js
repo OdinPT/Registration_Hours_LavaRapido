@@ -2,12 +2,10 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
     extend: 'Ext.grid.Panel',
     alias: 'widget.Registoposto',
     id: 'gridRegistoTodosPosto',
-
     xtype: 'mainlistTodosRegPosto',
 
     requires: [
         'ConLogin.store.Registo_Horas.GridRegistosTodosPosto',
-
         'ConLogin.view.main.Admin.JuncaoRegLogContadorTodosPostos',
         'ConLogin.view.main.Admin.JuncaoRegLogContadorDiaAnt1',
         'Ext.toolbar.Paging'
@@ -78,7 +76,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
                         modal: true,
 
                         items: [{
-                            xtype: 'JuncaoRegLogContadorDiaAnt1',
+                            xtype: 'JuncaoRegLogContadorDiaAnt1'
                         }]
                     });
                     Win.show();

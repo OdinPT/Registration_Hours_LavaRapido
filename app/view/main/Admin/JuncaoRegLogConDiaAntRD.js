@@ -12,8 +12,7 @@ Ext.define('ConLogin.view.main.Admin.JuncaoRegLogConDiaAntRD', {
     layout: {
         type: 'hbox',
         pack: 'start',
-        align: 'stretch',
-
+        align: 'stretch'
     },
 
     defaults: {

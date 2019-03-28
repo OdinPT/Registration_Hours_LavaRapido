@@ -7,16 +7,13 @@ Ext.define('ConLogin.view.main.Admin.JuncaoRegLogContadorDiaAnt1', {
     requires: [
         'ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect',
         'ConLogin.view.main.FormRegistoHoras.CarregaGridContagemAnt2',
-        //'ConLogin.store.Registo_Horas.RegistosTodosPostoSelect1',
-        'ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect',
-        //'ConLogin.view.main.FormRegistoHoras.CarregaGridContagemAnt'
+        'ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect'
         ],
 
     layout: {
         type: 'hbox',
         pack: 'start',
-        align: 'stretch',
-
+        align: 'stretch'
     },
 
     defaults: {
@@ -35,8 +32,7 @@ Ext.define('ConLogin.view.main.Admin.JuncaoRegLogContadorDiaAnt1', {
             margin: '0 5 0 0',
             width:415,
             items: [{
-                xtype: 'fieldMostraRegPostoSelect',
-
+                xtype: 'fieldMostraRegPostoSelect'
             }]
         },
         {
@@ -49,7 +45,7 @@ Ext.define('ConLogin.view.main.Admin.JuncaoRegLogContadorDiaAnt1', {
             width:360,
             autoScroll: true,
             items: [{
-                xtype: 'mainGridContagemAnt2',
+                xtype: 'mainGridContagemAnt2'
             }]
         }
     ]

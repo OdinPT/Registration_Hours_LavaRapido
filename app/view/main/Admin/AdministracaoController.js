@@ -1612,6 +1612,6 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                 }
 
             });
-    },
+    }
 });
 
