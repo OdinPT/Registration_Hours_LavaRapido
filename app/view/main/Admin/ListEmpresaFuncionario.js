@@ -2,12 +2,11 @@ Ext.Loader.setPath('Ext.ux', '../ux/');
 
 Ext.define('ConLogin.view.main.Admin.ListEmpresaFuncionario', {
     extend: 'Ext.grid.Panel',
-    alias: 'widget.EmpresasFunc',
+
+    //alias: 'widget.EmpresasFunc',
+
     id: 'gridEmpresa_func',
-
     xtype: 'mainlistEmpresaFunc',
-
-
 
     requires: [
         'ConLogin.store.Admin.EmpresaFuncionario',

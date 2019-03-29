@@ -26,7 +26,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
     }],
 
     columns: [
-        {text: 'ID ',  dataIndex: 'ID_Pista', flex: 0.9,hidden:true ,
+        {text: 'ID ',  dataIndex: 'ID_Pista', flex: 0.9,hidden:false ,
             filter: {
             type: 'string'
             }
@@ -54,7 +54,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
                 type: 'string'
             }
         },
-        { text: 'ID Equipamento por Lavagem', dataIndex: 'ID_EquiPorLav_PP', flex: 1.0 ,hidden:true,
+        { text: 'ID Equipamento por Lavagem', dataIndex: 'ID_EquiPorLav_PP', flex: 1.0 ,hidden:false,
             filter: {
                 type: 'string'
             }

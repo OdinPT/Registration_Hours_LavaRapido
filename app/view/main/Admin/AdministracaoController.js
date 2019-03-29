@@ -889,7 +889,7 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                     function hide_message() {
                         Ext.defer(function () {
                             Ext.MessageBox.hide();
-                            //Ext.getCmp('gridRegistoPosto').getStore().load();
+                            Ext.getCmp('gridRegistoTodosPosto').getStore().load();
                             Ext.getCmp('gridRegTodosContadores').getStore().load();
 
                         }, 1200);
@@ -1603,11 +1603,11 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                 },
 
                 params: {
-                    TipoEquiz: Ext.getCmp('TipoEquiz').getValue(),
-                    DataPPz: Ext.getCmp('DataPPz').getValue(),
-                    Localz: Ext.getCmp('Localz').getValue(),
-                    ContagemPPz: Ext.getCmp('ContagemPPz').getValue(),
-                    NumEquiz: Ext.getCmp('NumEquiz').getValue()
+                    TipoEquiz: Ext.getCmp('TipoEquizzz1').getValue(),
+                    DataPPz: Ext.getCmp('DataPPzzz1').getValue(),
+                    Localz: Ext.getCmp('Localzzz1').getValue(),
+                    ContagemPPz: Ext.getCmp('ContagemPPzzz1').getValue(),
+                    NumEquiz: Ext.getCmp('NumEquizzz1').getValue()
 
                 }
 

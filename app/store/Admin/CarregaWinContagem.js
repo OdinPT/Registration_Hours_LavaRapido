@@ -1,7 +1,7 @@
 Ext.define('ConLogin.store.Admin.CarregaWinContagem', {
     extend: 'Ext.data.Store',
     model: 'ConLogin.model.LoadWindowScore',
-    alias: 'store.CarregaContagemWinx',
+    alias: 'store.CarregaContagemWin',
     storeId: 'Staging',
 
     autoLoad: true,

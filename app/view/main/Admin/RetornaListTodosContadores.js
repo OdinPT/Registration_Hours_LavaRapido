@@ -34,7 +34,7 @@ Ext.define('ConLogin.view.main.Admin.RetornaListTodosContadores', {
     }],
 
     columns: [
-        {text: 'ID Pista ',  dataIndex: 'ID_Pista',hidden:true, flex: 0.9 ,
+        {text: 'ID Pista ',  dataIndex: 'ID_Pista',hidden:false, flex: 0.9 ,
             filter: {
             type: 'string'
             }},
@@ -138,7 +138,7 @@ Ext.define('ConLogin.view.main.Admin.RetornaListTodosContadores', {
     listeners: {
         itemclick: function(view, record, item, index, e) {
             var id = record.get('ID_Pista');
-            Ext.util.Cookies.set('cookieID_ContadoresRDP', id);
+            Ext.util.Cookies.set('cookieID_EquiLav', id);
 
             myRequest4 = Ext.Ajax.request({
                 url: 'app/php/VerificaAcessos/verificaUtilizador.php',

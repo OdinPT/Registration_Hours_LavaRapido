@@ -6,7 +6,8 @@ Ext.define('ConLogin.view.main.Form.FormSelectListMesAnt', {
 
     requires: [
         'ConLogin.view.main.Admin.AdministracaoController',
-        'ConLogin.view.main.Admin.RetornaListTodosContadores'
+        'ConLogin.view.main.Admin.RetornaListTodosContadores',
+        'ConLogin.store.Admin.mes'
     ],
     id: 'formSelectListMesAnt',
 
@@ -22,7 +23,7 @@ Ext.define('ConLogin.view.main.Form.FormSelectListMesAnt', {
 
         {
             xtype: 'combobox',
-            fieldLabel: 'Mes a Pesquisar: ',
+            fieldLabel: 'Mês a Pesquisar: ',
 
             store: {
                 type: 'meses'
