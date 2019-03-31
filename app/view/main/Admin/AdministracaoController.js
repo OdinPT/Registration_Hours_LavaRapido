@@ -929,7 +929,7 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                             //Ext.getCmp('gridReqPesquisa').getStore().load();
                             Ext.getCmp('gridSearch2D').getStore().load();
 
-                        }, 120);
+                        }, 12);
 
                     }
                     hide_message();

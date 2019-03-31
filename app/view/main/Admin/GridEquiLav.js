@@ -36,7 +36,7 @@ Ext.define('ConLogin.view.main.Admin.GridEquiLav', {
     }],
 
     columns: [
-        {text: 'ID Registo',  dataIndex: 'ID_EquiLav', flex: 0.5 ,hidden:true,
+        {text: 'ID Registo',  dataIndex: 'ID_EquiLav', flex: 0.5 ,hidden:false,
             filter: {
             type: 'string'
             }},

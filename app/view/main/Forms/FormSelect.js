@@ -20,25 +20,27 @@ Ext.define('ConLogin.view.main.Form.FormSelect', {
     },
 
     items: [
+
         {
-            xtype: 'textfield',
+            xtype: 'datefield',
             fieldLabel: 'Data de Inicio',
             id: 'Datainicio',
             name: 'Datainicio',
             emptyText : 'Insira a Data de inicio',
             allowBlank: false,
-            blankText: 'Campo obrigatório'
-
+            blankText: 'Campo obrigatório',
+            value: new Date()
         },
 
         {
-            xtype: 'textfield',
+            xtype: 'datefield',
             fieldLabel: 'Data de fim ',
             id: 'DateFim',
             name: 'DateFim',
             emptyText : 'Insira a Data de fim',
             allowBlank: false,
-            blankText: 'Campo obrigatório'
+            blankText: 'Campo obrigatório',
+            value: new Date()
 
         }
     ],

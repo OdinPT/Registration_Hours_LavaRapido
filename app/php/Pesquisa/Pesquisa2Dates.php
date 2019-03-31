@@ -2,22 +2,24 @@
     include "../config.php";
 
   $username = $_COOKIE['cookieEmail'];
-  $DataBegin = $_POST['Datainicio'];
-  $DataEnd = $_POST['DateFim'];
-
-   //$DataBegin = '30-09-2018'>;
-   //$DataEnd = '10-09-2018';
-   //print "$DataBegin <p> $DataEnd";
-
-    //format Date  dd/mm/YYY to yy/mm/dd
-    $DataInicio = date('Y-m-d', strtotime($DataBegin));
-    $DataFim = date('Y-m-d', strtotime($DataEnd));
-
-//print "<p>formatada $DataInicio $DataFim";
-
   $dataAtual= date('y/m/d');
   $mysqli->set_charset("utf8");
   $return_arr = array();
+
+  $DataBegin = $_POST['Datainicio'];
+  $DataEnd = $_POST['DateFim'];
+
+print "=> $DataBegin <p> => $DataEnd <p> ";
+
+    //format mm-dd-yy
+    $DataInicio = date('Y-m-d', strtotime($DataBegin));
+    $DataFim = date('Y-m-d', strtotime($DataEnd));
+
+
+print "<p> mm-dd-yy  formatada d-m-y  $DataInicio  Data Fim $DataFim <br>";
+
+print "<br><br><br>";
+
 
 $queryMID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
 
@@ -41,23 +43,30 @@ $queryMID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
            print "$NumRequest = $NumRequestx +1";
            $NumRequest = $NumRequestx +1;
 
-            print "Num Req ".$NumRequest;
+            print "<br>Num Req ".$NumRequest;
+            print "<br>";
 
     $query1 = "SELECT *
                 FROM Postos_Pistas,Reg_Equipamentos_Lavagem
-                WHERE (`DataPP` BETWEEN '$DataFim' AND '$DataInicio' and `ID_EquiPorLav_PP` = ID_EquiLav)";
+                WHERE (`DataPP` BETWEEN '$DataInicio' AND '$DataFim' and `ID_EquiPorLav_PP` = ID_EquiLav)";
 
    $result1 = mysqli_query($mysqli, $query1);
 
  while ($row = mysqli_fetch_array($result1, MYSQLI_ASSOC)) {
 
        $IDPista = $row['ID_PPistas'];
-       $TipoReg = $row['ID_Tipo_equiLav'];
-       $Local = $row['ID_Local_EquiLav'];
        $Contagem = $row['ContagemPP'];
        $Data = $row['DataPP'];
+       $Local = $row['ID_Local_EquiLav'];
 
-    $query0 = mysqli_query($mysqli, " call InserirPedido('$TipoReg','$Local','$Contagem','$Data','$IDPista','$NumRequest','$dataAtual','$username')");
+       $TipoReg = $row['ID_Tipo_equiLav'];
+       $ID_EquiLav = $row['ID_EquiLav'];
+       $Num_EquiLav = $row['Num_EquiLav'];
+
+
+    print "'$TipoReg','$Local','$Contagem','$Data','$IDPista','$NumRequest','$dataAtual','$username','$Num_EquiLav',$ID_EquiLav <br>";
+
+    $query0 = mysqli_query($mysqli, " call InserirPedido2('$TipoReg','$Local','$Contagem','$Data','$IDPista','$NumRequest','$dataAtual','$username','$Num_EquiLav','$ID_EquiLav')");
 
   }
 
