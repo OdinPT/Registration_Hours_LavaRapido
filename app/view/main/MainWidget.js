@@ -15,7 +15,7 @@ Ext.define('ConLogin.view.main.MainWidget', {
     bodyBorder: false,
     frame: false,
 
-    activeTab: 1,
+    activeTab: 0,
     title: 'Administração',
 
     items: [
@@ -49,6 +49,37 @@ Ext.define('ConLogin.view.main.MainWidget', {
                 xtype:'GestaoTolerancias'
             }]
         }
-     ]
+     ],
+
+    tbar: {
+        defaultButtonUI: 'default',
+
+        items: [
+            {
+                text: 'Download',
+                glyph: 'f1c1@FontAwesome',
+
+                formBind: true,
+                handler: function () {
+
+                    var messageBox = Ext.create('Ext.window.MessageBox', {
+                        buttonText: {
+                            yes: 'Sim',
+                            no: 'Não'
+                        }
+                    });
+                    messageBox.confirm('Download', 'Pretende mesmo descarregar a pesquisa?', function(btn){
+                        if(btn === 'yes'){
+                            window.location.assign('app/php/Admin/Backup_BD/OnlyDATA.php');
+                            messageBox.maskClickAction = this.getMaskClickAction();
+                        }
+                        else{
+
+                        }
+                    });
+                }
+            }
+        ]
+    }
 
 });
