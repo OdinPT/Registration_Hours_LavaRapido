@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-          <html>
-          <head>
-            <meta http-equiv="refresh" content="1;url=Download.php">
-         </head>
-        </html>
 <?php
+
+//require('Download.php');
 /**
  * This file contains the Backup_Database class wich performs
  * a partial or complete backup of any given MySQL database

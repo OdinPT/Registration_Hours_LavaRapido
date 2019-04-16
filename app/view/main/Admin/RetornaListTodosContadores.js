@@ -70,7 +70,6 @@ Ext.define('ConLogin.view.main.Admin.RetornaListTodosContadores', {
         items: [
             {
                 text: 'Efetuar Pesquisa entre Datas',
-
                 glyph: 43,
                 listeners: {
                     click: function(){

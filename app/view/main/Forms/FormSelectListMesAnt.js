@@ -1,4 +1,4 @@
-Ext.define('ConLogin.view.main.Form.FormSelectListMesAnt', {
+Ext.define('ConLogin.view.main.Forms.FormSelectListMesAnt', {
     extend: 'Ext.form.Panel',
     xtype: 'SelectSelectListMesAnt',
 

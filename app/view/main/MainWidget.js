@@ -5,7 +5,9 @@ Ext.define('ConLogin.view.main.MainWidget', {
         'ConLogin.view.main.MainWidget3',
         'ConLogin.view.main.Admin.TotalListHoras',
         'ConLogin.view.main.Admin.AdminTolerancias',
-        'ConLogin.view.main.Admin.AdminTotalES'
+        'ConLogin.view.main.Admin.AdminTotalES',
+
+        'ConLogin.view.main.Admin.WindowBackupDB'
     ],
 
     extend: 'Ext.tab.Panel',
@@ -56,29 +58,25 @@ Ext.define('ConLogin.view.main.MainWidget', {
 
         items: [
             {
-                text: 'Download',
-                glyph: 'f1c1@FontAwesome',
+                text: 'Efectuar Backup BD',
 
-                formBind: true,
-                handler: function () {
+                glyph: 43,
+                listeners: {
+                    click: function(){
+                        var myWin = Ext.create("Ext.window.Window", {
+                            title: 'Efectuar Backup BD',
+                            modal: true,
+                            width: 1100,
+                            height: 420,
 
-                    var messageBox = Ext.create('Ext.window.MessageBox', {
-                        buttonText: {
-                            yes: 'Sim',
-                            no: 'Não'
-                        }
-                    });
-                    messageBox.confirm('Download', 'Pretende mesmo descarregar a pesquisa?', function(btn){
-                        if(btn === 'yes'){
-                            window.location.assign('app/php/Admin/Backup_BD/OnlyDATA.php');
-                            messageBox.maskClickAction = this.getMaskClickAction();
-                        }
-                        else{
-
-                        }
-                    });
+                            items: {
+                                xtype: 'WindowBackupBD',
+                            }
+                        });
+                        myWin.show();
+                    }
                 }
-            }
+            },
         ]
     }
 

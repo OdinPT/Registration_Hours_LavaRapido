@@ -1,5 +1,7 @@
 <?php
 
+require('OnlyDATA.php');
+
 $today = date("d-m-y");
 $username = $_COOKIE['cookieEmail'];
 
