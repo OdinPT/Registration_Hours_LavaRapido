@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="Download BD Backup">
-      <change afterPath="$PROJECT_DIR$/app/model/CarregaGridBackups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/php/Admin/CarregaGridBackup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/store/Admin/CarregaGridBackup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/main/Admin/GridBackups.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/Admin/Backup_BD/OnlyDATA.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/Backup_BD/OnlyDATA.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/WindowBackupDB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/MainWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainWidget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/MainWidget2.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainWidget2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.jsonp" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.jsonp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridBackups.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridBackups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/MainController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainController.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,26 +24,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="114" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="217">
+              <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/view/main/Admin/GridBackups.js">
+        <entry file="file://$PROJECT_DIR$/app/view/main/MainController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="31" column="70" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="70" />
+            <state relative-caret-position="52">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js">
+        <entry file="file://$PROJECT_DIR$/app/php/Admin/Backup_BD/OnlyDATA.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="739" column="28" selection-start-line="739" selection-start-column="28" selection-end-line="739" selection-end-column="71" />
+            <state relative-caret-position="312">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
             </state>
           </provider>
         </entry>
@@ -79,6 +71,7 @@
       <find>$this-&gt;backupFile</find>
       <find>getOutput(</find>
       <find>getOutput()</find>
+      <find>BACKUP_DIR</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/store/Admin/CarregaWinContagemXLocal.js" />
         <option value="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" />
         <option value="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagemDiaAnt.php" />
         <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAnt.js" />
@@ -131,7 +123,6 @@
         <option value="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" />
         <option value="$PROJECT_DIR$/app/view/main/Admin/WindowBackupDB.js" />
         <option value="$PROJECT_DIR$/app/php/Admin/Backup_BD/Download.php" />
-        <option value="$PROJECT_DIR$/app/php/Admin/Backup_BD/OnlyDATA.php" />
         <option value="$PROJECT_DIR$/app/view/main/Main.js" />
         <option value="$PROJECT_DIR$/app/view/main/MainWidget2.js" />
         <option value="$PROJECT_DIR$/app/view/main/Admin/AdminBackups.js" />
@@ -140,6 +131,8 @@
         <option value="$PROJECT_DIR$/app/php/Admin/CarregaGridBackup.php" />
         <option value="$PROJECT_DIR$/app/store/Admin/CarregaGridBackup.js" />
         <option value="$PROJECT_DIR$/app/view/main/Admin/GridBackups.js" />
+        <option value="$PROJECT_DIR$/app/php/Admin/Backup_BD/OnlyDATA.php" />
+        <option value="$PROJECT_DIR$/app/view/main/MainController.js" />
       </list>
     </option>
   </component>
@@ -195,15 +188,6 @@
               <item name="php" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
               <item name="Backup_BD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Registration_Hours_LavaRapido" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Backup_BD" type="462c0819:PsiDirectoryNode" />
-              <item name="BACKUP_DIR" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
@@ -575,14 +559,7 @@
       <workItem from="1555508725724" duration="2045000" />
       <workItem from="1555612621437" duration="3349000" />
       <workItem from="1555923923829" duration="2368000" />
-      <workItem from="1555941212254" duration="2946000" />
-    </task>
-    <task id="LOCAL-00136" summary="A Mostrar Contagem do dia se existir contagem do equipamento.&#10;&#10;Happy 2019 to everyone">
-      <created>1546278359844</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1546278359846</updated>
+      <workItem from="1555941212254" duration="6869000" />
     </task>
     <task id="LOCAL-00137" summary="A mostrar a contagem na grid de funcionários de mais de um posto se existir contagem já inserida do dia atual&#10;Happy 2019 to everyone">
       <created>1546360961155</created>
@@ -920,11 +897,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555407668072</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Download BD Backup">
+      <created>1555944185887</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1555944185889</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2334434000" />
+    <option name="totallyTimeSpent" value="2338357000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1025,13 +1009,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1241,20 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Admin/Backup_BD/OnlyDATA.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1005">
-          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Admin/Backup_BD/Download.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/main/Admin/WindowBackupDB.js" />
     <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegContadorSearch.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1337,13 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1351,10 +1307,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Admin/Backup_BD/Download.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Admin/Backup_BD/OnlyDATA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/main/Admin/GridBackups.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="31" column="70" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="70" />
+        <state relative-caret-position="112">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/MainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

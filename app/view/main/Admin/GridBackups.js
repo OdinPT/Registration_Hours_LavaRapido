@@ -57,7 +57,7 @@ Ext.define('ConLogin.view.main.Admin.GridBackups', {
         defaultButtonUI: 'default',
         items: [
             {
-                text: 'Download BD',
+                text: 'Download Backup BD',
                 glyph: 'f1c1@FontAwesome',
 
                 formBind: true,

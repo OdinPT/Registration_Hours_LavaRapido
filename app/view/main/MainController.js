@@ -9,6 +9,7 @@ Ext.define('ConLogin.view.main.MainController', {
     alias:'controller.main',
 
     onClickButton: function () {
+
         // Remove the localStorage key/value
         localStorage.removeItem('ConLoginLoggedIn');
 
