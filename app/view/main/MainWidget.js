@@ -6,8 +6,7 @@ Ext.define('ConLogin.view.main.MainWidget', {
         'ConLogin.view.main.Admin.TotalListHoras',
         'ConLogin.view.main.Admin.AdminTolerancias',
         'ConLogin.view.main.Admin.AdminTotalES',
-
-        'ConLogin.view.main.Admin.WindowBackupDB'
+        'ConLogin.view.main.Admin.GridBackups'
     ],
 
     extend: 'Ext.tab.Panel',
@@ -44,40 +43,13 @@ Ext.define('ConLogin.view.main.MainWidget', {
             }]
 
         }, {
-            title: 'Tolerâncias',
+            title: 'Backups',
             scroll:true,
             margin: '5 0 0 0',
             items: [{
-                xtype:'GestaoTolerancias'
+                xtype: 'mainBackups'
             }]
         }
      ],
-
-    tbar: {
-        defaultButtonUI: 'default',
-
-        items: [
-            {
-                text: 'Efectuar Backup BD',
-
-                glyph: 43,
-                listeners: {
-                    click: function(){
-                        var myWin = Ext.create("Ext.window.Window", {
-                            title: 'Efectuar Backup BD',
-                            modal: true,
-                            width: 1100,
-                            height: 420,
-
-                            items: {
-                                xtype: 'WindowBackupBD',
-                            }
-                        });
-                        myWin.show();
-                    }
-                }
-            },
-        ]
-    }
 
 });

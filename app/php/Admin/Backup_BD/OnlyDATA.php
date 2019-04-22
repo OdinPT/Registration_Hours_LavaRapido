@@ -84,6 +84,7 @@ class Backup_Database {
      */
 
     public function __construct($host, $username, $passwd, $dbName, $charset = 'utf8') {
+
         $this->host                    = $host;
         $this->username                = $username;
         $this->passwd                  = $passwd;

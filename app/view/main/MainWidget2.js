@@ -52,5 +52,13 @@ Ext.define('ConLogin.view.main.MainWidget2', {
             bodyPadding: 5,
             xtype:'GestaoLimContPosto'
 
+        },
+        {
+            title: 'Gestão de Tolerâncias',
+            scroll:true,
+            margin: '5 0 0 0',
+            items: [{
+                xtype:'GestaoTolerancias'
+            }]
         }]
 });
