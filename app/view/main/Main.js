@@ -109,10 +109,8 @@ Ext.define('ConLogin.view.main.Main', {
         id:'Admin1',
         iconCls: 'fa-cog',
         items: [{
-              xtype: 'mainwidgetAdmin'
-             }],
-
-
+            xtype: 'mainwidgetAdmin'
+        }]
     }],
 
     listeners: {

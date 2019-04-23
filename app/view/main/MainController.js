@@ -11,7 +11,7 @@ Ext.define('ConLogin.view.main.MainController', {
     onClickButton: function () {
         method:'POST',
             myRequest1 = Ext.Ajax.request({
-                url: 'app/php/Admin/RegLogoutUser.php',
+                url: 'app/php/Admin/RegLogoutUser.php'
             });
 
         // Remove the localStorage key/value

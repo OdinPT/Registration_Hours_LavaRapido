@@ -50,6 +50,5 @@ Ext.define('ConLogin.view.main.MainWidget', {
                 xtype: 'mainBackups'
             }]
         }
-     ],
-
+     ]
 });

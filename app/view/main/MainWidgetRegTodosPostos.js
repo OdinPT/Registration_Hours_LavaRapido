@@ -38,7 +38,15 @@ Ext.define('ConLogin.view.main.MainWidgetRegTodosPostos', {
             items: [{
                 xtype:'mainTotallistHoras'
             }]
+        },{
+            title: 'Logins e logouts',
+            scroll:true,
+            margin: '5 5 5 0',
+            items: [{
+                xtype: 'GridLGout'
+            }]
         }
+
 
      ]
 });
