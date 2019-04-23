@@ -32,7 +32,7 @@ Ext.define('ConLogin.view.main.MainWidgetRegTodosPostos', {
                 xtype: 'mainRetornRegTodosPostosDia'
             }]
         },{
-            title: 'Registos horários de Todos os Postos',
+            title: 'Registos horários de Funcionários',
             scroll:true,
             margin: '5 5 5 0',
             items: [{

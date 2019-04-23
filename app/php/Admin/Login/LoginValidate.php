@@ -20,6 +20,7 @@ $username = mysqli_real_escape_string($mysqli, $username);
 $password = mysqli_real_escape_string($mysqli, $password);
 
 $query = mysqli_query($mysqli, "Call Login('$username','$password')");
+$querz = mysqli_query($mysqli, "call RegLogin('$username')");
 
 $rows = mysqli_num_rows($query);
 
