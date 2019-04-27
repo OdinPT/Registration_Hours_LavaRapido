@@ -106,6 +106,6 @@ if ($mes == 13){
 
            }
 }
-
+mysqli_close($mysqli);
 ?>
 

@@ -15,7 +15,6 @@ $query = mysqli_query($mysqli, "SELECT `ID_Local_LF` FROM `local_funcionarios` W
   	        $ID_LocalFunc = $res['ID_Local_LF'];
   	         print " Funcionário <B> $username </B> e Id do Local é $ID_LocalFunc";
      }
-// até aqui o local do user jean é a sede le foyer
 
 $query1 = mysqli_query($mysqli, "select RetornaNomeLocal($ID_LocalFunc)as NomeLocal FROM `local_funcionarios` limit 1");
 
@@ -119,7 +118,5 @@ foreach($Total as $indice => $valor) {
    }
 
 echo json_encode($return_arr);
-
-
 mysqli_close($mysqli);
 ?>

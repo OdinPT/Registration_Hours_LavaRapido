@@ -1,8 +1,9 @@
 <?php
-    include "../config.php";
 
+include "../config.php";
   $username = $_COOKIE['cookieEmail'];
   $dataAtual= date('y/m/d');
+
   $mysqli->set_charset("utf8");
   $return_arr = array();
 
@@ -71,6 +72,5 @@ $queryMID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
   }
 
 mysqli_close($mysqli);
-
 ?>
 

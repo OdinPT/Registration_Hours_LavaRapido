@@ -4,7 +4,6 @@ error_reporting(0);
 
 $id = $_COOKIE['cookieID_RegHoras'];
 $username = $_COOKIE['cookieUser2'];
-
 $id2 = $_POST['ID_Reg_horas'];
 
 $query = mysqli_query($mysqli, "SELECT `Visivel_rh` FROM `registo_horas` WHERE `ID_Reg_horas`= $id");

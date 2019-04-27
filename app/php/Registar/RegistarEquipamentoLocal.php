@@ -16,12 +16,9 @@ $query = mysqli_query($mysqli, "select EXISTS (select * from Reg_Equipamentos_La
 
 if($Valida == 1){
   header("HTTP/1.0 404 Not Found");
-
 } else {
     $query2 = mysqli_query($mysqli, " call InserirEquipamentosLavagem('$IDLocal','$TipoEquipamento','$NumEqui')");
 }
-
-
 
 mysqli_close($mysqli);
 ?>

@@ -2,7 +2,7 @@
 error_reporting(0);
 include "../config.php";
 
-      $return_arr = array();
+$return_arr = array();
 
 $id = $_COOKIE['cookieID_EF'];
 
@@ -20,6 +20,10 @@ $id = $_COOKIE['cookieID_EF'];
 
       array_push($return_arr,$row_array);
   }
-  echo json_encode($return_arr);
-  ?>
+
+echo json_encode($return_arr);
+
+mysqli_close($mysqli);
+
+?>
 

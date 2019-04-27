@@ -81,7 +81,7 @@ class Backup_Database {
      * Constructor initializes database
      */
 
-    public function __construct($host, $username, $passwd, $dbName, $charset = 'utf8') {
+    public function __construct($host, $username, $passwd, $dbName, $charset = 'utf8') { // construtor
 
         $this->host                    = $host;
         $this->username                = $username;
@@ -91,8 +91,10 @@ class Backup_Database {
         $this->conn                    = $this->initializeDatabase();
         $this->backupDir               = BACKUP_DIR ? BACKUP_DIR : '.';
 
-       $username = $_COOKIE['cookieEmail'];
-       $today = date("d-m-y");
+        $username = $_COOKIE['cookieEmail'];
+        $today = date("d-m-y");
+
+        $queryX = mysqli_query($this->conn, "LOCK TABLES tipo_func WRITE;LOCK TABLES tipo_registo WRITE;LOCK TABLES empresa WRITE;LOCK TABLES empresa_func WRITE;LOCK TABLES multiusos WRITE;LOCK TABLES funcionarios WRITE;LOCK TABLES Tolerancias WRITE;LOCK TABLES log_reghoras WRITE;LOCK TABLES Log_Regbackup_Reglogin WRITE;LOCK TABLES registo_horas WRITE;LOCK TABLES Log_PostosPistas WRITE;LOCK TABLES Postos_Pistas WRITE;LOCK TABLES tipo_registo WRITE;LOCK TABLES tipo_contactos WRITE;LOCK TABLES Reg_Equipamentos_Lavagem WRITE;LOCK TABLES Lim_Max_Cont WRITE;LOCK TABLES locais WRITE;LOCK TABLES local_funcionarios WRITE;LOCK TABLES local_contactos WRITE;LOCK TABLES Request WRITE;");
 
         //file name: Backup_invest_d-m-y.sql
         $this->backupFile              = 'Backup_'.$this->dbName.'_'.$today.'.sql';
@@ -128,7 +130,7 @@ class Backup_Database {
      * Use '*' for whole database or 'table1 table2 table3...'
      * @param string $tables
      */
-    public function backupTables($tables = '*') {
+    public function backupTables($tables = '*') {               //backup tabelas
         try {
             /**
              * Tables to export
@@ -137,12 +139,13 @@ class Backup_Database {
             if($tables == '*') {
                 $tables = array();
                 $result = mysqli_query($this->conn, 'SHOW TABLES');
-                while($row = mysqli_fetch_row($result)) {
-                    $tables[] = $row[0];
-                }
+                    while($row = mysqli_fetch_row($result)) {
+                        $tables[] = $row[0];
+                    }
             } else {
                 $tables = is_array($tables) ? $tables : explode(',', str_replace(' ', '', $tables));
             }
+
             $sql = 'CREATE DATABASE IF NOT EXISTS `'.$this->dbName."`;\n\n";
             $sql .= 'USE `'.$this->dbName."`;\n\n";
             /**
@@ -216,7 +219,7 @@ class Backup_Database {
                             }
                         }
 
-                        $this->saveFile($sql);
+                        $this->saveFile($sql); // save file
                         $sql = '';
                     }
                 }
@@ -274,7 +277,7 @@ class Backup_Database {
      * Save SQL to file
      * @param string $sql
      */
-    protected function saveFile(&$sql) {
+    protected function saveFile(&$sql) { // save file
 
         if (!$sql) return false;
         try {
@@ -301,7 +304,9 @@ class Backup_Database {
         }
 
         $source = $this->backupDir . $secDir . $this->backupFile;
+
         $dest =  $source . '.gz';
+
         $this->obfPrint('Gzipping backup file to ' . $dest . '... ', 1, 0);
         $mode = 'wb' . $level;
         if ($fpOut = gzopen($dest, $mode)) {
@@ -373,15 +378,16 @@ class Backup_Database {
 
 // Report all errors
 error_reporting(E_ALL);
-//error_reporting(0);
-// Set script max execution time
 set_time_limit(900); // 15 minutes
+
 if (php_sapi_name() != "cli") {
     //echo '<div style="font-family: monospace;">';
 }
-$backupDatabase = new Backup_Database(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, CHARSET);
+
+$backupDatabase = new Backup_Database(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, CHARSET); // call backupdatabase
 
 $result = $backupDatabase->backupTables(TABLES, BACKUP_DIR) ? 'OK' : 'KO';
+
 //$backupDatabase->obfPrint('Backup result: ' . $result, 1);
 // Use $output variable for further processing, for example to send it by email
 $output = $backupDatabase->getOutput();

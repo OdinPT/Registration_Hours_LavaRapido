@@ -1,6 +1,5 @@
 <?php
 error_reporting(0);
-
 include "../config.php";
 
 $username = $_COOKIE['cookieEmail'];

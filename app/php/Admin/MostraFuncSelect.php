@@ -30,5 +30,5 @@ $row_array['Hora_Tolerancia'] = $row['Hora_Tolerancia'];
     array_push($return_arr,$row_array);
 }
 echo json_encode($return_arr);
-
+mysqli_close($mysqli);
 ?>

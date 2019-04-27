@@ -5,14 +5,12 @@ include "../config.php";
 $id = $_COOKIE['cookieID_RegHoras'];
 
 $return_arr = array();
+$mysqli->set_charset("utf8"); // Convert DATA to utf8
 
-    $mysqli->set_charset("utf8"); // Convert DATA to utf8
-
-    $query = "call RetornaRegistoSelec($id)" ;
-
+  $query = "call RetornaRegistoSelec($id)" ;
 
     $result = mysqli_query($mysqli, $query);
-    while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+  while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 
     $row_array['ID_Reg_horas'] = $row['ID_Reg_horas'];
     $row_array['username'] = $row['username'];
@@ -22,9 +20,9 @@ $return_arr = array();
     $row_array['ID_Local_rh'] = $row['ID_Local_rh'];
     $row_array['Descrisao'] = $row['Descrisao'];
 
-
     array_push($return_arr,$row_array);
-}
-echo json_encode($return_arr);
+  }
 
+echo json_encode($return_arr);
+mysqli_close($mysqli);
 ?>

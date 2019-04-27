@@ -15,11 +15,9 @@ $query = mysqli_query($mysqli, "SELECT EXISTS (SELECT `ID_LimMaxCont` FROM Lim_M
         {
 	        $Valid = $res['Existe'];
         }
-               if($Valid == 1)
-               {
-                     header('HTTP', true, 503);
-               } else  {
-
+            if($Valid == 1){
+                header('HTTP', true, 503);
+              } else  {
                 $query2 = mysqli_query($mysqli, " call InsereLimEquipamento('$LimMax','$Local','$TipoEqui')");
               }
 

@@ -63,6 +63,5 @@ $queryt= "SELECT `ID_EquiLav`,Descricao_Local as `ID_Local_EquiLav`,Descrisao as
    }
 
 echo json_encode($return_arr);
-
 mysqli_close($mysqli);
 ?>

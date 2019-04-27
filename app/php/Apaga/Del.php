@@ -64,6 +64,5 @@ if ($Action == 1.1) {
           $Apaga = mysqli_query($mysqli, "call ApagaContador('$id22')");
 }
 mysqli_close($mysqli);
-
 ?>
 

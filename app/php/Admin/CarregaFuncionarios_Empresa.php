@@ -1,13 +1,14 @@
 <?php
 //error_reporting(0);
 include "../config.php";
-      $return_arr = array();
 
-      $query = "call CarregaEmpresa_Func ()" ;
+$mysqli->set_charset("utf8"); //Converter para utf8
 
-    $mysqli->set_charset("utf8"); //Converter para utf8
+$return_arr = array();
 
-  $result = mysqli_query($mysqli, $query);
+ $query = "call CarregaEmpresa_Func ()" ;
+
+ $result = mysqli_query($mysqli, $query);
 
   while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 
@@ -18,5 +19,6 @@ include "../config.php";
       array_push($return_arr,$row_array);
   }
   echo json_encode($return_arr);
-  ?>
+mysqli_close($mysqli);
+?>
 

@@ -19,5 +19,6 @@
        array_push($return_arr,$row_array);
     }
      echo json_encode($return_arr);
-  ?>
+     mysqli_close($mysqli);
+?>
 

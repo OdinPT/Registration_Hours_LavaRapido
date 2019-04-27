@@ -10,8 +10,8 @@
  $return_arr = array();
 
  $query2 = "SELECT `ID_EquiLav`,`ID_Local_EquiLav`,`ID_Tipo_equiLav`,`Num_EquiLav`
-                                         FROM `Reg_Equipamentos_Lavagem`
-                                            WHERE `ID_Local_EquiLav` = $ID_LocalFunc order by ID_EquiLav asc";
+                         FROM `Reg_Equipamentos_Lavagem`
+                         WHERE `ID_Local_EquiLav` = $ID_LocalFunc order by ID_EquiLav asc";
 
        $resultx = mysqli_query($mysqli, $query2);
          while ($row = mysqli_fetch_array($resultx, MYSQLI_ASSOC)) {
@@ -73,9 +73,8 @@
                                                    }
     }
 
- echo json_encode($return_arr);
+echo json_encode($return_arr);
+mysqli_close($mysqli);
 
- mysqli_close($mysqli);
-
-  ?>
+?>
 

@@ -80,5 +80,5 @@ foreach($Total as $indice => $valor) {
 
 }
 }
-
+mysqli_close($mysqli);
 ?>

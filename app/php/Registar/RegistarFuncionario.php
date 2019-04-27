@@ -20,15 +20,11 @@ $query = mysqli_query($mysqli, "SELECT EXISTS (SELECT `ID_funcionario` FROM `fun
         {
 	        $Valid = $res['ID_funcionario'];
         }
-               if($Valid == 1)
-               {
+               if($Valid == 1) {
                   header('HTTP', true, 500);
-
-               }  else {
-
+               } else {
                  $query2 = mysqli_query($mysqli, " call InserirFuncionario('$username','$pass','$Niff','$TF','$LG','$CoockieFunc','$Contact','$Tolerancia')");
-              }
-
+               }
 
 mysqli_close($mysqli);
 ?>

@@ -1,14 +1,13 @@
 <?php
 //error_reporting(0);
-
 include "../config.php";
 
-   $return_arr = array();
-    $func = $_COOKIE['cookieID_funcionario'];
+$func = $_COOKIE['cookieID_funcionario'];
 
-    $query = "call CarregaFuncionario_da_EmpresaSelect ($func)" ;
+$mysqli->set_charset("utf8"); //Converter para utf8
 
-    $mysqli->set_charset("utf8"); //Converter para utf8
+$return_arr = array();
+$query = "call CarregaFuncionario_da_EmpresaSelect ($func)" ;
 
   $result = mysqli_query($mysqli, $query);
 
@@ -23,5 +22,7 @@ include "../config.php";
 
   echo json_encode($return_arr);
 
-  ?>
+mysqli_close($mysqli);
+
+?>
 

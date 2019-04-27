@@ -3,7 +3,7 @@
 //error_reporting(0);
 include "../config.php";
 
-      $return_arr = array();
+$return_arr = array();
  $query = "call TipoRegisto ()" ;
 
   $result = mysqli_query($mysqli, $query);
@@ -15,5 +15,5 @@ include "../config.php";
       array_push($return_arr,$row_array);
   }
   echo json_encode($return_arr);
-
-  ?>
+  mysqli_close($mysqli);
+?>

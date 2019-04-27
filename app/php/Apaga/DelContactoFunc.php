@@ -4,7 +4,7 @@ include "../config.php";
 
 $id23 = $_COOKIE['cookieIDContactos'];
 
-   $Apaga = mysqli_query($mysqli, "call ApagaContactoFunc('$id23')");
+$Apaga = mysqli_query($mysqli, "call ApagaContactoFunc('$id23')");
 
 mysqli_close($mysqli);
 
