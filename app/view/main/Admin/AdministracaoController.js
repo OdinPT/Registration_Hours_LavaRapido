@@ -1612,6 +1612,57 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                 }
 
             });
-    }
+    },
+    onClickRegistaTipoEquipamento: function () {
+        method:'POST',
+            myRequest1 = Ext.Ajax.request({
+                url: 'app/php/Registar/RegistarTipoEqui.php',
+
+                success: function (response, opts){
+                    Ext.MessageBox.alert('Registo','Efetuado com Sucesso!');
+
+                    function hide_message() {
+                        Ext.defer(function() {
+                            Ext.MessageBox.hide();
+                            Ext.getCmp('GridTEqui').getStore().load();
+
+                        }, 1000);
+                    }
+                    hide_message();
+
+                },
+                failure: function (){alert('Registo não efetuado...');
+                    Ext.MessageBox.alert('ATENÇÃO ','não foi possivel registar');
+                },
+
+                params: {
+                    TipoEqui: Ext.getCmp('TipoEqui').getValue()
+
+                }});
+
+    },
+    onClickApagaTipoEqui: function () {
+        method:'POST',
+            myRequest1 = Ext.Ajax.request({
+                url: 'app/php/Apaga/DelTipoEquipamento.php',
+
+                success: function (response, opts) {
+                    Ext.MessageBox.alert('Sucesso', 'Registo  Apagado!');
+                    function hide_message() {
+
+                        Ext.defer(function () {
+                            Ext.MessageBox.hide();
+                            Ext.getCmp('GridTEqui').getStore().load();
+
+                        }, 1000);
+                    }
+                    hide_message();
+                },
+                failure: function () {
+                    alert('Erro...');
+                    Ext.MessageBox.alert(' Registo ', 'Não apagado!');
+                }
+            });
+    },
 });
 

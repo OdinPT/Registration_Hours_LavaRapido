@@ -8,7 +8,7 @@ Ext.define('ConLogin.view.main.Admin.HorarioFunc', {
     xtype: 'mainHorarioFunc',
 
     requires: [
-//        'ConLogin.store.Admin.HorariosFuncionarios',
+        'ConLogin.store.Admin.HorariosFuncionarios',
         'Ext.toolbar.Paging'
     ],
 

@@ -10,12 +10,13 @@ Ext.define('ConLogin.view.main.Admin.GridBackups', {
         'Ext.toolbar.Paging'
     ],
 
-    title:'Grid de Backups',
+    title:'Registo de Backups realizados',
     xtype: 'mainBackups',
 
     config: {
         autoLoad: true,
         scroll:true,
+        height: 700,
         style:{overflow: 'auto',overflowX: 'hidden'}
     },
 
@@ -29,7 +30,7 @@ Ext.define('ConLogin.view.main.Admin.GridBackups', {
     }],
 
     columns: [
-        {text: 'ID ',  dataIndex: 'ID_Backup', flex: 0.9 ,hidden:false,
+        {text: 'ID ',  dataIndex: 'ID_Backup', flex: 0.9 ,hidden:true,
             filter: {
             type: 'string'
             }},

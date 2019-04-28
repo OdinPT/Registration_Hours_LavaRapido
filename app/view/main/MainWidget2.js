@@ -3,7 +3,8 @@ Ext.define('ConLogin.view.main.MainWidget2', {
     requires: [
         'ConLogin.view.main.Admin.EmpresaPrincipal2',
         'ConLogin.view.main.Admin.AdminPrincipal2',
-        'ConLogin.view.main.Admin.GestãoLimContPosto'
+        'ConLogin.view.main.Admin.GestãoLimContPosto',
+        'ConLogin.view.main.Admin.JuncaoTipoEquipamento'
     ],
 
     extend: 'Ext.tab.Panel',
@@ -48,12 +49,16 @@ Ext.define('ConLogin.view.main.MainWidget2', {
             xtype:'GestaoEmpresasPrincipal2'
 
         },{
-            title:'Gestão Limite da contagem por Posto',
+            title:'Limite diário de cada Posto',
             bodyPadding: 5,
             xtype:'GestaoLimContPosto'
 
-        },
-        {
+        },{
+            title:'Tipos de Equipamentos',
+            bodyPadding: 5,
+            xtype: 'JuncaoTipoEquipamento'
+
+        }, {
             title: 'Gestão de Tolerâncias',
             scroll:true,
             margin: '5 0 0 0',

@@ -16,7 +16,7 @@ Ext.define('ConLogin.view.main.MainWidget', {
     bodyBorder: false,
     frame: false,
 
-    activeTab: 0,
+    activeTab: 1,
     title: 'Administração',
 
     items: [
@@ -35,7 +35,7 @@ Ext.define('ConLogin.view.main.MainWidget', {
                 xtype:'SubMenu1Gestao'
             }]
         },{
-            title: 'associações já existentes',
+            title: 'Resumo de associações existentes',
             scroll:true,
             margin: '5 5 5 0',
             items: [{

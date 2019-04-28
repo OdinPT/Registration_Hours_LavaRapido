@@ -16,7 +16,7 @@ Ext.define('ConLogin.view.main.Admin.TotalListHoras', {
         autoLoad: true,
         scroll:true,
         style:{overflow: 'auto',overflowX: 'hidden'},
-        height: 550
+        height: 700
     },
 
     title: 'Registos de Todos os Postos',

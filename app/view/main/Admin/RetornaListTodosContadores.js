@@ -19,8 +19,8 @@ Ext.define('ConLogin.view.main.Admin.RetornaListTodosContadores', {
         autoLoad: true,
         scroll:true,
         style:{overflow: 'auto',overflowX: 'hidden'},
-        height: 320,
-        height: 550
+
+        height: 700
     },
 
     title:' Contadores de Todos os postos do dia',

@@ -7,8 +7,7 @@ Ext.define('ConLogin.view.main.Admin.GridLoginLogout', {
         'ConLogin.store.Admin.GridLoginLogout'
     ],
 
-    width: 690,
-    height: 490,
+    height: 700,
 
     xtype: 'GridLGout',
 
