@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="A adicionar novos tipos de equipamento se for necessário.">
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="backup &#10;__ não repete dados á toa.&#10;&#10;inseriu tipo equipamento (P.count)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistarEquipamentoLocal1.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistarEquipamentoLocal1.php" afterDir="false" />
     </list>
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarEquipamentoLocal1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="69" column="119" selection-start-line="69" selection-start-column="119" selection-end-line="69" selection-end-column="119" />
+            <state relative-caret-position="192">
+              <caret line="73" column="49" lean-forward="true" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -528,14 +528,7 @@
       <workItem from="1556530220887" duration="2846000" />
       <workItem from="1556549322623" duration="6290000" />
       <workItem from="1556665830494" duration="8419000" />
-      <workItem from="1557303821744" duration="2380000" />
-    </task>
-    <task id="LOCAL-00142" summary="a registar contagem e a fazer update da contagem na grid do request">
-      <created>1546538850794</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1546538850795</updated>
+      <workItem from="1557303821744" duration="3516000" />
     </task>
     <task id="LOCAL-00143" summary="a registar contagem e a fazer update da contagem na grid do request">
       <created>1546538900676</created>
@@ -873,11 +866,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556491720607</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="backup &#10;__ não repete dados á toa.&#10;&#10;inseriu tipo equipamento (P.count)">
+      <created>1557306248836</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1557306248837</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2409874000" />
+    <option name="totallyTimeSpent" value="2411010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -890,8 +890,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="20" width="1366" height="748" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49251246" visible="true" weight="0.28220403" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49251246" weight="0.28220403" />
       <window_info id="Favorites" order="1" sideWeight="0.50748754" side_tool="true" weight="0.29709604" />
       <window_info id="Structure" order="2" weight="0.24944155" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -941,7 +942,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="fazer os request e a só mostrar contagem dos Postos se a contagem não for do dia atual" />
     <MESSAGE value="A Registar contagem em RTP (registos de todos os postos) de qualquer equipamento e a permitir fazer override ao limite diário" />
     <MESSAGE value="a registar contagem de um equipamento em RTP com a data especifica" />
     <MESSAGE value="A apagar registo da contagem do equipamento." />
@@ -966,7 +966,8 @@
     <MESSAGE value="grid a mostrar todas as sessões iniciadas e as sessões que terminaram sessão" />
     <MESSAGE value="__PT__&#10;alterações no ficheiro de configuração de acesso a bd&#10;&#10;adicionado mysql_close a todos os ficheiros php.&#10;&#10;__EN__&#10;changes to the bd access configuration file&#10;&#10;added mysql_close to all php files." />
     <MESSAGE value="A adicionar novos tipos de equipamento se for necessário." />
-    <option name="LAST_COMMIT_MESSAGE" value="A adicionar novos tipos de equipamento se for necessário." />
+    <MESSAGE value="backup &#10;__ não repete dados á toa.&#10;&#10;inseriu tipo equipamento (P.count)" />
+    <option name="LAST_COMMIT_MESSAGE" value="backup &#10;__ não repete dados á toa.&#10;&#10;inseriu tipo equipamento (P.count)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -1295,8 +1296,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarEquipamentoLocal1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="69" column="119" selection-start-line="69" selection-start-column="119" selection-end-line="69" selection-end-column="119" />
+        <state relative-caret-position="192">
+          <caret line="73" column="49" lean-forward="true" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
         </state>
       </provider>
     </entry>

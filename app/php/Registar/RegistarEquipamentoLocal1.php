@@ -3,8 +3,8 @@ include "../config.php";
 error_reporting(0);
 
 //$IDLocal = $_COOKIE['cookieID_Local'];
-$IDLocal = 3;
-$TipoEquipamento = 8;
+$IDLocal = 1;
+$TipoEquipamento = 9;
 $LimMax = 1000;
 //$TipoEquipamento = $_POST['TipoEquipamentoxS'];
 //$LimMax = $_POST['LimMax'];
@@ -66,8 +66,13 @@ $query = mysqli_query($mysqli, "select EXISTS (select * from Reg_Equipamentos_La
     	       print "valida $Valida <br>";
     	       print "Existe limite ".$Existelim;
        }
-//verificar se ao registar com outro local e equipamento não está a bugar
+
 // verificar que a contagem está a usar o numero do equipamento exemplo 101 e colocar lá a string com o numero da pista
+//ideia
+//interface gráfica para registar mais que um equipamento ao mesmo tempo.
+
+//falta incrementar numero interno do equipamento
+
 
     if($Valida == 1){
       header("HTTP/1.0 404 Not Found");
@@ -75,7 +80,7 @@ $query = mysqli_query($mysqli, "select EXISTS (select * from Reg_Equipamentos_La
 
     } else {
           print "<br>primeiro else <br>";
-            $query2 = mysqli_query($mysqli, " call InserirEquipamentosLavagem('$IDLocal','$TipoEquipamento','$MaxNumEqui','$NP$MaxEquip')");
+            $query2 = mysqli_query($mysqli, " call InserirEquipamentosLavagem('$IDLocal','$TipoEquipamento','$NumEqui','$NP$MaxEquip')");
 
        if($Existelim == 1){
           header('HTTP', true, 503);
