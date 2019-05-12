@@ -23,6 +23,8 @@ $id = $_COOKIE['cookieID_EquiLav'];
      $row_array['NumEqui'] = $row['NumEqui'];
      $row_array['TipoEqui'] = $row['TipoEqui'];
 
+     $row_array['Desc_EquiLav'] = $row['Desc_EquiLav'];
+
        array_push($return_arr,$row_array);
     }
      echo json_encode($return_arr);

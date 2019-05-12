@@ -33,7 +33,6 @@ Ext.define('ConLogin.view.main.Admin.LocaisPrincipal2', {
             height: 350,
             width:600,
             items: [{
-
                 xtype: 'registaLocal'
             }]
         },
@@ -42,7 +41,6 @@ Ext.define('ConLogin.view.main.Admin.LocaisPrincipal2', {
             flex: 1,
             margin: '0 0 0 0',
             border:false,
-
             autoScroll: true,
             items: [{
                 xtype: 'mainlistlocais'

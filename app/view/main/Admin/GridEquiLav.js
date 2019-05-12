@@ -36,7 +36,7 @@ Ext.define('ConLogin.view.main.Admin.GridEquiLav', {
     }],
 
     columns: [
-        {text: 'ID Registo',  dataIndex: 'ID_EquiLav', flex: 0.5 ,hidden:false,
+        {text: 'ID Registo',  dataIndex: 'ID_EquiLav', flex: 0.5 ,hidden:true,
             filter: {
             type: 'string'
             }},
@@ -44,14 +44,21 @@ Ext.define('ConLogin.view.main.Admin.GridEquiLav', {
             filter: {
                 type: 'string'
             }},
-        { text: 'Tipo Equipamento:',  dataIndex: 'TipoEquipamento', flex: 1.0 ,
+        { text: 'Tipo Equipamento:',  dataIndex: 'TipoEquipamento', flex: 1.0 ,hidden:true,
             filter: {
                 type: 'string'
             }},
-        { text: 'Numero do Equipamento :',  dataIndex: 'Num_EquiLav', flex: 1.4 ,
+        { text: 'Numero do Equipamento :',  dataIndex: 'Num_EquiLav', flex: 1.4 ,hidden:true,
+            filter: {
+                type: 'string'
+            }},
+        { text: 'Equipamento: ',  dataIndex: 'Desc_EquiLav', flex: 1.4 ,
             filter: {
                 type: 'string'
             }}
+
+
+
     ],
 
 

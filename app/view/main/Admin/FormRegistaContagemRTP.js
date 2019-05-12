@@ -26,20 +26,6 @@ Ext.define('ConLogin.view.main.Admin.FormRegistaContagemRTP', {
             id: 'ID_EquiLavzz2',
             hidden:true
         },{
-            xtype: 'textfield',
-            fieldLabel: 'Local :',
-            id: 'Localzz2',
-            readOnly: true
-        },{
-            xtype: 'textfield',
-            fieldLabel: 'Tipo de Equipamento :',
-            id: 'TipoEquipamentozz2',
-            readOnly: true
-        },{
-            xtype: 'textfield',
-            fieldLabel: 'Contagem:',
-            id: 'Contagemzz2'
-        },{
             xtype: 'datefield',
             //anchor: '100%',
             fieldLabel: 'Data',
@@ -48,9 +34,31 @@ Ext.define('ConLogin.view.main.Admin.FormRegistaContagemRTP', {
             value: new Date()
         },{
             xtype: 'textfield',
+            fieldLabel: 'Local :',
+            id: 'Localzz2',
+            readOnly: true
+        },{
+            xtype: 'textfield',
+            fieldLabel: 'Equipamento :',
+            id: 'Desc_EquiLavzz2',
+            readOnly: true
+        },{
+            xtype: 'textfield',
+            fieldLabel: 'Tipo de Equipamento :',
+            id: 'TipoEquipamentozz2',
+            readOnly: true,
+            hidden:true
+        },{
+            xtype: 'textfield',
+            fieldLabel: 'Contagem:',
+            id: 'Contagemzz2'
+        },{
+            xtype: 'textfield',
             fieldLabel: 'Número do Equipamento :',
             id: 'Num_EquiLavzz2',
-            readOnly: true
+            readOnly: true,
+            hidden:true
+
         },{
             fieldLabel: 'Sobrepor ao limite diário :',
             xtype: 'checkbox',
@@ -96,6 +104,7 @@ Ext.define('ConLogin.view.main.Admin.FormRegistaContagemRTP', {
                     var c = Ext.getCmp('TipoEquipamentozz2').setValue(record.data.TipoEquipamento);
                     var e = Ext.getCmp('Contagemzz2').setValue(record.data.Contagem);
                     var f = Ext.getCmp('Num_EquiLavzz2').setValue(record.data.Num_EquiLav);
+                    var g = Ext.getCmp('Desc_EquiLavzz2').setValue(record.data.Desc_EquiLav);
                 }
             });
         }

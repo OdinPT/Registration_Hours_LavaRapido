@@ -57,10 +57,16 @@ Ext.define('ConLogin.view.main.Admin.RetornaListTodosContadores', {
             filter: {
                 type: 'string'
         }},
-        { text: 'Número do equipamento :', dataIndex: 'Num_EquiLav', flex: 0.8 ,
+        { text: 'Número do equipamento  (campo oculto) :', dataIndex: 'Num_EquiLav', flex: 0.8 ,hidden:true,
             filter: {
                 type: 'string'
-            }}
+        }},
+        { text: 'Tipo de Equipamento:', dataIndex: 'Desc_EquiLav', flex: 0.8 ,
+            filter: {
+                type: 'string'
+            }
+        },
+
     ],
 
 

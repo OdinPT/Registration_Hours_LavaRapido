@@ -15,7 +15,6 @@ Ext.define('ConLogin.view.main.Admin.RegLocalSelect', {
 
     items: [
         {
-
             flex: 1,
             width: 500,
             height: 400,
@@ -29,7 +28,6 @@ Ext.define('ConLogin.view.main.Admin.RegLocalSelect', {
             flex: 1,
             margin: '0 0 0 0',
             autoScroll: true,
-
             width:400,
             height: 400,
 

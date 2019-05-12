@@ -20,6 +20,8 @@ $id = $_COOKIE['cookieID_ContadoresRDP'];
      $row_array['Contagem'] = $row['Contagem'];
      $row_array['Num_EquiLav'] = $row['Num_EquiLav'];
 
+     $row_array['Desc_EquiLav'] = $row['Desc_EquiLav'];
+
        array_push($return_arr,$row_array);
     }
      echo json_encode($return_arr);

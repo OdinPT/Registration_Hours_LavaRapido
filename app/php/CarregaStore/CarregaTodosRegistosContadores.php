@@ -20,6 +20,8 @@
      $row_array['Data'] = $row['Data'];
      $row_array['username'] = $row['username'];
      $row_array['Num_EquiLav'] = $row['Num_EquiLav'];
+     $row_array['Desc_EquiLav'] = $row['Desc_EquiLav'];
+
 
        array_push($return_arr,$row_array);
     }

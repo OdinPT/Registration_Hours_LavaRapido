@@ -4,8 +4,6 @@ Ext.define('ConLogin.store.Registo_Horas.RegistosTodosPostoSelect1', {
 
     alias: 'store.RegPostoSelect1',
     storeId: 'RegPostoSelect1',
-
-
     autoLoad: true,
     autoSync: true,
 

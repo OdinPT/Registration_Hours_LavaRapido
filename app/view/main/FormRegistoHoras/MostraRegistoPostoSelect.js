@@ -62,16 +62,23 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect', {
             readOnly: true
 
         },{
-            hidden:false,
+            hidden:true,
             xtype: 'textfield',
             fieldLabel: 'Numero do equipamento',
             id: 'NumEquiz',
             name: 'NumEquiz'
-        },,{
+        },{
             hidden:true,
             xtype: 'textfield',
             id: 'Tipo_validacao20',
-            name: 'Tipo_validacao20'
+            name: 'Tipo_validacao20',
+        },{
+            hidden:false,
+            xtype: 'textfield',
+            fieldLabel: 'Equipamento',
+            id: 'Desc_EquiLav',
+            name: 'Desc_EquiLav',
+            readOnly:true
         }],
 
     dockedItems: {
@@ -113,6 +120,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect', {
                     var d = Ext.getCmp('Localz').setValue(record.data.Local);
                     var e = Ext.getCmp('NumEquiz').setValue(record.data.NumEqui);
                     var f = Ext.getCmp('TipoEquiz').setValue(record.data.TipoEqui);
+                    var g = Ext.getCmp('Desc_EquiLav').setValue(record.data.Desc_EquiLav);
                 }
             });
         }

@@ -66,9 +66,7 @@ Ext.define('ConLogin.view.main.Admin.ListLocais', {
                         scrollable:true,
                         closable:true,
                         border:false,
-
                         width: 1200,
-
                         items: [{
                             xtype:'GestaoLocalSelectAdmin'
                         }]

@@ -16,6 +16,7 @@
      $row_array['Local'] = $row['Local'];
      $row_array['TipoEquipamento'] = $row['TipoEquipamento'];
      $row_array['Num_EquiLav'] = $row['Num_EquiLav'];
+     $row_array['Desc_EquiLav'] = $row['Desc_EquiLav'];
 
        array_push($return_arr,$row_array);
     }

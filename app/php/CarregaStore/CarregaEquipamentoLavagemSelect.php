@@ -1,15 +1,13 @@
 <?php
 
-    error_reporting(0);
-    include "../config.php";
-
+error_reporting(0);
+include "../config.php";
 $id = $_COOKIE['cookieID_Local'];
 
-    $mysqli->set_charset("utf8");
+$mysqli->set_charset("utf8");
+$return_arr = array();
 
-      $return_arr = array();
-
-      $query = "call CarregaEquipamentosLavagemSelect ('$id')" ;
+    $query = "call CarregaEquipamentosLavagemSelect ('$id')" ;
 
   $result = mysqli_query($mysqli, $query);
 
@@ -19,6 +17,7 @@ $id = $_COOKIE['cookieID_Local'];
     $row_array['Local'] = $row['Local'];
     $row_array['Tipo_Equi'] = $row['Tipo_Equi'];
     $row_array['NumEqui'] = $row['NumEqui'];
+    $row_array['Desc_EquiLav'] = $row['Desc_EquiLav'];
 
        array_push($return_arr,$row_array);
     }

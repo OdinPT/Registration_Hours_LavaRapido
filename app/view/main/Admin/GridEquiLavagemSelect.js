@@ -37,11 +37,15 @@ Ext.define('ConLogin.view.main.Admin.GridEquiLavagemSelect', {
             filter: {
                 type: 'string'
             }},
-        { text: 'Tipo Equipamento :',  dataIndex: 'Tipo_Equi', flex: 1.2 ,
+        { text: 'Tipo Equipamento :',  dataIndex: 'Tipo_Equi', flex: 1.2,hidden:true,
             filter: {
                 type: 'string'
             }},
-        { text: 'Numero do Equipamento :',  dataIndex: 'NumEqui', flex: 1.2 ,
+        { text: 'Numero do Equipamento:',  dataIndex: 'NumEqui', flex: 1.2 ,hidden:true,
+            filter: {
+                type: 'string'
+            }},
+        { text: 'Equipamento :',  dataIndex: 'Desc_EquiLav', flex: 1.2 ,
             filter: {
                 type: 'string'
             }}
