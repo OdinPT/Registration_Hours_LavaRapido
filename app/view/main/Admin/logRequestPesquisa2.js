@@ -38,16 +38,19 @@ Ext.define('ConLogin.view.main.Admin.logRequestPesquisa2', {
             filter: {
             type: 'string'
             }},
-        { text: 'Tipo  :',  dataIndex: 'ID_Tipo_Req', flex: 1.2 ,
+        { text: 'Tipo  :',  dataIndex: 'ID_Tipo_Req', flex: 1.2 ,hidden:true,
             filter: {
                 type: 'string'
             }},
         { text: 'Local', dataIndex: 'ID_Local_Req', flex: 0.8,
             filter: {
                 type: 'string'
-            }},
-
-        { text: 'Contagem', dataIndex: 'Contagem_Req', flex: 1.7 ,
+            }
+        },{ text: 'Equipamento: ', dataIndex: 'Desc_EquiLav', flex: 1 ,
+            filter: {
+                type: 'string'
+            }
+        },{ text: 'Contagem', dataIndex: 'Contagem_Req', flex: 1.7 ,
             filter: {
                 type: 'string'
             }
@@ -62,7 +65,7 @@ Ext.define('ConLogin.view.main.Admin.logRequestPesquisa2', {
                 type: 'string'
             }
         },
-        { text: 'ID Pedido  ', dataIndex: 'ID_Pedido', flex: 1 ,hidden:true,
+        { text: 'ID Pedido  ', dataIndex: 'ID_Pedido', flex: 1 ,hidden:false,
             filter: {
                 type: 'string'
             }
