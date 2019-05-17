@@ -38,7 +38,7 @@ if ($mes == 13){
     print " <br> $Year <br>";
 
 
-    $queryz0 = "SELECT * FROM Postos_Pistas,Reg_Equipamentos_Lavagem WHERE`ID_EquiPorLav_PP`= `ID_EquiLav` and Year(`DataPP`) = $Year";   //Pesquisa Pelo Mes solicidado pelo post
+    $queryz0 = "SELECT * FROM Postos_Pistas,Reg_Equipamentos_Lavagem WHERE`ID_EquiPorLav_PP`= `ID_EquiLav` and Year(`DataPP`) = $Year  order by `DataPP` desc";   //Pesquisa Pelo Mes solicidado pelo post
 
      $resultz0 = mysqli_query($mysqli, $queryz0);
 
@@ -85,7 +85,7 @@ if ($mes == 13){
            $NumRequest = $NumRequestx +1;
 
 
-    $queryx = "SELECT * FROM Postos_Pistas,Reg_Equipamentos_Lavagem WHERE`ID_EquiPorLav_PP`= `ID_EquiLav` and MONTH(`DataPP`) = $mes";   //Pesquisa Pelo Mes solicidado pelo post
+    $queryx = "SELECT * FROM Postos_Pistas,Reg_Equipamentos_Lavagem WHERE`ID_EquiPorLav_PP`= `ID_EquiLav` and MONTH(`DataPP`) = $mes  order by `DataPP` desc";   //Pesquisa Pelo Mes solicidado pelo post
 
      $resultx = mysqli_query($mysqli, $queryx);
 

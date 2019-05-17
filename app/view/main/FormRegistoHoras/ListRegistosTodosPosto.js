@@ -31,6 +31,11 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
             type: 'string'
             }
          },
+        { text: 'Local', dataIndex: 'Local', flex: 1.2 ,
+            filter: {
+                type: 'string'
+            }
+        },
         { text: 'Funcionário', dataIndex: 'username', flex: 1.0 ,
             filter: {
                 type: 'string'
@@ -40,10 +45,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
             filter: {
                 type: 'string'
             }},
-        { text: 'Local', dataIndex: 'Local', flex: 1.2 ,
-            filter: {
-                type: 'string'
-            }},
+
         { text: 'Contagem: ', dataIndex: 'Contagem', flex: 1.0 ,
             filter: {
                 type: 'string'
@@ -54,7 +56,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
                 type: 'string'
             }
         },
-        { text: 'ID Equipamento por Lavagem', dataIndex: 'ID_EquiPorLav_PP', flex: 1.0 ,hidden:false,
+        { text: 'ID Equipamento por Lavagem', dataIndex: 'ID_EquiPorLav_PP', flex: 1.0 ,hidden:true,
             filter: {
                 type: 'string'
             }

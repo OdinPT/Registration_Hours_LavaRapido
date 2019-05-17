@@ -45,7 +45,15 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect', {
             xtype: 'textfield',
             fieldLabel: 'Tipo Equipamento :',
             id: 'TipoEquiz',
-            readOnly: true
+            readOnly: true,
+            hidden:true
+        },{
+            hidden:false,
+            xtype: 'textfield',
+            fieldLabel: 'Equipamento',
+            id: 'Desc_EquiLav',
+            name: 'Desc_EquiLav',
+            readOnly:true
         },{
             xtype: 'textfield',
             fieldLabel: 'Contagem :',
@@ -72,13 +80,6 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect', {
             xtype: 'textfield',
             id: 'Tipo_validacao20',
             name: 'Tipo_validacao20',
-        },{
-            hidden:false,
-            xtype: 'textfield',
-            fieldLabel: 'Equipamento',
-            id: 'Desc_EquiLav',
-            name: 'Desc_EquiLav',
-            readOnly:true
         }],
 
     dockedItems: {

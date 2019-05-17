@@ -1,12 +1,15 @@
 <?php
-include "../config.php";
+include "../connection.php";
 error_reporting(0);
 
 $id = $_COOKIE['cookieID_RegHoras'];
 $username = $_COOKIE['cookieUser2'];
 $id2 = $_POST['ID_Reg_horas'];
 
-$query = mysqli_query($mysqli, "SELECT `Visivel_rh` FROM `registo_horas` WHERE `ID_Reg_horas`= $id");
+$db = new dbObj();
+$connString =  $db->getConnstring();
+
+$query = mysqli_query($connString, "SELECT `Visivel_rh` FROM `registo_horas` WHERE `ID_Reg_horas`= $id");
 
         while($res = mysqli_fetch_array($query))
         {
@@ -17,10 +20,10 @@ if ($id == $id2)
 {
     if ($Visivel == 6)
         {
-            $Altera = mysqli_query($mysqli, "call AlteraEstadoRegHoras('$id','$username',7)");
+            $Altera = mysqli_query($connString, "call AlteraEstadoRegHoras('$id','$username',7)");
         }
      else {
-             $Altera1 = mysqli_query($mysqli, "call AlteraEstadoRegHoras('$id','$username',6)");
+             $Altera1 = mysqli_query($connString, "call AlteraEstadoRegHoras('$id','$username',6)");
           }
 }
 else {

@@ -55,20 +55,24 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect0', {
             xtype: 'textfield',
             fieldLabel: 'Data :',
             id: 'DataPPzzz1',
-            readOnly: true
+            readOnly: true,
+            hidden:true
         },{
             xtype: 'textfield',
             fieldLabel: 'username :',
             id: 'utilizadorzzz1',
-            readOnly: true
+            readOnly: true,
+            hidden:true
 
         },{
-            hidden:false,
+
             xtype: 'textfield',
             fieldLabel: 'Numero do equipamento',
             id: 'NumEquizzz1',
             name: 'NumEquiz',
-            readOnly: true
+            readOnly: true,
+            hidden:true
+
         }],
 
     dockedItems: {

@@ -30,6 +30,7 @@
     $row_array['ID_PPista'] = $row['ID_PPista'];
     $row_array['ID_Pedido'] = $row['ID_Pedido'];
     $row_array['Data_Pedido'] = $row['Data_Pedido'];
+    $row_array['Desc_EquiLav'] = $row['Desc_EquiLav'];
 
        array_push($return_arr,$row_array);
     }

@@ -65,8 +65,7 @@ Ext.define('ConLogin.view.main.Admin.RetornaListTodosContadores', {
             filter: {
                 type: 'string'
             }
-        },
-
+        }
     ],
 
 

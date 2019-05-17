@@ -1,70 +1,90 @@
 <?php
-require_once("../config.php");
+//include connection file
+include "../connection.php";
 
-ini_set("include_path", '/home/phpgurukul/php/PEAR:' . ini_get("include_path") );
-require('fpdf.php');
+include_once('fpdf.php');
 
-$pdf = new FPDF();
+class PDF extends FPDF
+{
+// Page header
+function Header() {
+    // Logo
+    //$this->Image('https://image.ibb.co/ktEti7/logotipo_curvas_v3_preview_s_logo.png');
+    // size font
+    $this->SetFont('Arial','B',12);
+    // Move to the right
+    $this->Cell(50);
+    // Title
+    $this->Cell(50,20,'Contagens',-1,0,'C');
+    // Line break
+    $this->Ln(15);
+}
+
+// Page footer
+function Footer() {
+    // Position at 1.5 cm from bottom
+    $this->SetY(-10);
+    // Arial italic 8
+    $this->SetFont('Arial','I',8);
+    // Page number
+    $this->Cell(0,10,'Page '.$this->PageNo().'/{nb}',0,0,'C');
+}
+}
+
+$pdf = new PDF();
 $pdf->AddPage();
 
-$pdf->SetFont('Arial','B',8);
-$pdf->SetFont('Arial', "", 10);
-
-$pdf->Ln();
-
-$username = $_COOKIE['cookieEmail'];
-$return_arr = array();
-$array = [];
+$db = new dbObj();
+$connString =  $db->getConnstring();
 
 $m = date("m");
 $y = date("Y");
 
         //nome do ficheiro
-
 $filename ="Cont".$m."".$y.".pdf";
 
-// Headers
-$Cab=["Tipo Equipamento.", "Lavagem","Contagem","Data","ID Pista"];
+$username = $_COOKIE['cookieEmail'];
 
-$i = 0;
-while ($i < count($Cab))
-{
-    $pdf->Cell(38, 12, $Cab[$i]);
-    $i++;
-}
-       //code for print data
  $query0 = "SELECT MAX(`ID_Pedido`) as MaxIDRequest FROM Request where `ID_Func_Req`= RetornaIdFuncionario ('$username')";
 
-      $result0 = mysqli_query($mysqli, $query0);
+    $result0 = mysqli_query($connString, $query0);
 
-          while ($row = mysqli_fetch_array($result0, MYSQLI_ASSOC)) {
+      while ($row = mysqli_fetch_array($result0, MYSQLI_ASSOC)) {
+        $MaxIDRequest = $row['MaxIDRequest'];
+      }
 
-              $MaxIDRequest = $row['MaxIDRequest'];
-          }
 
- $sql = "SELECT  Descrisao, Descricao_Local,`Contagem_Req`,`Data_Req`,`ID_PPista`
-                FROM `Request`,multiusos,locais
-                WHERE `ID_Tipo_Req`=ID_acesso and `ID_Local_Req`=ID_Local and `ID_Pedido`= $MaxIDRequest";
+$result = mysqli_query($connString, "SELECT Desc_EquiLav as `ID_Tipo_Req`,Descricao_Local as `ID_Local_Req`,`Contagem_Req`,`Data_Req`,username as`ID_Func_Req`
+                                                                FROM `Request`,multiusos,locais,funcionarios,Reg_Equipamentos_Lavagem
+                                          WHERE  `ID_Tipo_Req`=ID_acesso and `ID_Local_Req`=ID_Local and `ID_Func_Req`=ID_funcionario and `Num_EquiLav`=Num_Equip and `ID_Pedido`= '$MaxIDRequest' order by `Data_Req` asc  ") or die("database error:". mysqli_error($connString));
 
-$query = $dbh -> prepare($sql);
-$query->execute();
+//headers
 
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-$cnt=1;
+$Cab=["Equipamento", "Posto","Contagem","Data","Utilizador"];
 
-if($query->rowCount() > 0)
-{
+$i = 0;
+while ($i < count($Cab)){
+    $pdf->Cell(33, 15, $Cab[$i]);
+    $i++;
+}
 
-foreach($results as $row) {
-	$pdf->Ln();
-	foreach($row as $column)
-		$pdf->Cell(38,12,$column,1);
-} }
+//foter page
+$pdf->AliasNbPages();
+
+foreach($result as $row) {
+$pdf->Ln();
+foreach($row as $column)
+//with column
+$pdf->Cell(33,10,$column,1);
+
+}
+
 $pdf->Output();
 
     header('Content-Description: File Transfer');
     header('Content-Type: application/octet-stream');
     header('Content-Disposition: attachment; filename="' . basename($filename) . '"');
     header('Content-Length: ' . filesize($filename));
+
 
 ?>

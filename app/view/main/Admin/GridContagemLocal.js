@@ -6,9 +6,9 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
 
     requires: [
         'ConLogin.store.Admin.CarregaWinContagemXLocal',
+
         'ConLogin.view.main.Admin.JuncaoRegContadorDiario',
         'ConLogin.view.main.Admin.JuncaoRegContadorDiario2',
-
         'ConLogin.store.Registo_Horas.RegistosTodosPostoSelect',
         'ConLogin.view.main.Admin.JuncaoRegLogConDiaAntRD',
 
@@ -47,11 +47,11 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
             filter: {
                 type: 'string'
             }},
-        { text: 'Tipo Equipamento :',  dataIndex: 'ID_Tipo_Req', flex: 1.2 ,
+        { text: 'Tipo Equipamento :',  dataIndex: 'Desc_EquiLav', flex: 1.2 ,
             filter: {
                 type: 'string'
         }},
-        { text: 'Numero do Equipamento :',  dataIndex: 'Num_Equip', flex: 1.2 ,
+        { text: 'Numero do Equipamento :',  dataIndex: 'Num_Equip', flex: 1.2 ,hidden:true,
             filter: {
                 type: 'string'
             }},
@@ -67,7 +67,7 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
             filter: {
                 type: 'string'
             }},
-        { text: 'ID EquiLav :',  dataIndex: 'ID_EquiLav', flex: 1.2 ,hidden:false,
+        { text: 'ID EquiLav :',  dataIndex: 'ID_EquiLav', flex: 1.2 ,hidden:true,
             filter: {
                 type: 'string'
         }}

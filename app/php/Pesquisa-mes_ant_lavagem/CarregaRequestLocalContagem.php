@@ -33,10 +33,10 @@ $queryMID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
 
 foreach($Total as $indice => $valor) {
 
-  $queryt= "SELECT `ID_Request`,descrisao as`ID_Tipo_Req`,Descricao_Local as `ID_Local_Req`,`Contagem_Req`,`Data_Req`,`ID_PPista`,
-                            ID_Pedido,`Data_Pedido`,`ID_Func_Req`,`Num_Equip`,ID_EquiLav
-                                FROM `Request`,multiusos,locais
-                                   WHERE `ID_Tipo_Req`=ID_acesso and `ID_Local_Req`=ID_Local and `ID_Request` =$valor";
+  $queryt= "SELECT `ID_Request`,descrisao as`ID_Tipo_Req`,Descricao_Local as `ID_Local_Req`,`Contagem_Req`,`Data_Req`,`ID_PPista`,`Desc_EquiLav`,
+                                        ID_Pedido,`Data_Pedido`,`ID_Func_Req`,`Num_Equip`
+                                            FROM `Request`,multiusos,locais,Reg_Equipamentos_Lavagem
+          WHERE `ID_Tipo_Req`=ID_acesso and `ID_Local_Req`=ID_Local and `ID_Request` = $valor and `ID_Tipo_equiLav` = ID_Tipo_Req and  Num_Equip = `Num_EquiLav` ";
 
                                      $resut = mysqli_query($mysqli, $queryt);
 
@@ -56,6 +56,7 @@ foreach($Total as $indice => $valor) {
                                                   $row_array['ID_EquiLav'] = $ru['ID_EquiLav'];
 
                                                   $row_array['ID_Pedido'] = $ru['ID_Pedido'];
+                                                  $row_array['Desc_EquiLav'] = $ru['Desc_EquiLav'];
 
 
                                                     array_push($return_arr,$row_array);
