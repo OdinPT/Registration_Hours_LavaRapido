@@ -40,11 +40,11 @@ Ext.define('ConLogin.view.main.Admin.FormRegistaFunc', {
         },
         {
             xtype: 'textfield',
-            fieldLabel: 'Palavra Passe',
+            fieldLabel: 'Palavra Passe (max 20) ',
             inputType:'Password',
             id: 'pass',
             name: 'pass',
-            emptyText : 'Insira a Password',
+            emptyText : 'Insira a Password  max 20 caracteres ',
             allowBlank: false,
             blankText: 'Campo obrigatório'
 

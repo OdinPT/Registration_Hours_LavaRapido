@@ -1,16 +1,13 @@
 <?php
 error_reporting(0);
 
-include "../connection.php";
+include "../config.php";
 
 $return_arr = array();
 
-$db = new dbObj();
-$connString =  $db->getConnstring();
-
 $query = "call CarregaFuncionarios ()" ;
 
-  $result = mysqli_query($connString, $query);
+  $result = mysqli_query($mysqli, $query);
   while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 
   $row_array['ID_funcionario'] = $row['ID_funcionario'];
@@ -20,6 +17,6 @@ $query = "call CarregaFuncionarios ()" ;
   }
   echo json_encode($return_arr);
 
-mysqli_close($connString);
+mysqli_close($mysqli);
 
 ?>

@@ -1,7 +1,6 @@
 <?php
-//include connection file
-include "../connection.php";
 
+include "../config.php";
 include_once('fpdf.php');
 
 class PDF extends FPDF
@@ -34,8 +33,8 @@ function Footer() {
 $pdf = new PDF();
 $pdf->AddPage();
 
-$db = new dbObj();
-$connString =  $db->getConnstring();
+//$db = new dbObj();
+//$connString =  $db->getConnstring();
 
 $m = date("m");
 $y = date("Y");
@@ -47,14 +46,14 @@ $username = $_COOKIE['cookieEmail'];
 
  $query0 = "SELECT MAX(`ID_Pedido`) as MaxIDRequest FROM Request where `ID_Func_Req`= RetornaIdFuncionario ('$username')";
 
-    $result0 = mysqli_query($connString, $query0);
+    $result0 = mysqli_query($mysqli, $query0);
 
       while ($row = mysqli_fetch_array($result0, MYSQLI_ASSOC)) {
         $MaxIDRequest = $row['MaxIDRequest'];
       }
 
 
-$result = mysqli_query($connString, "SELECT Desc_EquiLav as `ID_Tipo_Req`,Descricao_Local as `ID_Local_Req`,`Contagem_Req`,`Data_Req`,username as`ID_Func_Req`
+$result = mysqli_query($mysqli, "SELECT Desc_EquiLav as `ID_Tipo_Req`,Descricao_Local as `ID_Local_Req`,`Contagem_Req`,`Data_Req`,username as`ID_Func_Req`
                                                                 FROM `Request`,multiusos,locais,funcionarios,Reg_Equipamentos_Lavagem
                                           WHERE  `ID_Tipo_Req`=ID_acesso and `ID_Local_Req`=ID_Local and `ID_Func_Req`=ID_funcionario and `Num_EquiLav`=Num_Equip and `ID_Pedido`= '$MaxIDRequest' order by `Data_Req` asc  ") or die("database error:". mysqli_error($connString));
 
