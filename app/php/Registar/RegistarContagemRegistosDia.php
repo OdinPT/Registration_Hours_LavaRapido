@@ -2,19 +2,24 @@
 include "../config.php";
 include "../Functions.php";
 
+$mysqli->set_charset("utf8");
+$DataAtual = date("Y-m-d");
+
 $ID_Request = $_COOKIE['cookieContagemSelect'];
 $ID_PPista = $_COOKIE['cookieID_PPista'];
 $username = $_COOKIE['cookieEmail'];
 
 $Tipo_RegistoZ = $_POST['TipoEquiz'];
 $LocalZ = $_POST['Localz'];
-$Contagem = $_POST['ContagemPPz'];
 $Num_Equip = $_POST['NumEquiz'];
 
-$DataAtual = date("Y-m-d");
-$mysqli->set_charset("utf8");
-
+$Contagem = $_POST['ContagemPPz'];
 $con = get_numeric($Contagem);
+
+$Tipo_RegistoZ = mysqli_real_escape_string($mysqli, $Tipo_RegistoZ);
+$LocalZ = mysqli_real_escape_string($mysqli, $LocalZ);
+$Num_Equip = mysqli_real_escape_string($mysqli, $Num_Equip);
+$con = mysqli_real_escape_string($mysqli, $con);
 
 //converte tipo de equipamento e nome do local em numeros
 $querw1 = mysqli_query($mysqli, "SELECT `ID_acesso` FROM `multiusos` WHERE `Descrisao`='$Tipo_RegistoZ'");

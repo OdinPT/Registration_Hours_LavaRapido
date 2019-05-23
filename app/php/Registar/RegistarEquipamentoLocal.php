@@ -2,11 +2,15 @@
 include "../config.php";
 error_reporting(0);
 
+$mysqli->set_charset("utf8");
+
 $IDLocal = $_POST['IDLocal'];
 $TipoEquipamento = $_POST['TipoEquipamento'];
 $NumEqui = $_POST['NumEqui'];
 
-$mysqli->set_charset("utf8");
+$IDLocal = mysqli_real_escape_string($mysqli, $IDLocal);
+$TipoEquipamento = mysqli_real_escape_string($mysqli, $TipoEquipamento);
+$NumEqui = mysqli_real_escape_string($mysqli, $NumEqui);
 
 $query = mysqli_query($mysqli, "select EXISTS (select * from Reg_Equipamentos_Lavagem where Num_EquiLav= '$NumEqui') as Valida");
 

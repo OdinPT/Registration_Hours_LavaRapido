@@ -2,16 +2,21 @@
 include "../config.php";
 include "../Functions.php";
 
+$mysqli->set_charset("utf8");
+$username = $_COOKIE['cookieEmail'];
+$dataAtual= date('y/m/d');
+
 $ID_Request = $_POST['ID_Request'];
 $Tipo_RegistoZ= $_POST['ID_Tipo_Req'];
 $LocalZ= $_POST['ID_Local_Req'];
 $Contagem = $_POST['Contagem_Req'];
 $Num_Equip= $_POST['Num_Equip'];
 
-$username = $_COOKIE['cookieEmail'];
-
-$dataAtual= date('y/m/d');
-$mysqli->set_charset("utf8");
+$ID_Request = mysqli_real_escape_string($mysqli, $ID_Request);
+$Tipo_RegistoZ = mysqli_real_escape_string($mysqli, $Tipo_RegistoZ);
+$LocalZ = mysqli_real_escape_string($mysqli, $LocalZ);
+$Contagem = mysqli_real_escape_string($mysqli, $Contagem);
+$Num_Equip = mysqli_real_escape_string($mysqli, $Num_Equip);
 
 //fazer para receber texto e retornar os ids que vai inserir
 $con = get_numeric($Contagem);

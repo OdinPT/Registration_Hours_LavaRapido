@@ -3,8 +3,12 @@ include "../config.php";
 include "../Functions.php";
 
 $username = $_COOKIE['cookieEmail'];
+
 $local = $_POST['ID_Local'];
 $TipoVal = $_POST['Tipo_validacao'];
+
+$local = mysqli_real_escape_string($mysqli, $local);
+$TipoVal = mysqli_real_escape_string($mysqli, $TipoVal);
 
 $data = date("Y-m-d H:i");
 $data1 = date("H:i");

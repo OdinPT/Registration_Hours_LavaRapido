@@ -1,12 +1,14 @@
 <?php
-
 include "../config.php";
 error_reporting(0);
+
+$mysqli->set_charset("utf8");
 
 $nomeEmpresa = $_POST['nomeEmpresa'];
 $NiffEmpresa = $_POST['NiffEmpresa'];
 
-$mysqli->set_charset("utf8");
+$nomeEmpresa = mysqli_real_escape_string($mysqli, $nomeEmpresa);
+$NiffEmpresa = mysqli_real_escape_string($mysqli, $NiffEmpresa);
 
 $query = mysqli_query($mysqli, "SELECT EXISTS (SELECT `ID_empresa` FROM `empresa` WHERE `Nome_Empresa` = '$nomeEmpresa') as ID_empresa");
 

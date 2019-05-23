@@ -2,11 +2,15 @@
 include "../config.php";
 error_reporting(0);
 
+$mysqli->set_charset("utf8");
+
 $LimMax = $_POST['LimMaxEquiLav'];
 $Local = $_POST['IDLocalReglimEqui'];
 $TipoEqui = $_POST['TipoEquipamentoRegLimEqui'];
 
-$mysqli->set_charset("utf8");
+$LimMax = mysqli_real_escape_string($mysqli, $LimMax);
+$Local = mysqli_real_escape_string($mysqli, $Local);
+$TipoEqui = mysqli_real_escape_string($mysqli, $TipoEqui);
 
 $query = mysqli_query($mysqli, "SELECT EXISTS (SELECT `ID_LimMaxCont` FROM Lim_Max_Cont
                                  WHERE `ID_Local_LimMaxCont` = '$Local' and `Tipo_Equip_LimMaxCont`= '$TipoEqui') as Existe");

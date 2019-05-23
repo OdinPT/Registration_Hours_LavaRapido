@@ -6,6 +6,9 @@ $IDLocal = $_COOKIE['cookieID_Local'];
 $TipoEquipamento = $_POST['TipoEquipamentoxS'];
 $LimMax = $_POST['LimMax'];
 
+$TipoEquipamento = mysqli_real_escape_string($mysqli, $TipoEquipamento);
+$LimMax = mysqli_real_escape_string($mysqli, $LimMax);
+
 //$IDLocal = 2;
 //$TipoEquipamento = 8;
 //$LimMax = 1000;

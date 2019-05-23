@@ -2,11 +2,15 @@
 include "../config.php";
 error_reporting(0);
 
+$mysqli->set_charset("utf8");
+
 $Local = $_POST['Local'];
 $CPostal = $_POST['CPostal'];
 $ID_Empresa = $_POST['ID_empresa'];
 
-$mysqli->set_charset("utf8");
+$Local = mysqli_real_escape_string($mysqli, $Local);
+$CPostal = mysqli_real_escape_string($mysqli, $CPostal);
+$ID_Empresa = mysqli_real_escape_string($mysqli, $ID_Empresa);
 
 $query = mysqli_query($mysqli, "SELECT EXISTS (SELECT `ID_Local` FROM `locais` WHERE `Descricao_Local`= '$Local') as ID_Local");
 

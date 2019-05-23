@@ -7,6 +7,9 @@ $Local = $_COOKIE['cookieID_Local'];
 $TipoRegisto = $_POST['TipoRegisto'];
 $NumEquipamento = $_POST['NumEquipamento'];
 
+$Local = mysqli_real_escape_string($mysqli, $Local);
+$TipoRegisto = mysqli_real_escape_string($mysqli, $TipoRegisto);
+$NumEquipamento = mysqli_real_escape_string($mysqli, $NumEquipamentos);
 
 $query0 = "SELECT * FROM `Reg_Equipamentos_Lavagem`
                                 WHERE `ID_Local_EquiLav`= '$Local'

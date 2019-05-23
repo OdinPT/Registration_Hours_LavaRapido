@@ -2,6 +2,7 @@
 include "../config.php";
 error_reporting(0);
 
+$mysqli->set_charset("utf8");
 $username = $_POST['username'];
 $pass = $_POST['pass'];
 $Niff = $_POST['niff'];
@@ -12,7 +13,12 @@ $LG = $_POST['LG'];
 $CoockieFunc = $_POST['CoockieFunc'];
 $Tolerancia = $_POST['ID_Tolerancia'];
 
-$mysqli->set_charset("utf8");
+$username = mysqli_real_escape_string($mysqli, $username);
+$pass = mysqli_real_escape_string($mysqli, $pass);
+$Niff = mysqli_real_escape_string($mysqli, $Niff);
+$Contact = mysqli_real_escape_string($mysqli, $Contact);
+$CoockieFunc = mysqli_real_escape_string($mysqli, $CoockieFunc);
+$Tolerancia = mysqli_real_escape_string($mysqli, $Tolerancia);
 
 $query = mysqli_query($mysqli, "SELECT EXISTS (SELECT `ID_funcionario` FROM `funcionarios` WHERE `username` = '$username') as ID_funcionario");
 

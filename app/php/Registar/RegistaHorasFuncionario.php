@@ -7,7 +7,12 @@ $IDFunc = $_POST['ID_funcionariox'];
 $DataX = $_POST['Horasx'];
 $TipoReg = $_POST['ID_tipo_regx'];
 
-# se a data for inserida com '/' converte para '-' e se a data for inserida com '-' mantém com '-'
+$local = mysqli_real_escape_string($mysqli, $local);
+$IDFunc = mysqli_real_escape_string($mysqli, $IDFunc);
+
+$DataX = mysqli_real_escape_string($mysqli, $DataX);
+$TipoReg = mysqli_real_escape_string($mysqli, $TipoReg);
+// se a data for inserida com '/' converte para '-' e se a data for inserida com '-' mantém com '-'
 
 $out0 = converSlashToDash($DataX);
 

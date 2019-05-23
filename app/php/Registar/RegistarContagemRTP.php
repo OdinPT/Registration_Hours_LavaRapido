@@ -2,16 +2,19 @@
 include "../config.php";
 include "../Functions.php";
 
+$mysqli->set_charset("utf8");
 $username = $_COOKIE['cookieEmail'];
-
 $Num_EquiLav = $_COOKIE['cookieID_ContadoresRDP'];
-$Contagem = $_POST['Contagemzz2'];
+
 $Override = $_POST['OverrideLim'];
+
+$Contagem = $_POST['Contagemzz2'];
+$con = get_numeric($Contagem);
 $dataAtual = $_POST['datazz2'];
 
-$mysqli->set_charset("utf8");
+$con = mysqli_real_escape_string($mysqli, $con);
+$dataAtual = mysqli_real_escape_string($mysqli, $dataAtual);
 
-$con = get_numeric($Contagem);
 
 if ($con != $Contagem){
 
