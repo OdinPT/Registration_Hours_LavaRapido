@@ -35,7 +35,7 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
     }],
 
     columns: [
-        {text: 'ID Request',  dataIndex: 'ID_Request', flex: 0.8 ,hidden:true,
+        {text: 'ID Request',  dataIndex: 'ID_Request', flex: 0.8 ,hidden:false,
             filter: {
             type: 'string'
             }},
@@ -51,7 +51,7 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
             filter: {
                 type: 'string'
         }},
-        { text: 'Numero do Equipamento :',  dataIndex: 'Num_Equip', flex: 1.2 ,hidden:true,
+        { text: 'Numero do Equipamento :',  dataIndex: 'Num_Equip', flex: 1.2 ,hidden:false,
             filter: {
                 type: 'string'
             }},
@@ -59,15 +59,15 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
             filter: {
                 type: 'string'
             }},
-        { text: 'ID Pedido :',  dataIndex: 'ID_Pedido', flex: 1.2 ,hidden:true,
+        { text: 'ID Pedido :',  dataIndex: 'ID_Pedido', flex: 1.2 ,hidden:false,
             filter: {
                 type: 'string'
             }},
-        { text: 'Data registo :',  dataIndex: 'Data_Req', flex: 1.2 ,hidden:true,
+        { text: 'Data registo :',  dataIndex: 'Data_Req', flex: 1.2 ,hidden:false,
             filter: {
                 type: 'string'
             }},
-        { text: 'ID EquiLav :',  dataIndex: 'ID_EquiLav', flex: 1.2 ,hidden:true,
+        { text: 'ID EquiLav :',  dataIndex: 'ID_EquiLav', flex: 1.2 ,hidden:false,
             filter: {
                 type: 'string'
         }}
