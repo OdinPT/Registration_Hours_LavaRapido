@@ -3,7 +3,7 @@
  //error_reporting(0);
  include "../config.php";
 
-$id = $_COOKIE['cookieID_EquiLav'];
+$id = $_COOKIE['cookieNum_Equip'];
 
 $mysqli->set_charset("utf8");
 $return_arr = array();

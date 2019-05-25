@@ -84,6 +84,9 @@ Ext.define('ConLogin.view.main.Admin.GridContagemLocal', {
             var ID_EquiLav = record.get('ID_EquiLav');
             Ext.util.Cookies.set('cookieID_EquiLav', ID_EquiLav);
 
+            var NumEquip = record.get('Num_Equip');
+            Ext.util.Cookies.set('cookieNum_Equip', NumEquip);
+
             myRequest4 = Ext.Ajax.request({
                 url: 'app/php/VerificaAcessos/verificaUtilizador.php',
                 success: function (response, opts) {

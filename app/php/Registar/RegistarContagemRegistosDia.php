@@ -6,24 +6,28 @@ $mysqli->set_charset("utf8");
 $DataAtual = date("Y-m-d");
 
 $ID_Request = $_COOKIE['cookieContagemSelect'];
+$Num_Equip = $_COOKIE['cookieNum_Equip'];
 $ID_PPista = $_COOKIE['cookieID_PPista'];
 $username = $_COOKIE['cookieEmail'];
 
+// usar Tipo equipamento e local para mostrar registos anteriores do equipamento
+
+print $NumEqui;
 $Contagem = $_POST['ContagemPPz'];
+//$Contagem = 1300;
 $con = get_numeric($Contagem);
 
-$con = mysqli_real_escape_string($mysqli, $con);
+//print "Contagem $con <br>";
 
-$querw1 = mysqli_query($mysqli, "SELECT `ID_Tipo_Req`,`ID_Local_Req`,`Num_Equip` FROM `Request` WHERE `ID_Request`= '$ID_Request'");
+$querw1 = mysqli_query($mysqli, "SELECT `ID_Local_EquiLav`,`ID_Tipo_equiLav` FROM `Reg_Equipamentos_Lavagem` WHERE `Num_EquiLav`= '$Num_Equip'");
 
    while($res = mysqli_fetch_array($querw1)){
 
-	        $Tipo_Registo = $res['ID_Tipo_Req'];
-	        $Local = $res['ID_Local_Req'];
-	        $Num_Equip = $res['Num_Equip'];
+	        $Local = $res['ID_Local_EquiLav'];
+	        $Tipo_Registo = $res['ID_Tipo_equiLav'];
    }
 
- //print "Tipo equipamento $Tipo_Registo ";
+ //print "=> Tipo equipamento $Tipo_Registo ";
  //print "<br> => Local $Local <br> Num Equipamento $Num_Equip";
 
 
@@ -33,6 +37,7 @@ if ($con != $Contagem){
 } else {
 
 // verifica se existe IDPPIsta
+//print "<br> Id Pista => $ID_PPista ";
 if ($ID_PPista == " "){
 
         //lim máximo diráiro de cada equipamento
@@ -43,16 +48,17 @@ if ($ID_PPista == " "){
 
 	        $LimMaxDiario = $res['Limit_Diario'];
 
-	        //print "Lim diario $LimMaxDiario ";
+	        //print "<br> Lim diario $LimMaxDiario ";
         }
 
-        $query02 = mysqli_query($mysqli, "select `ID_EquiLav` from Reg_Equipamentos_Lavagem where `Num_EquiLav`= $Num_Equip and `ID_Local_EquiLav` = $Local
-                                    and ID_Tipo_equiLav = $Tipo_Registo");
+
+$query02 = mysqli_query($mysqli, "select `ID_EquiLav` from Reg_Equipamentos_Lavagem
+                                            where `Num_EquiLav`= $NumEqui and `ID_Local_EquiLav` = $Local and ID_Tipo_equiLav = $Tipo_Registo");
 
         while($res = mysqli_fetch_array($query02)){
 
     	        $ID_EquiLav = $res['ID_EquiLav'];
-	            // print "<br><br> ID EquiLav :$ID_EquiLav <br>";
+	          //  print "<br><br> ID EquiLav :$ID_EquiLav <br>";
         }
 
         $query3 = mysqli_query($mysqli, "SELECT * FROM `Postos_Pistas` WHERE `ID_Func_PP` = RetornaIdFuncionario('$username') and
@@ -66,6 +72,8 @@ if ($ID_PPista == " "){
 	            //print "<br> antiga contagem $LastCongemFunc";
         }
 
+//aqui
+
         $querycheck= "SELECT COUNT(*) as Result FROM Postos_Pistas";
         $resutw1 = mysqli_query($mysqli, $querycheck);
 
@@ -76,7 +84,15 @@ if ($ID_PPista == " "){
                  //print "</br> <b>Existe Dados : $ResultCheck</br></b>";
             }
 
+
+// verificações para a contagem
+//print "-- $LastCongemFunc ";
+
         if ($LastCongemFunc == 0){
+
+                //print " Contagem < Lim diario || $Contagem < $LimMaxDiario";
+
+                    // contagem < limdiario
                  if($Contagem < $LimMaxDiario) {
 
                         print "<br> Regista #1";
@@ -84,19 +100,19 @@ if ($ID_PPista == " "){
                     $query2 = mysqli_query($mysqli, "call InsereContagem01('$Contagem','$DataAtual','$username',$Num_Equip,$ID_Request)");
 
                  } else {
-                           //header("HTTP/1.0 404 Not Found");
-                            //header('HTTP', true, 502);
-                            print "erro 502";
+                  // contagem superior ao limite diário
+                  header('HTTP', true, 502);
+
                  }
         } else {
-                  // print "<br><b>primeiro else #1</b><br>";
+                   print "<br><b>primeiro else #1</b><br>";
                 $AntMaisLim = $LastCongemFunc + $LimMaxDiario;
 
-                     // print "Antiga contagem mais limite diário $AntMaisLim<br><br><br><br>";
-                     // print "($Contagem < $AntMaisLim )";
+                   print "Antiga contagem mais limite diário $AntMaisLim<br><br><br><br>";
+                      print "($Contagem < $AntMaisLim )";
 
                      if ($Contagem < $AntMaisLim){
-                      //   print "<p>dentro do if #2.1 <p>";
+                         print "<p>dentro do if #2.1 <p>";
                        $query2 = mysqli_query($mysqli, "call InsereContagem01('$Contagem','$DataAtual','$username',$Num_Equip,$ID_Request)");
 
                      }else{
@@ -108,7 +124,7 @@ if ($ID_PPista == " "){
 
 }else{
     // faz update a contagem
-    print "update";
+    //print "update";
    $insere = mysqli_query($mysqli, "call EditaRegContdiario1('$Tipo_Registo','$Local','$Contagem','$ID_PPista','$DataAtual','$DataAtual',$Num_Equip,'$username','$ID_Request')");
 }
 }

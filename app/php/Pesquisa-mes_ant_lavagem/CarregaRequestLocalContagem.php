@@ -53,7 +53,7 @@ foreach($Total as $indice => $valor) {
                                                   $row_array['Num_Equip'] = $ru['Num_Equip'];       //
                                                   $row_array['ID_Func_Req'] = $ru['ID_Func_Req'];
 
-                                                  $row_array['ID_EquiLav'] = $ru['ID_EquiLav'];
+                                                  $row_array['Id_EquiLav'] = $ru['Id_EquiLav'];
 
                                                   $row_array['ID_Pedido'] = $ru['ID_Pedido'];
                                                   $row_array['Desc_EquiLav'] = $ru['Desc_EquiLav'];

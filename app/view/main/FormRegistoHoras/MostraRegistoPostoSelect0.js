@@ -35,7 +35,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect0', {
             xtype: 'textfield',
             fieldLabel: 'ID:',
             id: 'ID_Pistazzz1',
-            hidden:true,
+            hidden:false,
             readOnly: true
         },{
             xtype: 'textfield',
@@ -71,7 +71,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect0', {
             id: 'NumEquizzz1',
             name: 'NumEquiz',
             readOnly: true,
-            hidden:true
+            hidden:false
 
         }],
 
