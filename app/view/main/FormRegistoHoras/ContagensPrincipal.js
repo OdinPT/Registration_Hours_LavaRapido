@@ -8,7 +8,6 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ContagensPrincipal', {
         //'ConLogin.store.Registo_Horas.GridRegistosPosto',
         //'ConLogin.view.main.Admin.FormRegistaContagem',
         'ConLogin.store.Admin.CarregaWinContagem'
-
     ],
 
     xtype: 'ContagensPrincipal',
@@ -18,6 +17,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ContagensPrincipal', {
         pack: 'start',
         align: 'stretch'
     },
+
 
     items: [
         {

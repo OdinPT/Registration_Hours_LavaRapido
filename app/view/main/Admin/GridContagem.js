@@ -10,8 +10,8 @@ Ext.define('ConLogin.view.main.Admin.GridContagem', {
         'Ext.toolbar.Paging'
     ],
 
-    width: 690,
-    height: 490,
+    height: 460,
+
 
     xtype: 'mainContagemLavagem',
 

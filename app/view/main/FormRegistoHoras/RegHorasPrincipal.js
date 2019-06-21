@@ -61,8 +61,10 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
                                     title: 'Contagem de um  Local',
                                     modal: true,
 
-                                    width: 720,
-                                    height: 500,
+                                    width: 700,
+                                    height: 580,
+
+
                                     items: [{
                                         xtype:'ContagensPrincipal'
                                     }]
