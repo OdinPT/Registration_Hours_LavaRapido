@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="code protected for sql injection.&#10;&#10;log file optimized count&#10;&#10;__PT __&#10;&#10;código proteguido para sql injection.&#10;&#10;ficheiro de registar contagem otimizado">
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="a inserir/editar contagem">
+      <change afterPath="$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-workbench-community.deb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagemDiaAnt.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagemDiaAnt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/VerificaAcessos/FuncFLocal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegistoContMultiLocal/SelectLocalFuncCont.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegistoContMultiLocal/SelectLocalFuncCont.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,48 +23,21 @@
     <favorites_list name="RegEntrada" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="126" column="6" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="121">
-              <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+              <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="81" column="55" lean-forward="true" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegConDiaria.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="87" column="49" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="49" />
+            <state relative-caret-position="-240">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -73,8 +46,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$ID_Request</find>
-      <find>Apaga</find>
       <find>$DataAtual</find>
       <find>backin</find>
       <find>y-m</find>
@@ -103,6 +74,8 @@
       <find>$id111</find>
       <find>$idEmp111</find>
       <find>cookie faz</find>
+      <find>regista</find>
+      <find>$dataAtual</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,10 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/php/CarregaStore/CarregaEquipamentoLavagemSelect.php" />
-        <option value="$PROJECT_DIR$/app/view/main/Admin/GridEquiLavagemSelect.js" />
-        <option value="$PROJECT_DIR$/app/model/RegistosPosto.js" />
-        <option value="$PROJECT_DIR$/app/php/CarregaStore/CarregaTodosRegistosContadores.php" />
         <option value="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" />
         <option value="$PROJECT_DIR$/app/model/GridRegisto_EquiLav.js" />
         <option value="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridRegEquiLav.php" />
@@ -164,6 +133,10 @@
         <option value="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" />
         <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js" />
         <option value="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" />
+        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegistoContMultiLocal/SelectLocalFuncCont.js" />
+        <option value="$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php" />
+        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" />
+        <option value="$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php" />
       </list>
     </option>
   </component>
@@ -174,10 +147,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-185" />
-    <option name="y" value="360" />
-    <option name="width" value="1368" />
-    <option name="height" value="750" />
+    <option name="x" value="373" />
+    <option name="y" value="1166" />
+    <option name="width" value="1356" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -210,7 +183,14 @@
               <item name="Registration_Hours_LavaRapido" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="Registar" type="462c0819:PsiDirectoryNode" />
+              <item name="Pesquisa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Registration_Hours_LavaRapido" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="VerificaAcessos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
@@ -582,14 +562,23 @@
       <workItem from="1557567894771" duration="1797000" />
       <workItem from="1557678876351" duration="8958000" />
       <workItem from="1558114567393" duration="5692000" />
-      <workItem from="1558558912962" duration="36997000" />
-    </task>
-    <task id="LOCAL-00147" summary="clean code">
-      <created>1546851671666</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1546851671666</updated>
+      <workItem from="1558558912962" duration="45017000" />
+      <workItem from="1559120016560" duration="599000" />
+      <workItem from="1559153010234" duration="9471000" />
+      <workItem from="1559163127190" duration="692000" />
+      <workItem from="1559237091960" duration="8635000" />
+      <workItem from="1559602056926" duration="1567000" />
+      <workItem from="1559607662029" duration="12000" />
+      <workItem from="1559670881111" duration="38000" />
+      <workItem from="1559690493609" duration="3822000" />
+      <workItem from="1559811252408" duration="596000" />
+      <workItem from="1559868229234" duration="601000" />
+      <workItem from="1560105810850" duration="8568000" />
+      <workItem from="1560125005769" duration="9447000" />
+      <workItem from="1560512634310" duration="15053000" />
+      <workItem from="1560898961123" duration="5438000" />
+      <workItem from="1560959564498" duration="7845000" />
+      <workItem from="1561033522308" duration="21521000" />
     </task>
     <task id="LOCAL-00148" summary="clean code">
       <created>1546882177051</created>
@@ -927,11 +916,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558639127223</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="a inserir/editar contagem">
+      <created>1558742741097</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1558742741098</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2482823000" />
+    <option name="totallyTimeSpent" value="2584748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -943,14 +939,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="17" width="1368" height="752" extended-state="6" />
-    <editor active="true" />
+    <frame x="277" y="1098" width="1366" height="750" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49251246" weight="0.27997023" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49251246" visible="true" weight="0.23157111" />
       <window_info id="Favorites" order="1" sideWeight="0.50748754" side_tool="true" weight="0.29709604" />
       <window_info id="Structure" order="2" weight="0.24944155" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5242881" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.52305245" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -960,7 +955,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.11092715" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32566372" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4996277" weight="0.5477387" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007907" side_tool="true" weight="0.49529782" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007907" side_tool="true" weight="0.4944356" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -996,7 +991,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="25-02" />
     <MESSAGE value="25-02-19&#10;&#10;backup" />
     <MESSAGE value="a registar Limite diário no mesmo formulairo de registar equipamentos a uma lavagem" />
     <MESSAGE value="28-03-2019&#10;&#10;mudança no layout dos funcionários e dos postos" />
@@ -1021,7 +1015,8 @@
     <MESSAGE value="12-05-2018&#10;&#10;&#10;to change to hide the equipment number and to show the Vacuum cleaner1 etc." />
     <MESSAGE value="antes de proteger contra sql injection" />
     <MESSAGE value="code protected for sql injection.&#10;&#10;log file optimized count&#10;&#10;__PT __&#10;&#10;código proteguido para sql injection.&#10;&#10;ficheiro de registar contagem otimizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="code protected for sql injection.&#10;&#10;log file optimized count&#10;&#10;__PT __&#10;&#10;código proteguido para sql injection.&#10;&#10;ficheiro de registar contagem otimizado" />
+    <MESSAGE value="a inserir/editar contagem" />
+    <option name="LAST_COMMIT_MESSAGE" value="a inserir/editar contagem" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -1033,41 +1028,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/view/main/MainWidget2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/MostraFuncSelect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoFuncHorarioPosto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/MostraRegistoFuncionario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/ListFuncionario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="86" column="44" lean-forward="true" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdminPrincipal2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1240,18 +1200,8 @@
     <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/AcessoATodosPostos.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/FuncFLocal.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/verificauso.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/Insert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistaContactoFunc.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1302,41 +1252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="1577" column="4" selection-start-line="1577" selection-start-column="4" selection-end-line="1577" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="81" column="55" lean-forward="true" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegConDiaria.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1344,17 +1259,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="87" column="49" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="126" column="6" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1168" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Registar/Insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="1348" column="4" selection-start-line="1348" selection-start-column="4" selection-end-line="1348" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegistoContMultiLocal/SelectLocalFuncCont.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="996">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="121" column="47" lean-forward="true" selection-start-line="121" selection-start-column="47" selection-end-line="121" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="102" column="30" lean-forward="true" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegConDiaria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>

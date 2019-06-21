@@ -55,10 +55,10 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
                     Click: function (view, record, item, index, e) {
 
                         myRequest4 = Ext.Ajax.request({
-                            url: 'app/php/VerificaAcessos/FuncFLocal.php',
+                            url: 'app/php/VerificaAcessos/Func4Local.php',
                             success: function (response, opts) {
                                 var myWin = Ext.create("Ext.window.Window", {
-                                    title: 'Contagem de um só Local',
+                                    title: 'Contagem de um  Local',
                                     modal: true,
 
                                     width: 720,

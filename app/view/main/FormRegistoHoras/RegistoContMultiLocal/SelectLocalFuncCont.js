@@ -41,7 +41,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegistoContMultiLocal.SelectLoca
         xtype: 'toolbar',
         items: [
             {
-                text: 'Concluir',
+                text: 'Concluir Pesquisa ',
                 glyph: 43,
                 formBind: true,
                 listeners: {
