@@ -79,7 +79,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect', {
             hidden:true,
             xtype: 'textfield',
             id: 'Tipo_validacao20',
-            name: 'Tipo_validacao20',
+            name: 'Tipo_validacao20'
         }],
 
     dockedItems: {

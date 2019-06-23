@@ -1636,6 +1636,6 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                     Ext.MessageBox.alert(' Registo ', 'Não apagado!');
                 }
             });
-    },
+    }
 });
 

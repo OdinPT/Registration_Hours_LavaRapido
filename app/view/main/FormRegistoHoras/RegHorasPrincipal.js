@@ -5,8 +5,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
         'ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal',
         'ConLogin.view.main.FormRegistoHoras.FormRegistaHoras',
         'ConLogin.store.Registo_Horas.LocalFuncionarios',
-        'ConLogin.view.main.FormRegistoHoras.ListHorasDia',
-        //'ConLogin.view.main.FormRegistoHoras.RegistoContMultiLocal.SelectLocalFuncCont'
+        'ConLogin.view.main.FormRegistoHoras.ListHorasDia'
     ],
 
     xtype:  'RegHorasprincipal',
@@ -58,7 +57,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
                             url: 'app/php/VerificaAcessos/Func4Local.php',
                             success: function (response, opts) {
                                 var myWin = Ext.create("Ext.window.Window", {
-                                    title: 'Contagem de um  Local',
+                                    title: 'Contagem :',
                                     modal: true,
 
                                     width: 700,
@@ -69,21 +68,6 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
                                     }]
                                 });
                                 myWin.show();
-
-
-                            },
-                            failure: function () {
-
-                                var MockmyWin = Ext.create("Ext.window.Window", {
-                                    title: 'Contagem de mais de um Local',
-                                    modal: true,
-                                    width: 800,
-                                    height: 400,
-                                    items: [
-                                        {xtype: 'JuncaoRegContDiaria'}
-                                    ]
-                                });
-                                MockmyWin.show();
                             }
                         })
                     }
