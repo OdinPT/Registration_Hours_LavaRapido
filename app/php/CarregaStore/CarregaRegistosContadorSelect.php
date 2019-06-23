@@ -21,7 +21,7 @@ $id = $_COOKIE['cookieContagemSelect'];
      $row_array['utilizador'] = $row['utilizador'];
      $row_array['Local'] = $row['Local'];
      $row_array['NumEqui'] = $row['NumEqui'];
-     $row_array['TipoEqui'] = $row['TipoEqui'];
+     $row_array['Equipamento'] = $row['Equipamento'];
 
        array_push($return_arr,$row_array);
     }

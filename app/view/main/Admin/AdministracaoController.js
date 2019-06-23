@@ -1346,33 +1346,6 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
             });
     },
 
-    onClickSendIDLocalSelect: function() {
-        method:'POST',
-            myRequest1 = Ext.Ajax.request({
-                url: 'app/php/Pesquisa/SearchXLocalCont.php',
-
-                success: function (response, opts) {
-                    Ext.MessageBox.alert('Aviso', 'Enviou');
-
-                    function hide_message() {
-                        Ext.defer(function () {
-
-                            Ext.MessageBox.hide();
-                             Ext.getCmp('gridContagemLocal').getStore().load();
-                        }, 120);
-                    }
-                    hide_message();
-                },
-                failure: function () {
-                    alert('Erro...');
-                    Ext.MessageBox.alert(' Não foi possivel', 'Erro !');
-                },
-
-                params: {
-                    ID_Localz1: Ext.getCmp('ID_Localz1').getValue()
-                }
-            });
-    },
     onClickRegistaContagemDiaria: function () {
         method:'POST',
             myRequest1 = Ext.Ajax.request({
@@ -1589,7 +1562,7 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                             Ext.MessageBox.hide();
                             Ext.getCmp('gridRegistoTodosPosto').getStore().load();
                             Ext.getCmp('gridContAnterior').getStore().load();
-                            Ext.getCmp('gridContagemLocal').getStore().load();
+                            Ext.getCmp('gridContagemLavagemDiariaXX').getStore().load();
 
                         }, 1200);
 

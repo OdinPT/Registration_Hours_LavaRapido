@@ -17,7 +17,8 @@ $return_arr = array();
         $row_array['ContagemPP'] = $row['ContagemPP'];
         $row_array['DataPP'] = $row['DataPP'];
         $row_array['username'] = $row['username'];
-        $row_array['ID_EquiPorLav_PP'] = $row['username'];
+        $row_array['ID_EquiPorLav_PP'] = $row['ID_EquiPorLav_PP'];
+        $row_array['Num_EquiLav'] = $row['Num_EquiLav'];
 
        array_push($return_arr,$row_array);
     }

@@ -103,7 +103,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect0', {
 
                     var d = Ext.getCmp('Localzzz1').setValue(record.data.Local);
                     var e = Ext.getCmp('NumEquizzz1').setValue(record.data.NumEqui);
-                    var f = Ext.getCmp('TipoEquizzz1').setValue(record.data.TipoEqui);
+                    var f = Ext.getCmp('TipoEquizzz1').setValue(record.data.Equipamento);
                 }
             });
         }

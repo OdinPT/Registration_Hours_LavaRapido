@@ -30,7 +30,7 @@ Ext.define('ConLogin.view.main.Admin.GridContagem', {
     }],
 
     columns: [
-        {text: 'ID Request',  dataIndex: 'ID_Request', flex: 0.9 ,hidden:true,
+        {text: 'ID Request',  dataIndex: 'ID_Request', flex: 0.9 ,hidden:false,
             filter: {
             type: 'string'
             }},
@@ -57,6 +57,9 @@ Ext.define('ConLogin.view.main.Admin.GridContagem', {
             var id = record.get('ID_Request');
             Ext.util.Cookies.set('cookieContagemSelect', id);
 
+            var id2 = record.get('Num_EquiLav');
+            Ext.util.Cookies.set('cookieNum_Equip', id2);
+
             myRequest4 = Ext.Ajax.request({
                 url: 'app/php/VerificaAcessos/verificaUtilizador.php',
                 success: function (response, opts) {
@@ -66,7 +69,8 @@ Ext.define('ConLogin.view.main.Admin.GridContagem', {
                         modal: true,
 
                         items: [{
-                            xtype: 'JuncaoRegContadorDiario'
+                            //xtype: 'JuncaoRegContadorDiario'
+                            xtype: 'uniaoRegLogConDiaAntRD'
                         }]
                     });
                     Win.show();

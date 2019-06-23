@@ -6,7 +6,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
         'ConLogin.view.main.FormRegistoHoras.FormRegistaHoras',
         'ConLogin.store.Registo_Horas.LocalFuncionarios',
         'ConLogin.view.main.FormRegistoHoras.ListHorasDia',
-        'ConLogin.view.main.FormRegistoHoras.RegistoContMultiLocal.SelectLocalFuncCont'
+        //'ConLogin.view.main.FormRegistoHoras.RegistoContMultiLocal.SelectLocalFuncCont'
     ],
 
     xtype:  'RegHorasprincipal',
@@ -63,7 +63,6 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
 
                                     width: 700,
                                     height: 580,
-
 
                                     items: [{
                                         xtype:'ContagensPrincipal'
