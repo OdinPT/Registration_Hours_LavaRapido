@@ -64,7 +64,7 @@ Ext.define('ConLogin.view.main.Admin.GridContagem', {
                 url: 'app/php/VerificaAcessos/verificaUtilizador.php',
                 success: function (response, opts) {
                     var Win = Ext.create("Ext.window.Window", {
-                        title:'Contagem diária',
+                        title:'Contagem diária KKKK',
 
                         modal: true,
 

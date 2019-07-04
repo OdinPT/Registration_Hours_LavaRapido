@@ -2,7 +2,7 @@
 
  include "../config.php";
  $username = $_COOKIE['cookieEmail'];
- //$username = 'jean';
+// $username = 'root';
 
  $dataAtualx= date('Y-m-d');
  $dataAtual= date('y/m/d');
@@ -11,19 +11,51 @@ $mysqli->set_charset("utf8");
 
 $XLocal = array();
 $Total = array();
+$EquiL = array();
+
+// verifica se existe reg do dia em POSTOS PISTAS
+$qMaxPPISTA = "SELECT max(`ID_PPistas`) as IDPISTA from Postos_Pistas where `ID_Func_PP` = RetornaIdFuncionario('$username')";
+     $rMaxpp = mysqli_query($mysqli, $qMaxPPISTA);
+       while ($rowq = mysqli_fetch_array($rMaxpp, MYSQLI_ASSOC)) {
+
+            $IDPISTA = $rowq['IDPISTA'];
+
+            $lastData = "SELECT `DataPP` as LASTDATA from Postos_Pistas  WHERE ID_PPistas = '$IDPISTA'";
+                $rd = mysqli_query($mysqli, $lastData);
+                while ($rowd = mysqli_fetch_array($rd, MYSQLI_ASSOC)) {
+
+                      $LASTDATA = $rowd['LASTDATA'];
+
+                    print $LASTDATA.'<br>';
+                }
+     }
+
+print "<br> If $LASTDATA == $dataAtualx";
+if ($LASTDATA == $dataAtualx){
+// colocar o array dos locais e ir buscar os registos desse dia e inserir novamente na grid do request
 
 
-$query = "SELECT * FROM `local_funcionarios` WHERE `ID_Funcionario_LF`=RetornaIdFuncionario('$username')";
-$result = mysqli_query($mysqli, $query);
+print "<br>aqui<br>";
 
-if( $result -> num_rows > 1 ) {            //funcionário trabalha em + que um local
+//Insere locais no array
+$qu1= "SELECT `ID_Local_LF` FROM `local_funcionarios` WHERE `ID_Funcionario_LF`= RetornaIdFuncionario('$username')";
+              $r1 = mysqli_query($mysqli, $qu1);
+                  while ($ruz = mysqli_fetch_array($r1, MYSQLI_ASSOC)) {
 
- print "entrou";
+                            foreach ($ruz as $keyy => $ID_Local_LF) {
+                                 array_push($XLocal, $ID_Local_LF);
+                            }
+                  }
+                echo json_encode($XLocal);
 
 $queryMaxID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
-
      $result = mysqli_query($mysqli, $queryMaxID);
+           while ($row1 = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+                      $MaxRequestx = $row1['MaxID'];
+           }
 
+    $queryMaxID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
+     $result = mysqli_query($mysqli, $queryMaxID);
            while ($row1 = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
                       $MaxRequestx = $row1['MaxID'];
            }
@@ -36,19 +68,77 @@ $queryMaxID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
         $NumRequest = $MaxRequestx +1;
         print '<br>'.$NumRequest.'<br>';
 
+foreach($XLocal as $indice => $loc) {
 
-            $qu1= "SELECT `ID_Local_LF` FROM `local_funcionarios` WHERE `ID_Funcionario_LF`= RetornaIdFuncionario('$username')";
+    $QregDia = "SELECT `ID_Request`,ID_PPista,`ID_Tipo_Req` as TipoReg,`ID_Local_Req` as Local,
+                  `Contagem_Req` as ContagemPP,`Data_Req`as DataPP,`Num_Equip` as NumeroEqui, `Id_EquiLav`as ID_EquiLav
+                    FROM `Request` WHERE `Data_Req` = '$dataAtualx' and `ID_Local_Req` = '$loc'  and `ID_Func_Req` =RetornaIdFuncionario('$username')";
 
+            $resultRD = mysqli_query($mysqli, $QregDia);
+
+        while ($rD = mysqli_fetch_array($resultRD, MYSQLI_ASSOC)) {
+
+                  $ID_PPista = $rD['ID_PPista'];
+                  $TipoReg = $rD['TipoReg'];
+                  $Local = $rD['Local'];
+                  $Contagem = $rD['ContagemPP'];
+
+                  $DataPP = $rD['DataPP'];
+                  $NumeroEqui = $rD['NumeroEqui'];
+                  $ID_EquiPorLav_PP = $rD['ID_EquiLav'];
+
+            print "id PPista $ID_PPistas";
+            print "<br>ID Equi Lav $ID_EquiPorLav_PP";
+            print "<br>Local  $Local";
+            print "<br>Tipo Req $TipoReg";
+            print "<br>ID Contagem $Contagem";
+            print "<br>ID Equi Lav $ID_EquiPorLav_PP";
+            print "<br>NumeroEqui $NumeroEqui<br>";
+
+       $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$dataAtualx','$ID_PPista',$NumRequest,'$dataAtualx','$username','$NumeroEqui','$ID_EquiPorLav_PP')");
+
+        }
+ }
+
+} else {
+print "else";
+
+$query = "SELECT * FROM `local_funcionarios` WHERE `ID_Funcionario_LF`=RetornaIdFuncionario('$username')";
+$result = mysqli_query($mysqli, $query);
+
+if( $result -> num_rows > 1 ) {            //funcionário trabalha em + que um local
+
+$queryMaxID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
+     $result = mysqli_query($mysqli, $queryMaxID);
+           while ($row1 = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+                      $MaxRequestx = $row1['MaxID'];
+           }
+
+    $queryMaxID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
+     $result = mysqli_query($mysqli, $queryMaxID);
+           while ($row1 = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+                      $MaxRequestx = $row1['MaxID'];
+           }
+
+        if ($MaxRequestx == 0) {         // se não existir registos na tabela
+             $NumRequest = 0;
+             $MaxRequestx = 2000;
+             $NumRequest = $MaxRequestx +1;
+        }
+        $NumRequest = $MaxRequestx +1;
+        print '<br>'.$NumRequest.'<br>';
+
+print "<br> aqui <br><br>";
+
+$qu1= "SELECT `ID_Local_LF` FROM `local_funcionarios` WHERE `ID_Funcionario_LF`= RetornaIdFuncionario('$username')";
               $r1 = mysqli_query($mysqli, $qu1);
                   while ($ruz = mysqli_fetch_array($r1, MYSQLI_ASSOC)) {
 
-                            foreach ($ruz as $keyy => $ID_EquiLav) {
-                                 array_push($XLocal, $ID_EquiLav);
+                            foreach ($ruz as $keyy => $ID_Local_LF) {
+                                 array_push($XLocal, $ID_Local_LF);
                             }
                   }
                 echo json_encode($XLocal);
-
-print "<br> aqui <br><br>";
 
     foreach($XLocal as $indice => $x) {
 
@@ -70,14 +160,14 @@ print "<br> aqui <br><br>";
                    print "Tipo registo $TipoReg <br>";
                    print "NumEquipamento $NumeroEqui <br>";
 
-        print "<br> <br>'$TipoReg','$Local',' ','$datax',' ',$NumRequest,'$dataAtualx','$username','$NumeroEqui','$ID_EquiLav'";
-         $insert = mysqli_query($mysqli, "call InserirPedido2 ('$TipoReg','$Local',' ','$dataAtualx',' ',$NumRequest,'$dataAtualx','$username','$NumeroEqui','$ID_EquiLav')");
+               print "<br> <br>'$TipoReg','$Local',' ','$datax',' ',$NumRequest,'$dataAtualx','$username','$NumeroEqui','$ID_EquiLav'";
+              $insert = mysqli_query($mysqli, "call InserirPedido2 ('$TipoReg','$Local',' ','$dataAtualx',' ',$NumRequest,'$dataAtualx','$username','$NumeroEqui','$ID_EquiLav')");
             }
     }
 
   } else {          //um só local
 
-     print "Sucesso.<br>";
+     print "<br> Sucesso.<br>";
 
 //max request
 $queryMaxID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
@@ -173,27 +263,30 @@ $querycheck= "SELECT COUNT(*) as Result FROM Postos_Pistas";
                                                             $ID_EquiPorLav_PP = $ruw2['ID_EquiPorLav_PP'];
 
         if($dataAtualx == $DataPP){
-           $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$dataAtual','$ID_PPistas',$NumRequest,'$dataAtual','$username','$NumeroEqui')");
+           $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$dataAtual','$ID_PPistas',$NumRequest,'$dataAtual','$username','$NumeroEqui',$valor)");
 
         }else{
           $ContVazio = ' ';
-        $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$ContVazio','$dataAtual','$ID_PPistas',$NumRequest,'$dataAtual','$username','$NumeroEqui')");
+        $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$ContVazio','$dataAtual','$ID_PPistas',$NumRequest,'$dataAtual','$username','$NumeroEqui',$valor)");
         }
     }
 
        //check if table POSTOS_PISTAS is empthy.
       if ($ResultCheck == 0) {
 
-        $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$dataAtual','$IDPista', $NumRequest,'$dataAtual','$username','$NumeroEqui')");
+        $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$dataAtual','$IDPista', $NumRequest,'$dataAtual','$username','$NumeroEqui',$valor)");
       }else {
-
-        $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$dataAtual','$IDPista', $NumRequest,'$dataAtual','$username','$NumeroEqui')");
+// tava a ver de mandar  ID EquiLav para o request
+        $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$dataAtual','$IDPista', $NumRequest,'$dataAtual','$username','$NumeroEqui',$valor)");
       }
 }
 }
 }
 }
 
+
+
+}
 mysqli_close($mysqli);
 
 ?>

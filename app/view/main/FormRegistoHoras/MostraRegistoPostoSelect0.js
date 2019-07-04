@@ -1,4 +1,4 @@
-Ext.onReady
+Ext.onReady43
 Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect0', {
     extend: 'Ext.form.Panel',
 
