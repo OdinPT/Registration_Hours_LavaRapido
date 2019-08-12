@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="--- a mostrar log dos registos anteriores do referido equipamento&#10;&#10;...Resolver o problema de cada vez que carrego no botão ele gera novo request.&#10;&#10;=&gt; Falta limpar o código">
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="falta otimizar código">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/LoadWindowScoreX.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/LoadWindowScoreX.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/WindowContagem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/WindowContagem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/store/Registo_Horas/RegistoHorasDia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/Registo_Horas/RegistoHorasDia.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridContagem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridContagem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAnt.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAnt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ContagensPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ContagensPrincipal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,41 +24,8 @@
   <component name="FavoritesManager">
     <favorites_list name="RegEntrada" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>backin</find>
-      <find>y-m</find>
       <find>backing</find>
       <find>.gz</find>
       <find>gzipBackupFile</find>
@@ -83,6 +54,8 @@
       <find>regista</find>
       <find>$dataAtual</find>
       <find>MaxRequest</find>
+      <find>$EquiL</find>
+      <find>id</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,142 +63,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/view/main/Admin/GridEquiLav.js" />
-        <option value="$PROJECT_DIR$/app/php/CarregaStore/CarregaRegEquiLavSelect.php" />
-        <option value="$PROJECT_DIR$/app/view/main/Admin/FormRegistaContagemRTP.js" />
-        <option value="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestPesquisa.php" />
-        <option value="$PROJECT_DIR$/app/model/LogRequestPesquisa.js" />
-        <option value="$PROJECT_DIR$/app/view/main/Admin/logRequestPesquisa2.js" />
-        <option value="$PROJECT_DIR$/app/php/Admin/CarregaFuncionarios.php" />
-        <option value="$PROJECT_DIR$/app/php/Admin/Carrega_FuncEmpSelect.php" />
-        <option value="$PROJECT_DIR$/app/php/Admin/AlteraEstadoRegHoras.php" />
-        <option value="$PROJECT_DIR$/app/php/Gera-pdf/index.php" />
-        <option value="$PROJECT_DIR$/app/view/main/Admin/MostraFuncSelect.js" />
-        <option value="$PROJECT_DIR$/app/view/main/Admin/FormRegistaFunc.js" />
-        <option value="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" />
-        <option value="$PROJECT_DIR$/app/php/Edit/Edit.php" />
-        <option value="$PROJECT_DIR$/app/php/Edit/EditRegContDiario.php" />
-        <option value="$PROJECT_DIR$/app/php/Edit/EditRegPostoSelect.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/Insert.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistaContactoFunc.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistaEntrada.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistaHorarioFunc.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistaHorasFuncionario.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarContagem.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarContagemRTP.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarEmpresa.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarEmpresa_Func.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarEquipamentoLocal.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarEquipamentoLocal1.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarFuncionario.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarFuncLocal.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarLimaxPosto.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarLocais.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarTipoEqui.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarTolerancia.php" />
-        <option value="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" />
-        <option value="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" />
-        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegistoContMultiLocal/SelectLocalFuncCont.js" />
-        <option value="$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php" />
-        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ContagensPrincipal.js" />
-        <option value="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegConDiaria.js" />
-        <option value="$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js" />
-        <option value="$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagemDiaAnt.php" />
-        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAnt.js" />
-        <option value="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" />
-        <option value="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" />
-        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect.js" />
-        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" />
-        <option value="$PROJECT_DIR$/app/php/CarregaStore/WindowContagem.php" />
-        <option value="$PROJECT_DIR$/app/view/main/Admin/GridContagem.js" />
-        <option value="$PROJECT_DIR$/app/php/CarregaStore/CarregaRegistosContadorSelect.php" />
-        <option value="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js" />
-        <option value="$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php" />
-      </list>
-    </option>
-  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="y" value="16" />
-    <option name="width" value="1374" />
-    <option name="height" value="756" />
-  </component>
+  <component name="ProjectId" id="1OZaEVpjCdxillWW2XCPVFgQDQ4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <showMembers ProjectPane="true" />
-      <autoscrollToSource ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Registration_Hours_LavaRapido" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Registration_Hours_LavaRapido" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Registration_Hours_LavaRapido" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Registration_Hours_LavaRapido" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="CarregaStore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Registration_Hours_LavaRapido" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Registration_Hours_LavaRapido" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Registration_Hours_LavaRapido" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Registration_Hours_LavaRapido" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="FormRegistoHoras" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/view/main/Admin" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.25794032" />
   </component>
   <component name="RecentsManager">
@@ -588,14 +439,16 @@
       <workItem from="1560959564498" duration="7845000" />
       <workItem from="1561033522308" duration="34984000" />
       <workItem from="1561254257097" duration="7971000" />
-      <workItem from="1561574098128" duration="26881000" />
-    </task>
-    <task id="LOCAL-00152" summary=".Ao selecionar registo em REGISTO DE TODOS OS POSTOS mostrar os dados.  &#10;.Editar registo de contagem em RDP&#10;A apagar tbm está a funcionar">
-      <created>1548554603110</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1548554603112</updated>
+      <workItem from="1561574098128" duration="27102000" />
+      <workItem from="1562247791233" duration="12678000" />
+      <workItem from="1562527135928" duration="23707000" />
+      <workItem from="1563355593441" duration="2156000" />
+      <workItem from="1563478050028" duration="994000" />
+      <workItem from="1565009833640" duration="4592000" />
+      <workItem from="1565103990451" duration="544000" />
+      <workItem from="1565133877801" duration="25021000" />
+      <workItem from="1565313691750" duration="10036000" />
+      <workItem from="1565538154638" duration="19015000" />
     </task>
     <task id="LOCAL-00153" summary=".Ao selecionar registo em REGISTO DE TODOS OS POSTOS mostrar os dados.  &#10;.Editar registo de contagem em RDP&#10;. A registar no log&#10;A apagar tbm está a funcionar">
       <created>1548558469622</created>
@@ -933,11 +786,15 @@
       <option name="project" value="LOCAL" />
       <updated>1561255517846</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="falta otimizar código">
+      <created>1562206513018</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1562206513020</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2633063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -948,60 +805,29 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="273" y="1096" width="1374" height="756" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49251246" weight="0.25167537" />
-      <window_info id="Favorites" order="1" sideWeight="0.50748754" side_tool="true" weight="0.29709604" />
-      <window_info id="Structure" order="2" weight="0.24944155" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.52305245" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49920928" weight="0.3291536" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.11092715" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32566372" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4996277" weight="0.5477387" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007907" side_tool="true" weight="0.4944356" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49251246" visible="true" weight="0.25912136" />
-      <window_info id="Favorites" order="1" sideWeight="0.50748754" side_tool="true" weight="0.29709604" />
-      <window_info id="Structure" order="2" weight="0.24944155" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5242881" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.11092715" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32566372" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4996277" weight="0.54924875" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003723" side_tool="true" weight="0.49748743" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="28-03-2019&#10;&#10;mudança no layout dos funcionários e dos postos" />
     <MESSAGE value="redefinição do layout do funcionário selecionado" />
     <MESSAGE value="alterações no layout do funcionário selecionado" />
     <MESSAGE value="alterações no layout do funcionário selecionado e limpeza de funcionalidades desnecessárias a projeto" />
@@ -1026,7 +852,8 @@
     <MESSAGE value="a inserir/editar contagem" />
     <MESSAGE value="--- carrega locais da contagem do funcionário na grid quando o funcionário carrega em registar contagem.&#10;&#10;=&gt; Falta otimizar o código" />
     <MESSAGE value="--- a mostrar log dos registos anteriores do referido equipamento&#10;&#10;...Resolver o problema de cada vez que carrego no botão ele gera novo request.&#10;&#10;=&gt; Falta limpar o código" />
-    <option name="LAST_COMMIT_MESSAGE" value="--- a mostrar log dos registos anteriores do referido equipamento&#10;&#10;...Resolver o problema de cada vez que carrego no botão ele gera novo request.&#10;&#10;=&gt; Falta limpar o código" />
+    <MESSAGE value="falta otimizar código" />
+    <option name="LAST_COMMIT_MESSAGE" value="falta otimizar código" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -1036,321 +863,5 @@
       </path>
     </expand>
     <select />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarEmpresa_Func0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarEquipamentoLocal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarEquipamentoLocal1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarFuncLocal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarFuncionario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarLimaxPosto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarTipoEqui.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarTolerancia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarLocais.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registo_Horas_List/CarregaRegHoras.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registo_Horas_List/CarregaRegHorasDia.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registo_Horas_List/Local_func.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registo_Horas_List/MostraRegHorasSelect.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/verificauso.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistaContactoFunc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/store/Admin/CarregaWinContagemXLocal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="126" column="6" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1168" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Registar/Insert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/Pesquisa/SearchXLocalCont.php" />
-    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegistoContMultiLocal/SelectLocalFuncCont.js" />
-    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegistoContMultiLocal/SelectLocalFunc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/store/Registo_Horas/RegistosTodosPostoSelectDiario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoContagemDia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegContadorDiario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/store/Admin/CarregaGridContagemDiaAnt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/CarregaStore/CarregaGridContagemDiaAnt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAnt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/GridContagemLocal.js" />
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegConDiaria.js" />
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="1638" column="5" lean-forward="true" selection-start-line="1638" selection-start-column="5" selection-end-line="1638" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/CarregaStore/WindowContagemXLocal.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/VerificaLocaisFunc.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/AcessoATodosPostos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/AcessoAdministracao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/verificaUtilizador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/CarregaStore/WindowContagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/store/Admin/CarregaWinContagemX.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/ContagensPrincipal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/GridContagem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/CarregaStore/CarregaRegistosContadorSelect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/store/Registo_Horas/RegistosTodosPostoSelect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

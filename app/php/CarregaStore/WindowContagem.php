@@ -11,6 +11,7 @@ $dataAtualx= date('Y-m-d');
 $mysqli->set_charset("utf8");
 $return_arr = array();
 
+
 //Seleciona  os locais do funcionários
 $query = mysqli_query($mysqli, "SELECT `ID_Local_LF` FROM `local_funcionarios` WHERE `ID_Funcionario_LF`=RetornaIdFuncionario('$username') ");
 
@@ -141,13 +142,18 @@ foreach($Total as $indice => $valor) {
 }
 
 //Mudar para ir buscar id do request e assim consigo controlar o aparecer a contagem
-
-
-
- $querw3= "SELECT `ID_Request`, Descrisao as ID_Tipo_equiLav, Descricao_Local as ID_Local_EquiLav,`Contagem_Req` as ContagemPP,
-                    `ID_PPista`,`ID_Pedido`,`ID_Func_Req`,`Num_Equip` as Num_EquiLav
+/*
+$querw3= "SELECT `ID_Request`, Descrisao as ID_Tipo_equiLav, Descricao_Local as ID_Local_EquiLav,`Contagem_Req` as ContagemPP,
+                    `ID_PPista`,`ID_Pedido`,`ID_Func_Req`,`Num_Equip` as Num_EquiLav,ID_Pedido
                         FROM Request,locais,multiusos
                          where `ID_Pedido` = $MaxRequest and `ID_Local_Req` =ID_Local and `ID_acesso`=ID_Tipo_Req";
+
+*/
+
+ $querw3= "SELECT `ID_Request`,Desc_EquiLav  as ID_Tipo_equiLav, Descricao_Local as ID_Local_EquiLav,`Contagem_Req` as ContagemPP,
+                               `ID_PPista`,`ID_Pedido`,`ID_Func_Req`,`Num_Equip` as Num_EquiLav,ID_Pedido
+                             FROM Request,locais,Reg_Equipamentos_Lavagem
+                               where `ID_Pedido` = $MaxRequest and `ID_Local_Req` =ID_Local and `Num_Equip` =`Num_EquiLav` order by `ID_Local_EquiLav` asc ,`ID_Tipo_equiLav` asc";
 
                           $resut = mysqli_query($mysqli, $querw3);
                             while ($ru3 = mysqli_fetch_array($resut, MYSQLI_ASSOC)) {
@@ -157,6 +163,8 @@ foreach($Total as $indice => $valor) {
                                                   $row_array['ID_Tipo_equiLav'] = $ru3['ID_Tipo_equiLav'];
                                                   $row_array['Num_EquiLav'] = $ru3['Num_EquiLav'];
                                                   $row_array['ContagemPP'] =$ru3['ContagemPP'];
+                                                  $row_array['ID_PPista'] =$ru3['ID_PPista'];
+                                                  $row_array['ID_Pedido'] =$ru3['ID_Pedido'];
 
                                                     array_push($return_arr,$row_array);
                             }

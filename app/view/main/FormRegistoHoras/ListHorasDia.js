@@ -30,7 +30,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListHorasDia', {
     }],
 
     columns: [
-        {text: 'ID ',  dataIndex: 'ID_Reg_horas', flex: 0.9,hidden:false ,
+        {text: 'ID ',  dataIndex: 'ID_Reg_horas', flex: 0.9,hidden:true ,
             filter: {
             type: 'string'
             }},

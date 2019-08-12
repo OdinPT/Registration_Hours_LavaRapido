@@ -21,7 +21,6 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ContagensPrincipal', {
 
     items: [
         {
-            title: 'Registos dos contadores do dia',
             flex: 1,
             margin: '10 5 0 0',
             autoScroll: true,

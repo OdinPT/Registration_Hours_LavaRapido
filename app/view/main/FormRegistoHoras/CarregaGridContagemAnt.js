@@ -41,12 +41,12 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.CarregaGridContagemAnt', {
                 type: 'string'
             }
         },
-        { text: 'IDEquiPorLAv', dataIndex: 'ID_EquiPorLav_PP', flex: 0.7 ,hidden:false,
+        { text: 'IDEquiPorLAv', dataIndex: 'ID_EquiPorLav_PP', flex: 0.7 ,hidden:true,
             filter: {
                 type: 'string'
             }
         },
-        { text: 'Num_EquiLav', dataIndex: 'Num_EquiLav', flex: 0.7 ,hidden:false,
+        { text: 'Num_EquiLav', dataIndex: 'Num_EquiLav', flex: 0.7 ,hidden:true,
             filter: {
                 type: 'string'
             }

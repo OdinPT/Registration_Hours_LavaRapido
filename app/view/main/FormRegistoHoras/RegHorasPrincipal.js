@@ -57,7 +57,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
                             url: 'app/php/VerificaAcessos/Func4Local.php',
                             success: function (response, opts) {
                                 var myWin = Ext.create("Ext.window.Window", {
-                                    title: 'Contagem :',
+                                    title: 'Registos dos contadores do dia',
                                     modal: true,
 
                                     width: 700,

@@ -35,7 +35,7 @@ Ext.define('ConLogin.view.main.Admin.JuncaoRegLogConDiaAntRD', {
             }]
         },
         {
-            title: 'Contagens anteriores deste Posto',
+            title: 'Contagens anteriores deste Equipamento',
             collapsible:true,
             collapsed:false,
             collapseDirection: "right",

@@ -2,7 +2,7 @@ Ext.define('ConLogin.store.Registo_Horas.RegistoHorasDia', {
     extend: 'Ext.data.Store',
     model: 'ConLogin.model.Registo_Horas',
     alias: 'store.RhorasDia',
-    storeId: 'Staging',
+    storeId: 'RhorasDia',
     autoLoad: true,
     autoSync: true,
     proxy: {

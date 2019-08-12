@@ -10,8 +10,8 @@ Ext.define('ConLogin.view.main.Admin.GridContagem', {
         'Ext.toolbar.Paging'
     ],
 
-    height: 460,
-
+    //height: 460,
+    height: 490,
 
     xtype: 'mainContagemLavagem',
 
@@ -42,16 +42,24 @@ Ext.define('ConLogin.view.main.Admin.GridContagem', {
             filter: {
                 type: 'string'
             }},
-        { text: 'Numero do Equipamento :',  dataIndex: 'Num_EquiLav', flex: 1.2 ,
+        { text: 'Numero do Equipamento :',  dataIndex: 'Num_EquiLav', flex: 1.2 ,hidden:true,
             filter: {
                 type: 'string'
             }},
         { text: 'Contagem :',  dataIndex: 'ContagemPP', flex: 1.2 ,
             filter: {
                 type: 'string'
+            }},
+        { text: 'ID_PPista :',  dataIndex: 'ID_PPista', flex: 1.2 ,hidden:true,
+            filter: {
+                type: 'string'
+            }},
+        { text: 'ID_Pedido :',  dataIndex: 'ID_Pedido', flex: 1.2 ,hidden:true,
+            filter: {
+                type: 'string'
             }}
     ],
-
+    //ID_Pedido
     listeners: {
         itemclick: function(view, record, item, index, e) {
             var id = record.get('ID_Request');
@@ -60,16 +68,18 @@ Ext.define('ConLogin.view.main.Admin.GridContagem', {
             var id2 = record.get('Num_EquiLav');
             Ext.util.Cookies.set('cookieNum_Equip', id2);
 
+            var id3 = record.get('ID_PPista');
+            Ext.util.Cookies.set('cookieID_PPista', id3);
+
             myRequest4 = Ext.Ajax.request({
                 url: 'app/php/VerificaAcessos/verificaUtilizador.php',
                 success: function (response, opts) {
                     var Win = Ext.create("Ext.window.Window", {
-                        title:'Contagem diária KKKK',
+                        title:'Contagem diária',
 
                         modal: true,
 
                         items: [{
-                            //xtype: 'JuncaoRegContadorDiario'
                             xtype: 'uniaoRegLogConDiaAntRD'
                         }]
                     });
