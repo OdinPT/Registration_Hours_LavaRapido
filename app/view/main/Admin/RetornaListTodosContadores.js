@@ -38,9 +38,11 @@ Ext.define('ConLogin.view.main.Admin.RetornaListTodosContadores', {
             filter: {
             type: 'string'
             }},
-        { text: 'Tipo Equipamento:',  dataIndex: 'Tipo_Equipamento', flex: 1.2 ,filter: {
+        { text: 'Tipo de Equipamento:', dataIndex: 'Desc_EquiLav', flex: 0.8 ,
+            filter: {
                 type: 'string'
-            }},
+            }
+        },
         { text: 'Lavagem:', dataIndex: 'Local', flex: 0.8 ,
             filter: {
                 type: 'string'
@@ -60,12 +62,8 @@ Ext.define('ConLogin.view.main.Admin.RetornaListTodosContadores', {
         { text: 'Número do equipamento  (campo oculto) :', dataIndex: 'Num_EquiLav', flex: 0.8 ,hidden:true,
             filter: {
                 type: 'string'
-        }},
-        { text: 'Tipo de Equipamento:', dataIndex: 'Desc_EquiLav', flex: 0.8 ,
-            filter: {
-                type: 'string'
-            }
-        }
+        }}
+
     ],
 
 

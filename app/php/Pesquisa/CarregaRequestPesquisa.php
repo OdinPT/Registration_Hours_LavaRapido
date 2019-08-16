@@ -3,7 +3,7 @@
  include "../config.php";
 
     $mes = $_POST['numMes'];
-    //$mes = 13;
+    //$mes = 1;
     $mysqli->set_charset("utf8");
     $username = $_COOKIE['cookieEmail'];
     $dataAtual= date('y/m/d');
@@ -75,15 +75,15 @@ if ($mes == 13){
                  $NumRequestx = 2000;
 
                 print "$NumRequest = $NumRequestx +1";
-                  $NumRequest = $NumRequestx +1;
+                  $NumRequestZ = $NumRequestx +1;
 
-                  print "Num Req ".$NumRequest;
+                  print "Num Req ".$NumRequestZ;
            }
 
            $NumRequest = 0;
            print "=> $NumRequest = $NumRequestx +1";
-           $NumRequest = $NumRequestx +1;
-
+           $NumRequestZ = $NumRequestx +1;
+            print "=> $NumRequest = $NumRequestZ ";
 
     $queryx = "SELECT * FROM Postos_Pistas,Reg_Equipamentos_Lavagem WHERE`ID_EquiPorLav_PP`= `ID_EquiLav` and MONTH(`DataPP`) = $mes  order by `DataPP` desc";   //Pesquisa Pelo Mes solicidado pelo post
 
@@ -100,9 +100,11 @@ if ($mes == 13){
                       $IDLocal = $row['ID_Local_EquiLav'];
                       $IdTipo = $row['ID_Tipo_equiLav'];
                       $NumEqui = $row['Num_EquiLav'];
+                      $ID_EquiLav = $row['ID_EquiLav'];
 
-            print " <br>'$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequest,'$dataAtual','$username','$NumEqui'<br>";
-            $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequest,'$dataAtual','$username','$NumEqui')");
+
+            //print " <br> call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequestZ,'$dataAtual','$username','$NumEqui','$ID_EquiLav')<br>";
+            $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequestZ,'$dataAtual','$username','$NumEqui','$ID_EquiLav')");
 
            }
 }

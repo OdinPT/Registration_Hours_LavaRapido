@@ -41,6 +41,7 @@ if ($rows == 1) {
             setcookie('permissao','1',time()+60*60*24*365*5, '/');
         }
 }
+
 mysqli_close($mysqli); // Closing Connection
 
 ?>

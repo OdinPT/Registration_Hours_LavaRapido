@@ -48,7 +48,7 @@ Ext.define('ConLogin.view.main.Admin.GridEquiLav', {
             filter: {
                 type: 'string'
             }},
-        { text: 'Numero do Equipamento :',  dataIndex: 'Num_EquiLav', flex: 1.4 ,hidden:true,
+        { text: 'Numero do Equipamento :',  dataIndex: 'Num_EquiLav', flex: 1.4 ,hidden:false,
             filter: {
                 type: 'string'
             }},

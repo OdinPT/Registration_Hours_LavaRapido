@@ -282,9 +282,6 @@ $querycheck= "SELECT COUNT(*) as Result FROM Postos_Pistas";
 }
 }
 }
-
-
-
 }
 mysqli_close($mysqli);
 

@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="falta otimizar código">
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="A mostrar equipamento e numero de Equipamento:&#10;Lavagem 1&#10;&#10;Em Registos do dia.">
+      <change afterPath="$PROJECT_DIR$/app/php/Admin/Backup_BD/BACKUP_DIR/Backup_invest_13-08-19.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/LoadWindowScoreX.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/LoadWindowScoreX.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/WindowContagem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/WindowContagem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/store/Registo_Horas/RegistoHorasDia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/Registo_Horas/RegistoHorasDia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridContagem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridContagem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAnt.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/CarregaGridContagemAnt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ContagensPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ContagensPrincipal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridEquiLav.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridEquiLav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +65,11 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1OZaEVpjCdxillWW2XCPVFgQDQ4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/view/main/Admin" />
@@ -448,14 +446,11 @@
       <workItem from="1565103990451" duration="544000" />
       <workItem from="1565133877801" duration="25021000" />
       <workItem from="1565313691750" duration="10036000" />
-      <workItem from="1565538154638" duration="19015000" />
-    </task>
-    <task id="LOCAL-00153" summary=".Ao selecionar registo em REGISTO DE TODOS OS POSTOS mostrar os dados.  &#10;.Editar registo de contagem em RDP&#10;. A registar no log&#10;A apagar tbm está a funcionar">
-      <created>1548558469622</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1548558469622</updated>
+      <workItem from="1565538154638" duration="21460000" />
+      <workItem from="1565708345307" duration="2778000" />
+      <workItem from="1565717714845" duration="647000" />
+      <workItem from="1565791056731" duration="2070000" />
+      <workItem from="1565826949165" duration="6520000" />
     </task>
     <task id="LOCAL-00154" summary=".Ao selecionar registo em REGISTO DE TODOS OS POSTOS mostrar os dados.  &#10;.Editar registo de contagem em RDP&#10;. A registar no log&#10;A apagar tbm está a funcionar&#10;A aparecer registo selecionado do contador diario e a inserir contagem">
       <created>1548559990830</created>
@@ -793,7 +788,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562206513020</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="A mostrar equipamento e numero de Equipamento:&#10;Lavagem 1&#10;&#10;Em Registos do dia.">
+      <created>1565638472489</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1565638472492</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TodoView">
@@ -825,10 +827,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="redefinição do layout do funcionário selecionado" />
     <MESSAGE value="alterações no layout do funcionário selecionado" />
     <MESSAGE value="alterações no layout do funcionário selecionado e limpeza de funcionalidades desnecessárias a projeto" />
     <MESSAGE value="Otimizações no controler e add funcionalidade para editar registos do dia anterior" />
@@ -853,7 +855,8 @@
     <MESSAGE value="--- carrega locais da contagem do funcionário na grid quando o funcionário carrega em registar contagem.&#10;&#10;=&gt; Falta otimizar o código" />
     <MESSAGE value="--- a mostrar log dos registos anteriores do referido equipamento&#10;&#10;...Resolver o problema de cada vez que carrego no botão ele gera novo request.&#10;&#10;=&gt; Falta limpar o código" />
     <MESSAGE value="falta otimizar código" />
-    <option name="LAST_COMMIT_MESSAGE" value="falta otimizar código" />
+    <MESSAGE value="A mostrar equipamento e numero de Equipamento:&#10;Lavagem 1&#10;&#10;Em Registos do dia." />
+    <option name="LAST_COMMIT_MESSAGE" value="A mostrar equipamento e numero de Equipamento:&#10;Lavagem 1&#10;&#10;Em Registos do dia." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
