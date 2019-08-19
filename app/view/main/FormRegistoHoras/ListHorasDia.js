@@ -5,7 +5,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListHorasDia', {
     xtype: 'mainlistHorasDia',
 
     height: 440,
-    width:600,
+    width:500,
 
     requires: [
         'ConLogin.store.Registo_Horas.RegistoHorasDia',
@@ -34,7 +34,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListHorasDia', {
             filter: {
             type: 'string'
             }},
-        { text: 'Funcionário',  dataIndex: 'username', flex: 1.0 ,
+        { text: 'Funcionário',  dataIndex: 'username', flex: 1.7 ,
             filter: {
                 type: 'string'
             }},
@@ -47,7 +47,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListHorasDia', {
                 type: 'string'
             }
         },
-        { text: 'Tipo', dataIndex: 'Descricao_tipo_reg', flex: 0.7 ,
+        { text: 'Tipo', dataIndex: 'Descricao_tipo_reg', flex: 2.7 ,
             filter: {
                 type: 'string'
             }},

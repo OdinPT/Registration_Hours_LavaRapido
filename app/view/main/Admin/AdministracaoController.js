@@ -142,49 +142,10 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
 
                 params: {
                     ID_Local: Ext.getCmp('ID_Local').getValue(),
-                    Tipo_validacao: Ext.getCmp('Tipo_validacao').setValue('1'),
-                    Tipo_validacao: Ext.getCmp('Tipo_validacao').getValue()
+                    //Tipo_validacao: Ext.getCmp('Tipo_validacao').setValue('1'),
+                    //Tipo_validacao: Ext.getCmp('Tipo_validacao').getValue()
                 }
             });
-
-    },
-    onClickRegistarSaida: function() {
-        method:'POST',
-            myRequest1 = Ext.Ajax.request({
-                url: 'app/php/Registar/RegistaEntrada.php',
-                success: function (response, opts) {
-                    Ext.MessageBox.alert(' Registado', 'Com Sucesso!');
-
-
-                    function hide_message() {
-                        Ext.defer(function () {
-                            Ext.MessageBox.hide();
-                            Ext.getCmp('gridRhoras').getStore().load();
-                            Ext.getCmp('gridRhorasDia').getStore().load();
-                            Ext.getCmp('gridRhoras2').getStore().load();
-                            Ext.getCmp('grid_ES_Dia').getStore().load();
-                            Ext.getCmp('gridMaxEntSaidasLocais').getStore().load();
-
-                            Ext.getCmp('gridRhorasDia').getStore().load();
-                            Ext.getCmp('grid_TotalRegPostos').getStore().load();
-
-                        }, 1200);
-                    }
-
-                    hide_message();
-                },
-
-                failure: function (){
-                    alert('Erro...');
-                },
-
-                params: {
-                    ID_Local: Ext.getCmp('ID_Local').getValue(),
-                    Tipo_validacao: Ext.getCmp('Tipo_validacao').setValue('2'),
-                    Tipo_validacao: Ext.getCmp('Tipo_validacao').getValue()
-                }
-            });
-
 
     },
 

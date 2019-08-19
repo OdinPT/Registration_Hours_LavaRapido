@@ -23,6 +23,14 @@ $password = mysqli_real_escape_string($mysqli, $password);
 $query = mysqli_query($mysqli, "Call Login('$username','$password')");
 $querz = mysqli_query($mysqli, "call RegLogin('$username')");
 
+$dataAtualx= date('Y-m-d');
+$dataAtual= date('y/m/d');
+$mysqli->set_charset("utf8");
+
+$XLocal = array();
+$Total = array();
+$EquiL = array();
+
 $rows = mysqli_num_rows($query);
 
 if ($rows == 1) {
@@ -42,6 +50,8 @@ if ($rows == 1) {
         }
 }
 
-mysqli_close($mysqli); // Closing Connection
+
+
+//mysqli_close($mysqli); // Closing Connection
 
 ?>

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="A mostrar equipamento e numero de Equipamento:&#10;Lavagem 1&#10;&#10;Em Registos do dia.">
-      <change afterPath="$PROJECT_DIR$/app/php/Admin/Backup_BD/BACKUP_DIR/Backup_invest_13-08-19.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridEquiLav.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridEquiLav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistaEntrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistaEntrada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/FormRegistaHoras.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/FormRegistaHoras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,40 +17,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="RegEntrada" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>backing</find>
-      <find>.gz</find>
-      <find>gzipBackupFile</find>
-      <find>001</find>
-      <find>RegBackup</find>
-      <find>saveFile</find>
-      <find>$this-&gt;backupFile</find>
-      <find>getOutput(</find>
-      <find>getOutput()</find>
-      <find>BACKUP_DIR</find>
-      <find>DISABLE_FOREIGN_KEY_CHECKS</find>
-      <find>$backupDatabase</find>
-      <find>GZIP_BACKUP_FILE</find>
-      <find>/</find>
-      <find>$this-&gt;backupDir</find>
-      <find>$this</find>
-      <find>.sql</find>
-      <find>Backup_DIR</find>
-      <find>Backup_Dir</find>
-      <find>$mysqli</find>
-      <find>$connString</find>
-      <find>$idEmp11</find>
-      <find>$id111</find>
-      <find>$idEmp111</find>
-      <find>cookie faz</find>
-      <find>regista</find>
-      <find>$dataAtual</find>
-      <find>MaxRequest</find>
-      <find>$EquiL</find>
-      <find>id</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -450,14 +415,9 @@
       <workItem from="1565708345307" duration="2778000" />
       <workItem from="1565717714845" duration="647000" />
       <workItem from="1565791056731" duration="2070000" />
-      <workItem from="1565826949165" duration="6520000" />
-    </task>
-    <task id="LOCAL-00154" summary=".Ao selecionar registo em REGISTO DE TODOS OS POSTOS mostrar os dados.  &#10;.Editar registo de contagem em RDP&#10;. A registar no log&#10;A apagar tbm está a funcionar&#10;A aparecer registo selecionado do contador diario e a inserir contagem">
-      <created>1548559990830</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1548559990830</updated>
+      <workItem from="1565826949165" duration="7683000" />
+      <workItem from="1566074856159" duration="3056000" />
+      <workItem from="1566229867218" duration="9619000" />
     </task>
     <task id="LOCAL-00155" summary="A registar no Log ao registar contagem , problema de não inserir contagem se tabela estive-se vazia resolvido">
       <created>1549045105517</created>
@@ -795,7 +755,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565638472492</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="A mostrar equipamento e numero de Equipamento:&#10;Lavagem 1&#10;&#10;Em Registos do dia.">
+      <created>1565922586116</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1565922586117</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TodoView">
