@@ -10,9 +10,6 @@ $password=$_POST['pass'];
 
 $url = "Login.js";
 
-// Establishing Connection with Server by passing server_name, user_id and password as a parameter
-// To protect MySQL injection for Security purpose
-
 $username = stripslashes($username);
 $password = stripslashes($password);
 
@@ -49,6 +46,7 @@ if ($rows == 1) {
             setcookie('permissao','1',time()+60*60*24*365*5, '/');
         }
 }
+
 
 
 

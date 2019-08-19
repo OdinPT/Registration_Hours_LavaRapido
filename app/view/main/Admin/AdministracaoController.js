@@ -112,7 +112,7 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
     onClickRegistarEntrada: function() {
         method:'POST',
             myRequest1 = Ext.Ajax.request({
-                url: 'app/php/Registar/RegistaEntrada.php',
+                url: 'app/php/Registar/RegistaES.php',
 
                 success: function (response, opts) {
                     Ext.MessageBox.alert(' Registada a Entrada', 'Com Sucesso!');

@@ -42,12 +42,12 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListHorasDia', {
             filter: {
                 type: 'string'
             }},
-        { text: 'Local', dataIndex: 'Descricao_Local', flex: 1.0 ,
+        { text: 'Local', dataIndex: 'Descricao_Local', flex: 2.0 ,
             filter: {
                 type: 'string'
             }
         },
-        { text: 'Tipo', dataIndex: 'Descricao_tipo_reg', flex: 2.7 ,
+        { text: 'Tipo', dataIndex: 'Descricao_tipo_reg', flex: 1.8 ,
             filter: {
                 type: 'string'
             }},

@@ -11,10 +11,9 @@ $data = date("Y-m-d H:i");
 $data1 = date("H:i");
 $mysqli->set_charset("utf8");
 
-
 //RetornaMaxId
 $quer = mysqli_query($mysqli, "SELECT max(ID_Reg_horas) as  maxIDFunc FROM `registo_horas`
-                                    WHERE `ID_Func_rh`=RetornaIdFuncionario('$username')");
+                                    WHERE `ID_Func_rh`=RetornaIdFuncionario('$username') and `ID_Local_rh` = '$local'");
 
     while($re = mysqli_fetch_array($quer))              //tolerancia do funcionário
         {
@@ -69,7 +68,6 @@ $query1 = mysqli_query($mysqli, " SELECT  DATE_FORMAT(Hora_entrada_prevista, '%H
 
     if ($TipoRegisto == 1)
     {
-        print "insere tipo 2";
         $TipoReg = 2;
         print $TipoReg;
 
@@ -92,7 +90,6 @@ $query1 = mysqli_query($mysqli, " SELECT  DATE_FORMAT(Hora_entrada_prevista, '%H
             $query = mysqli_query($mysqli, " call Regista_Horas('$username','$local','$TipoReg','$data1')");
             }
     }else{
-           print "insere tipo 1 <br>";
             $TipoReg = 1;
             print $TipoReg;
 

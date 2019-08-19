@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="A mostrar equipamento e numero de Equipamento:&#10;Lavagem 1&#10;&#10;Em Registos do dia.">
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="botão de registar entrada e saida em registos do dia  passou a ser um só botão">
+      <change afterPath="$PROJECT_DIR$/app/php/Admin/Backup_BD/BACKUP_DIR/Backup_invest_19-08-19.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistaEntrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistaEntrada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistaEntrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistaES.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/FormRegistaHoras.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/FormRegistaHoras.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -417,14 +417,7 @@
       <workItem from="1565791056731" duration="2070000" />
       <workItem from="1565826949165" duration="7683000" />
       <workItem from="1566074856159" duration="3056000" />
-      <workItem from="1566229867218" duration="9619000" />
-    </task>
-    <task id="LOCAL-00155" summary="A registar no Log ao registar contagem , problema de não inserir contagem se tabela estive-se vazia resolvido">
-      <created>1549045105517</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1549045105522</updated>
+      <workItem from="1566229867218" duration="12165000" />
     </task>
     <task id="LOCAL-00156" summary="A registar no Log ao registar contagem , problema de não inserir contagem se tabela estive-se vazia resolvido">
       <created>1549244305372</created>
@@ -762,7 +755,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565922586117</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="botão de registar entrada e saida em registos do dia  passou a ser um só botão">
+      <created>1566246513140</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1566246513141</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TodoView">
@@ -798,7 +798,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="alterações no layout do funcionário selecionado" />
     <MESSAGE value="alterações no layout do funcionário selecionado e limpeza de funcionalidades desnecessárias a projeto" />
     <MESSAGE value="Otimizações no controler e add funcionalidade para editar registos do dia anterior" />
     <MESSAGE value="mudança do algoritmo que gerava ID do pedido porque gerava problema.&#10;&#10;Inicio de Mostrar registos anteriores de um determinado contador em Registos do dia&#10;. falta query&#10;. ficheiros php a fazer load&#10;. store&#10;. e nova grid com os dados carregos" />
@@ -823,7 +822,8 @@
     <MESSAGE value="--- a mostrar log dos registos anteriores do referido equipamento&#10;&#10;...Resolver o problema de cada vez que carrego no botão ele gera novo request.&#10;&#10;=&gt; Falta limpar o código" />
     <MESSAGE value="falta otimizar código" />
     <MESSAGE value="A mostrar equipamento e numero de Equipamento:&#10;Lavagem 1&#10;&#10;Em Registos do dia." />
-    <option name="LAST_COMMIT_MESSAGE" value="A mostrar equipamento e numero de Equipamento:&#10;Lavagem 1&#10;&#10;Em Registos do dia." />
+    <MESSAGE value="botão de registar entrada e saida em registos do dia  passou a ser um só botão" />
+    <option name="LAST_COMMIT_MESSAGE" value="botão de registar entrada e saida em registos do dia  passou a ser um só botão" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
