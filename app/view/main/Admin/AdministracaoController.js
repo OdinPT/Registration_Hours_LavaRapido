@@ -883,7 +883,6 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                 success: function (response, opts) {
                     Ext.MessageBox.alert(' Atenção', 'Pesquisa Efetuada e registada!');
 
-
                     function hide_message() {
                         Ext.defer(function () {
                             Ext.MessageBox.hide();
@@ -891,16 +890,13 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                             Ext.getCmp('gridSearch2D').getStore().load();
 
                         }, 12);
-
                     }
                     hide_message();
                 },
-
                 failure: function (){
                     alert('Erro...');
                     Ext.MessageBox.alert('Atenção','Operação não efetuada');
                 },
-
                 params: {
                     Datainicio: Ext.getCmp('Datainicio').getValue(),
                     DateFim: Ext.getCmp('DateFim').getValue()

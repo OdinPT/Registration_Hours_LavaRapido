@@ -13,7 +13,6 @@ $username = $_COOKIE['cookieEmail'];
 $Contagem = $_POST['ContagemPPz'];
 
 $con = get_numeric($Contagem);
-//print "Contagem $con <br>";
 
 $querw1 = mysqli_query($mysqli, "SELECT `ID_Local_EquiLav`,`ID_Tipo_equiLav`,`ID_EquiLav` FROM `Reg_Equipamentos_Lavagem` WHERE `Num_EquiLav`= '$Num_Equip'");
 

@@ -1,6 +1,5 @@
 <?php
 //error_reporting(0);
-//include "../config.php";
 include "../config.php";
 
 $func = $_COOKIE['cookieID_funcionario'];

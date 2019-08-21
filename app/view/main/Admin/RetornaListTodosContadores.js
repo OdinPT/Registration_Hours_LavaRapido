@@ -66,7 +66,6 @@ Ext.define('ConLogin.view.main.Admin.RetornaListTodosContadores', {
 
     ],
 
-
     tbar: {
         defaultButtonUI: 'default',
 

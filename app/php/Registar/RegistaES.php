@@ -7,6 +7,7 @@ $local = $_POST['ID_Local'];
 
 $local = mysqli_real_escape_string($mysqli, $local);
 
+$dataX = date("Y-m-d");
 $data = date("Y-m-d H:i");
 $data1 = date("H:i");
 $mysqli->set_charset("utf8");
@@ -111,7 +112,7 @@ $query1 = mysqli_query($mysqli, " SELECT  DATE_FORMAT(Hora_entrada_prevista, '%H
 
                     $query = mysqli_query($mysqli, " call Regista_Horas('$username','$local','$TipoReg','$data1')");
                }
-   }
+    }
 
 mysqli_close($mysqli);
 ?>

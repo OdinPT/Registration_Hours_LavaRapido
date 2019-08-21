@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="botão de registar entrada e saida em registos do dia  passou a ser um só botão">
-      <change afterPath="$PROJECT_DIR$/app/php/Admin/Backup_BD/BACKUP_DIR/Backup_invest_19-08-19.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/php/teste.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Admin/Carrega_FuncEmpSelect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/Carrega_FuncEmpSelect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistaEntrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistaES.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Admin/MostraFuncSelect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/MostraFuncSelect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/EmpMore1Local/LocalFuncSelectCombo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/EmpMore1Local/LocalFuncSelectCombo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestPesquisa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestPesquisa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/Pesquisa2Dates.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/Pesquisa2Dates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa/Pesquisa2Dates.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa/Pesquisa2Dates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistaES.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistaES.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/VerificaAcessos/VerificaLocaisFunc.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -417,14 +428,10 @@
       <workItem from="1565791056731" duration="2070000" />
       <workItem from="1565826949165" duration="7683000" />
       <workItem from="1566074856159" duration="3056000" />
-      <workItem from="1566229867218" duration="12165000" />
-    </task>
-    <task id="LOCAL-00156" summary="A registar no Log ao registar contagem , problema de não inserir contagem se tabela estive-se vazia resolvido">
-      <created>1549244305372</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1549244305372</updated>
+      <workItem from="1566229867218" duration="18838000" />
+      <workItem from="1566317891444" duration="1000" />
+      <workItem from="1566342408512" duration="11864000" />
+      <workItem from="1566411167071" duration="7933000" />
     </task>
     <task id="LOCAL-00157" summary="A registar no Log ao registar contagem , problema de não inserir contagem se tabela estive-se vazia resolvido">
       <created>1549245785467</created>
@@ -762,7 +769,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566246513141</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="botão de registar entrada e saida em registos do dia  passou a ser um só botão">
+      <created>1566251293499</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1566251293499</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TodoView">

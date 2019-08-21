@@ -55,8 +55,8 @@
  foreach($Total as $indice => $valor) {
 
         $queryt= "SELECT `ID_EquiLav`,Descricao_Local as `ID_Local_EquiLav`,Descrisao as`ID_Tipo_equiLav`,`Num_EquiLav`
-                              FROM `Reg_Equipamentos_Lavagem`,locais, multiusos
-                                 WHERE `ID_Local_EquiLav` = $ID_LocalFunc and `ID_Tipo_equiLav`=ID_acesso and`ID_Local_EquiLav`=ID_Local
+                       FROM `Reg_Equipamentos_Lavagem`,locais, multiusos
+                         WHERE `ID_Local_EquiLav` = $ID_LocalFunc and `ID_Tipo_equiLav`=ID_acesso and`ID_Local_EquiLav`=ID_Local
                                          and ID_EquiLav = $valor order by ID_EquiLav asc limit 1";
 
                                       $resut = mysqli_query($mysqli, $queryt);

@@ -1,23 +1,17 @@
 <?php
 
  //error_reporting(0);
- include "../config.php";
+include "../config.php";
+include "../Functions.php";
 
-  $mysqli->set_charset("utf8");
-  $return_arr = array();
+$mysqli->set_charset("utf8");
+$return_arr = array();
 
-  $username = $_COOKIE['cookieEmail'];
+$username = $_COOKIE['cookieEmail'];
 
- $query0 = "SELECT MAX(`ID_Pedido`) as MaxIDRequest FROM Request where `ID_Func_Req`= RetornaIdFuncionario ('$username')";
-    $result0 = mysqli_query($mysqli, $query0);
-        while ($row = mysqli_fetch_array($result0, MYSQLI_ASSOC)) {
+$MaxIDRequest = GeraNumRequest($mysqli);
 
-            $MaxIDRequest = $row['MaxIDRequest'];
-
-        }
-
- $query = "call RetornaRequest ($MaxIDRequest)" ;   //Mando id pedido e retorna os registos
-
+$query = "call RetornaRequest ($MaxIDRequest)" ;   //Mando id pedido e retorna os registos
   $result = mysqli_query($mysqli, $query);
 
     while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
@@ -35,5 +29,5 @@
        array_push($return_arr,$row_array);
     }
      echo json_encode($return_arr);
-     mysqli_close($mysqli);
+mysqli_close($mysqli);
 ?>

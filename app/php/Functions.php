@@ -113,4 +113,22 @@ function get_numeric($val) {
    header("HTTP/1.0 500 Not Found");;
 }
 
+function GeraNumRequest($mysqli) {    // Retorna Data do Dia Anterior A partir de uma determinada data d/m/y
+
+   $queryMID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
+       $rsult = mysqli_query($mysqli, $queryMID);
+              while ($r1 = mysqli_fetch_array($rsult, MYSQLI_ASSOC)) {
+                         $NumRequestx = $r1['MaxID'];
+              }
+                    if ($NumRequestx == 0){     //empthy request table
+                            $NumRequest = 0;
+                            $NumRequestx = 2000;
+                            $NumRequest = $NumRequestx +1;
+                    }
+              $NumRequest = 0;
+              $NumRequest = $NumRequestx +1;
+    return $NumRequest;
+}
+
+
 ?>

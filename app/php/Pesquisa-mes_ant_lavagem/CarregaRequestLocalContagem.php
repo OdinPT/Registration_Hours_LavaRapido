@@ -1,5 +1,6 @@
 <?php
 error_reporting(0);
+
 include "../config.php";
 include "../Functions.php";
 
@@ -8,16 +9,10 @@ $username = $_COOKIE['cookieEmail'];
 $mysqli->set_charset("utf8");
 $return_arr = array();
 
+$Total = array();
 
- $Total = array();
-
-$queryMID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
-
-     $rsult = mysqli_query($mysqli, $queryMID);
-
-           while ($r1 = mysqli_fetch_array($rsult, MYSQLI_ASSOC)) {
-                      $MaxRequest = $r1['MaxID'];
-           }
+$MaxRequest = GeraNumRequest($mysqli);
+    //print "Request ".$MaxRequest;
 
     $query4= "SELECT `ID_Request` FROM `Request` WHERE ID_Pedido = '$MaxRequest'";
 

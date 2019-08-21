@@ -1,44 +1,24 @@
 <?php
  //error_reporting(0);
  include "../config.php";
+ include "../Functions.php";
 
     $mes = $_POST['numMes'];
-    //$mes = 1;
-    $mysqli->set_charset("utf8");
     $username = $_COOKIE['cookieEmail'];
+
     $dataAtual= date('y/m/d');
     $Year = date("Y");
+    $mysqli->set_charset("utf8");
+
     $return_arr = array();
 
-$queryMID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
-
-     $rsult = mysqli_query($mysqli, $queryMID);
-
-           while ($r1 = mysqli_fetch_array($rsult, MYSQLI_ASSOC)) {
-                      $NumRequestx = $r1['MaxID'];
-           }
-           if ($NumRequestx == 0){
-                print "tabela vazia <br>";
-                 $NumRequest = 0;
-                 $NumRequestx = 2000;
-
-                print "$NumRequest = $NumRequestx +1";
-                  $NumRequest = $NumRequestx +1;
-
-                  print "Num Req ".$NumRequest;
-           }
-
-           $NumRequest = 0;
-           print "=> $NumRequest = $NumRequestx +1";
-           $NumRequest = $NumRequestx +1;
-
+    $NumRequest = GeraNumRequest($mysqli);
+    //print "Request ".$NumRequest;
 
 if ($mes == 13){
 
-    print " <br> $Year <br>";
-
-
-    $queryz0 = "SELECT * FROM Postos_Pistas,Reg_Equipamentos_Lavagem WHERE`ID_EquiPorLav_PP`= `ID_EquiLav` and Year(`DataPP`) = $Year  order by `DataPP` desc";   //Pesquisa Pelo Mes solicidado pelo post
+    $queryz0 = "SELECT * FROM Postos_Pistas,Reg_Equipamentos_Lavagem
+                WHERE`ID_EquiPorLav_PP`= `ID_EquiLav` and Year(`DataPP`) = $Year  order by `DataPP` desc";
 
      $resultz0 = mysqli_query($mysqli, $queryz0);
 
@@ -49,41 +29,17 @@ if ($mes == 13){
                       $Local = $row['ID_Local_EquiLav'];
                       $Contagem = $row['ContagemPP'];
                       $Data = $row['DataPP'];
-                      print "<br> $Data <br>";
 
                       $IDLocal = $row['ID_Local_EquiLav'];
                       $IdTipo = $row['ID_Tipo_equiLav'];
                       $NumEqui = $row['Num_EquiLav'];
+                      $ID_EquiLav = $row['ID_EquiLav'];
 
-            print " <br>'$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequest,'$dataAtual','$username','$NumEqui'<br>";
-            $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequest,'$dataAtual','$username','$NumEqui')");
+            $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequest,'$dataAtual','$username','$NumEqui','$ID_EquiLav')");
 
            }
 
 } else {
-
-    $queryMID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
-
-     $rsult = mysqli_query($mysqli, $queryMID);
-
-           while ($r1 = mysqli_fetch_array($rsult, MYSQLI_ASSOC)) {
-                      $NumRequestx = $r1['MaxID'];
-           }
-           if ($NumRequestx == 0){
-                print "tabela vazia <br>";
-                 $NumRequest = 0;
-                 $NumRequestx = 2000;
-
-                print "$NumRequest = $NumRequestx +1";
-                  $NumRequestZ = $NumRequestx +1;
-
-                  print "Num Req ".$NumRequestZ;
-           }
-
-           $NumRequest = 0;
-           print "=> $NumRequest = $NumRequestx +1";
-           $NumRequestZ = $NumRequestx +1;
-            print "=> $NumRequest = $NumRequestZ ";
 
     $queryx = "SELECT * FROM Postos_Pistas,Reg_Equipamentos_Lavagem WHERE`ID_EquiPorLav_PP`= `ID_EquiLav` and MONTH(`DataPP`) = $mes  order by `DataPP` desc";   //Pesquisa Pelo Mes solicidado pelo post
 
@@ -104,7 +60,7 @@ if ($mes == 13){
 
 
             //print " <br> call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequestZ,'$dataAtual','$username','$NumEqui','$ID_EquiLav')<br>";
-            $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequestZ,'$dataAtual','$username','$NumEqui','$ID_EquiLav')");
+            $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequest,'$dataAtual','$username','$NumEqui','$ID_EquiLav')");
 
            }
 }
