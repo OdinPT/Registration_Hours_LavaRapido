@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="botão de registar entrada e saida em registos do dia  passou a ser um só botão">
-      <change afterPath="$PROJECT_DIR$/app/php/teste.php" afterDir="false" />
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="otimização de código&#10; . Código que gerava ID_Request numa única função no Functions que é chamado no código quando é necessário usar ID Request">
+      <change afterPath="$PROJECT_DIR$/app/model/CarregaInFuncRD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/php/CarregaStore/CarregaINLocaisRD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/php/CarregaStore/CarregaInFuncRD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/php/Edit/AlteraSenhaFuncRD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/store/Admin/CarregaINLocaisRD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/store/Admin/CarregaInFuncRD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/main/Admin/FormAlteralPasswordRD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/main/Admin/FormInFunRd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/main/Admin/GridINLocaisRD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoIF_Loc_RD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/main/RegDiario/juncaoRegDiario.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Admin/Carrega_FuncEmpSelect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/Carrega_FuncEmpSelect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Admin/MostraFuncSelect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/MostraFuncSelect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/EmpMore1Local/LocalFuncSelectCombo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/EmpMore1Local/LocalFuncSelectCombo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/Locais_Func.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/Locais_Func.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestLocalContagem.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestPesquisa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestPesquisa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/Pesquisa2Dates.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/Pesquisa2Dates.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa/CarregaRequestPesquisa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa/Pesquisa2Dates.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa/Pesquisa2Dates.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistaES.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistaES.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/VerificaAcessos/VerificaLocaisFunc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/VerificaAcessos/verificaUtilizador.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/VerificaAcessos/verificaUtilizador.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListRegistosTodosPosto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListRegistosTodosPosto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoPostoSelect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.jsonp" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.jsonp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +41,13 @@
     <favorites_list name="RegEntrada" />
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="odinpt &lt;leonardo.almeidavieira@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -48,7 +63,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/view/main/Admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.25794032" />
@@ -431,14 +446,11 @@
       <workItem from="1566229867218" duration="18838000" />
       <workItem from="1566317891444" duration="1000" />
       <workItem from="1566342408512" duration="11864000" />
-      <workItem from="1566411167071" duration="7933000" />
-    </task>
-    <task id="LOCAL-00157" summary="A registar no Log ao registar contagem , problema de não inserir contagem se tabela estive-se vazia resolvido">
-      <created>1549245785467</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1549245785471</updated>
+      <workItem from="1566411167071" duration="11368000" />
+      <workItem from="1566491557224" duration="31647000" />
+      <workItem from="1567699019398" duration="847000" />
+      <workItem from="1567719368287" duration="1593000" />
+      <workItem from="1567721241483" duration="11349000" />
     </task>
     <task id="LOCAL-00158" summary="fazer os request e a só mostrar contagem dos Postos se a contagem não for do dia atual">
       <created>1549367046755</created>
@@ -776,7 +788,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566251293499</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="otimização de código&#10; . Código que gerava ID_Request numa única função no Functions que é chamado no código quando é necessário usar ID Request">
+      <created>1566422358305</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1566422358308</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TodoView">
@@ -812,7 +831,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="alterações no layout do funcionário selecionado e limpeza de funcionalidades desnecessárias a projeto" />
     <MESSAGE value="Otimizações no controler e add funcionalidade para editar registos do dia anterior" />
     <MESSAGE value="mudança do algoritmo que gerava ID do pedido porque gerava problema.&#10;&#10;Inicio de Mostrar registos anteriores de um determinado contador em Registos do dia&#10;. falta query&#10;. ficheiros php a fazer load&#10;. store&#10;. e nova grid com os dados carregos" />
     <MESSAGE value="a mostrar grid ao lado do form em registos do dia" />
@@ -837,7 +855,8 @@
     <MESSAGE value="falta otimizar código" />
     <MESSAGE value="A mostrar equipamento e numero de Equipamento:&#10;Lavagem 1&#10;&#10;Em Registos do dia." />
     <MESSAGE value="botão de registar entrada e saida em registos do dia  passou a ser um só botão" />
-    <option name="LAST_COMMIT_MESSAGE" value="botão de registar entrada e saida em registos do dia  passou a ser um só botão" />
+    <MESSAGE value="otimização de código&#10; . Código que gerava ID_Request numa única função no Functions que é chamado no código quando é necessário usar ID Request" />
+    <option name="LAST_COMMIT_MESSAGE" value="otimização de código&#10; . Código que gerava ID_Request numa única função no Functions que é chamado no código quando é necessário usar ID Request" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

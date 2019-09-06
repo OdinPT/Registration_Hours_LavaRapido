@@ -81,11 +81,10 @@ Ext.define('ConLogin.view.main.Main', {
     },
 
      items: [{
-         title: 'Registo do dia',
-         iconCls: 'fa-home',
+         title: 'Registos dia',
+         iconCls: 'fa-user',
          items: [{
-             xtype:  'RegHorasprincipal'
-
+             xtype: 'juncaoRegDiario'
          }]
      },
      {

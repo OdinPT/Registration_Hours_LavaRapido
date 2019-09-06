@@ -11,8 +11,12 @@ $return_arr = array();
 
 $Total = array();
 
-$MaxRequest = GeraNumRequest($mysqli);
-    //print "Request ".$MaxRequest;
+
+ $query0 = "SELECT MAX(`ID_Pedido`) as MaxIDRequest FROM Request where `ID_Func_Req`= RetornaIdFuncionario ('$username')";
+    $result0 = mysqli_query($mysqli, $query0);
+        while ($row = mysqli_fetch_array($result0, MYSQLI_ASSOC)) {
+            $MaxIDRequest = $row['MaxIDRequest'];
+        }
 
     $query4= "SELECT `ID_Request` FROM `Request` WHERE ID_Pedido = '$MaxRequest'";
 

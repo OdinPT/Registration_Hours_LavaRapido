@@ -102,8 +102,6 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect', {
                     click: 'onClickApagaContadorPP'
                 }
             }
-
-
         ]
     },
 

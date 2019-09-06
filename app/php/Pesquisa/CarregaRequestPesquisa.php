@@ -35,7 +35,7 @@ if ($mes == 13){
                       $NumEqui = $row['Num_EquiLav'];
                       $ID_EquiLav = $row['ID_EquiLav'];
 
-            $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequest,'$dataAtual','$username','$NumEqui','$ID_EquiLav')");
+            $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista','$NumRequest','$dataAtual','$username','$NumEqui','$ID_EquiLav')");
 
            }
 
@@ -60,7 +60,7 @@ if ($mes == 13){
 
 
             //print " <br> call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequestZ,'$dataAtual','$username','$NumEqui','$ID_EquiLav')<br>";
-            $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista',$NumRequest,'$dataAtual','$username','$NumEqui','$ID_EquiLav')");
+            $insert = mysqli_query($mysqli, "call InserirPedido1 ('$TipoReg','$Local','$Contagem','$Data','$IDPista','$NumRequest','$dataAtual','$username','$NumEqui','$ID_EquiLav')");
 
            }
 }

@@ -5,12 +5,11 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
         'ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal',
         'ConLogin.view.main.FormRegistoHoras.FormRegistaHoras',
         'ConLogin.store.Registo_Horas.LocalFuncionarios',
-        'ConLogin.view.main.FormRegistoHoras.ListHorasDia'
+        'ConLogin.view.main.FormRegistoHoras.ListHorasDia',
+        'ConLogin.view.main.Admin.JuncaoIF_Loc_RD'
     ],
 
     xtype:  'RegHorasprincipal',
-
-    title: 'Registos do dia',
 
     layout: {
         type: 'hbox',
@@ -25,8 +24,10 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
     items: [
         {
             title: 'Entradas e Saidas',
-            flex: 1,
             margin: '5 5 0 0',
+            collapsible:true,
+            collapseDirection: "right",
+            width:350,
             items: [{
                 xtype: 'registahoras'
 
@@ -34,11 +35,24 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
         },
         {
             title: 'Registos efetuados do  dia',
-            flex: 1,
+            flex: 3,
             margin: '5 5 0 0',
             autoScroll: true,
+            height: 440,
+            width:390,
             items: [{
                 xtype: 'mainlistHorasDia'
+            }]
+        },
+        {
+            title: 'Informações do  Funcionário',
+            collapsible:true,
+            collapseDirection: "left",
+            flex: 2,
+            margin: '0 0 0 0',
+            items: [{
+                xtype: 'JuncaoRegInflocRD'
+
             }]
         }
     ],

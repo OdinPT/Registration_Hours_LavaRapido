@@ -1,12 +1,12 @@
 Ext.onReady
-Ext.define('ConLogin.view.main.Admin.JuncaoRegLogConDiaAntRD', {
+Ext.define('ConLogin.view.main.RegDiario.JuncaoRegDiario', {
     extend: 'Ext.form.Panel',
 
-    xtype: 'uniaoRegLogConDiaAntRD',
+    xtype: 'juncaoRegDiario',
 
     requires: [
-        'ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect0',
-        'ConLogin.view.main.FormRegistoHoras.CarregaGridContagemAnt'
+        //'ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect0',
+        //'ConLogin.view.main.FormRegistoHoras.CarregaGridContagemAnt'
         ],
 
     layout: {
@@ -19,32 +19,16 @@ Ext.define('ConLogin.view.main.Admin.JuncaoRegLogConDiaAntRD', {
         border: false,
         bodyBorder: false,
         frame: false,
-        scrollable:true,
-        width:930,
-        height: 410
+        scrollable:true
     },
-
 
     items: [
         {
-            flex: 1,
-            margin: '0 5 0 0',
-            width:435,
+            title: 'Registo do dia',
+            flex: 5,
             items: [{
-                xtype: 'MostraRegistoPostoSelect0'
-            }]
-        },
-        {
-            title: 'Contagens anteriores deste Equipamento',
-            collapsible:true,
-            collapsed:false,
-            collapseDirection: "right",
-            flex: 1,
-            margin: '0 0 0 0',
-            width:360,
-            autoScroll: true,
-            items: [{
-                xtype: 'mainGridContagemAnt'
+                xtype:  'RegHorasprincipal'
+
             }]
         }
     ]

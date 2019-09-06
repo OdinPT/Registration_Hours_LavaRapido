@@ -63,8 +63,6 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
         }
     ],
 
-    // seleciona pelo id PPPista
-
     listeners: {
         itemclick: function(view, record, item, index, e) {
             var id = record.get('ID_Pista');

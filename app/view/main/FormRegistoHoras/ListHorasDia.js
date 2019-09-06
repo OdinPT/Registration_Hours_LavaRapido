@@ -4,8 +4,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListHorasDia', {
     id: 'gridRhorasDia',
     xtype: 'mainlistHorasDia',
 
-    height: 440,
-    width:500,
+    width:390,
 
     requires: [
         'ConLogin.store.Registo_Horas.RegistoHorasDia',

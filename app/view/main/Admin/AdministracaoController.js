@@ -1593,6 +1593,38 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                     Ext.MessageBox.alert(' Registo ', 'Não apagado!');
                 }
             });
-    }
+    },
+    onClickNovaSenhaRD: function () {
+        method:'POST',
+            myRequest1 = Ext.Ajax.request({
+                url: 'app/php/Edit/AlteraSenhaFuncRD.php',
+
+                success: function (response, opts) {
+                    Ext.MessageBox.alert(' Atenção ', 'Password atualizada');
+
+                    function hide_message() {
+                        Ext.defer(function () {
+                            Ext.MessageBox.hide();
+                            Ext.getCmp('gridLocais').getStore().load();
+                        }, 1200);
+                    }
+
+                    hide_message();
+                },
+
+                failure: function () {
+                    //alert('Erro...');
+                    Ext.MessageBox.alert(' Atenção', 'Verifique se a senha atual está correta ou se inseriu a nova senha corretamente.');
+                },
+
+                params: {
+                    Senhatual: Ext.getCmp('Senhatual').getValue(),
+                    NovaSenha: Ext.getCmp('NovaSenha').getValue(),
+                    NovaSenha1: Ext.getCmp('NovaSenha1').getValue()
+                }
+            });
+    },
+
+
 });
 
