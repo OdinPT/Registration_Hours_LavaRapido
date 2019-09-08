@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="__ EN&#10;Showing washes where employee works on a daily log grid&#10;&#10;__PT&#10;A mostrar lavagens onde o funcionário trabalha  numa grid em registo diário">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/store/Admin/CarregaINLocaisRD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/Admin/CarregaINLocaisRD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/FormInFunRd.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/FormInFunRd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoIF_Loc_RD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoIF_Loc_RD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/RegDiario/juncaoRegDiario.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.jsonp" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.jsonp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -435,13 +425,6 @@
       <workItem from="1567719368287" duration="1593000" />
       <workItem from="1567721241483" duration="13633000" />
     </task>
-    <task id="LOCAL-00159" summary="A Registar contagem em RTP (registos de todos os postos) de qualquer equipamento e a permitir fazer override ao limite diário">
-      <created>1550088338421</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1550088338422</updated>
-    </task>
     <task id="LOCAL-00160" summary="a registar contagem de um equipamento em RTP com a data especifica">
       <created>1550160953339</created>
       <option name="number" value="00160" />
@@ -778,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567736676065</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="__ EN&#10;Showing washes where employee works on a daily log grid&#10;&#10;__PT&#10;A mostrar lavagens onde o funcionário trabalha  numa grid em registo diário">
+      <created>1567906394535</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1567906394538</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="TodoView">
