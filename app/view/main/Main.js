@@ -9,9 +9,8 @@ Ext.define('ConLogin.view.main.Main', {
         'ConLogin.view.main.MainController',
         'ConLogin.view.main.MainModel',
         'ConLogin.view.main.List',
-        'ConLogin.view.main.FormRegistoHoras.ListHorasDia'
-        //'ConLogin.view.main.MainWidget0'
-
+        'ConLogin.view.main.FormRegistoHoras.ListHorasDia',
+        'ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal'
     ],
 
     controller: 'main',
@@ -84,7 +83,8 @@ Ext.define('ConLogin.view.main.Main', {
          title: 'Registos dia',
          iconCls: 'fa-user',
          items: [{
-             xtype: 'juncaoRegDiario'
+             title: 'Registo do dia',
+               xtype:  'RegHorasprincipal'
          }]
      },
      {

@@ -21,7 +21,6 @@ Ext.define('ConLogin.view.main.Admin.JuncaoIF_Loc_RD', {
         bodyBorder: false,
         frame: false,
         scrollable:true,
-        width:930,
         height: 250
     },
 

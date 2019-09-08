@@ -13,7 +13,6 @@ Ext.define('ConLogin.view.main.Admin.FormInFunRd', {
     border: false,
     bodyBorder: false,
     frame: false,
-
     layout: {
         type: 'form',
         align: 'stretch'

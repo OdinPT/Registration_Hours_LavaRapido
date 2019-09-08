@@ -141,9 +141,7 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                 },
 
                 params: {
-                    ID_Local: Ext.getCmp('ID_Local').getValue(),
-                    //Tipo_validacao: Ext.getCmp('Tipo_validacao').setValue('1'),
-                    //Tipo_validacao: Ext.getCmp('Tipo_validacao').getValue()
+                    ID_Local: Ext.getCmp('ID_Local').getValue()
                 }
             });
 
@@ -1623,8 +1621,6 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                     NovaSenha1: Ext.getCmp('NovaSenha1').getValue()
                 }
             });
-    },
-
-
+    }
 });
 

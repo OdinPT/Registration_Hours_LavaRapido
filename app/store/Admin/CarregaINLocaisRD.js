@@ -13,6 +13,6 @@ Ext.define('ConLogin.store.Admin.CarregaINLocaisRD', {
             type: 'json',
             rootProperty: 'data'
         }
-    },
+    }
 
 });

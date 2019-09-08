@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="__ EN&#10;Showing washes where employee works on a daily log grid&#10;&#10;__PT&#10;A mostrar lavagens onde o funcionário trabalha  numa grid em registo diário">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/store/Admin/CarregaINLocaisRD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/Admin/CarregaINLocaisRD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/FormInFunRd.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/FormInFunRd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoIF_Loc_RD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoIF_Loc_RD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogConDiaAntRD.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/RegDiario/juncaoRegDiario.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.jsonp" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.jsonp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

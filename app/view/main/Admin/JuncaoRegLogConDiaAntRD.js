@@ -5,8 +5,7 @@ Ext.define('ConLogin.view.main.RegDiario.JuncaoRegDiario', {
     xtype: 'juncaoRegDiario',
 
     requires: [
-        //'ConLogin.view.main.FormRegistoHoras.MostraRegistoPostoSelect0',
-        //'ConLogin.view.main.FormRegistoHoras.CarregaGridContagemAnt'
+
         ],
 
     layout: {
