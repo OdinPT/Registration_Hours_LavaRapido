@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="__ EN&#10;Showing washes where employee works on a daily log grid&#10;&#10;__PT&#10;A mostrar lavagens onde o funcionário trabalha  numa grid em registo diário">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/VerificaAcessos/Func4Local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridContagem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridContagem.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

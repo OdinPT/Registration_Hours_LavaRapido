@@ -1,6 +1,8 @@
 <?php
 
  include "../config.php";
+include "../Functions.php";
+
  $username = $_COOKIE['cookieEmail'];
  $dataAtualx= date('Y-m-d');
  $dataAtual= date('y/m/d');
@@ -11,20 +13,7 @@ $XLocal = array();
 $Total = array();
 $EquiL = array();
 
-// create NumRequest
-    $queryMaxID = "SELECT max(`ID_Pedido`) as MaxID FROM `Request`";
-     $result = mysqli_query($mysqli, $queryMaxID);
-           while ($row1 = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                      $MaxRequestx = $row1['MaxID'];
-           }
-
-        if ($MaxRequestx == 0) {         // se não existir registos na tabela
-             $NumRequest = 0;
-             $MaxRequestx = 2000;
-             $NumRequest = $MaxRequestx +1;
-        }
-        $NumRequest = $MaxRequestx +1;
-        print '<br>Num Request '.$NumRequest.'<br>';
+$NumRequest = GeraNumRequest($mysqli);
 
 $qMaxPPISTA = "SELECT max(`ID_PPistas`) as IDPISTA from Postos_Pistas where `ID_Func_PP` = RetornaIdFuncionario('$username')";
      $rMaxpp = mysqli_query($mysqli, $qMaxPPISTA);
@@ -52,9 +41,7 @@ $qMaxPPISTA = "SELECT max(`ID_PPistas`) as IDPISTA from Postos_Pistas ";
 
 if ($LASTDATA == $dataAtualx){          // condição não validada significa que não existe registos do dia
 
-
     //Insere locais no array
-
             $qu1= "SELECT `ID_Local_LF` FROM `local_funcionarios` WHERE `ID_Funcionario_LF`= RetornaIdFuncionario('$username')";
               $r1 = mysqli_query($mysqli, $qu1);
                   while ($ruz = mysqli_fetch_array($r1, MYSQLI_ASSOC)) {
@@ -186,18 +173,8 @@ if( $result -> num_rows > 1 ) {            //funcionário trabalha em + que um l
 
   } else {          //um só local
 
-     //print "<br> Sucesso 1 só local .<br>";
-
    $return_arr = array();
-
-   $query1 = "SELECT `ID_Local_LF` as Local FROM `local_funcionarios` WHERE `ID_Funcionario_LF` = RetornaIdFuncionario('$username')";
-
-     $result1 = mysqli_query($mysqli, $query1);
-     while ($row = mysqli_fetch_array($result1, MYSQLI_ASSOC)) {
-
-        $Local = $row['Local'];
-        //print "<br>Local ::> ".$Local."<br> ";
-     }
+   $Local = RetornaIDLocal_Func($username);
 
   $querywwe= "SELECT ID_EquiLav FROM `Reg_Equipamentos_Lavagem` WHERE `ID_Local_EquiLav` = '$Local'";
 

@@ -42,7 +42,7 @@ Ext.define('ConLogin.view.main.Admin.GridContagem', {
             filter: {
                 type: 'string'
             }},
-        { text: 'Numero do Equipamento :',  dataIndex: 'Num_EquiLav', flex: 1.2 ,hidden:true,
+        { text: 'Numero do Equipamento :',  dataIndex: 'Num_EquiLav', flex: 1.2 ,hidden:false,
             filter: {
                 type: 'string'
             }},
@@ -59,7 +59,6 @@ Ext.define('ConLogin.view.main.Admin.GridContagem', {
                 type: 'string'
             }}
     ],
-    //ID_Pedido
     listeners: {
         itemclick: function(view, record, item, index, e) {
             var id = record.get('ID_Request');
@@ -80,7 +79,7 @@ Ext.define('ConLogin.view.main.Admin.GridContagem', {
                         modal: true,
 
                         items: [{
-                            xtype: 'uniaoRegLogConDiaAntRD'
+                            xtype: 'JuncaoRegLogContadorDiaAnt0'
                         }]
                     });
                     Win.show();

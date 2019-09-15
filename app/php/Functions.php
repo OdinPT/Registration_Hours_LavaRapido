@@ -130,5 +130,12 @@ function GeraNumRequest($mysqli) {    // Retorna Data do Dia Anterior A partir d
     return $NumRequest;
 }
 
+function RetornaIDLocal_Func($username) {    // Retorna ID do local onde o funcionario trabalha
 
+   $query = mysqli_query($mysqli, "SELECT `ID_Local_LF` FROM `local_funcionarios` WHERE `ID_Funcionario_LF`= RetornaIdFuncionario('$username')");
+   while($res = mysqli_fetch_array($query)) {
+  	        $ID_LocalFunc = $res['ID_Local_LF'];
+     }
+    return $ID_LocalFunc;
+}
 ?>
