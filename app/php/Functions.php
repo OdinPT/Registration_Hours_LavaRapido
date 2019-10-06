@@ -138,4 +138,13 @@ function RetornaIDLocal_Func($username) {    // Retorna ID do local onde o funci
      }
     return $ID_LocalFunc;
 }
+function MaxRequest($mysqli) {    // Retorna Max Request
+
+    $querw2= "SELECT max(ID_Pedido)as MaxRequest FROM `Request`";
+      $resutw2 = mysqli_query($mysqli, $querw2);
+            while ($ruw2 = mysqli_fetch_array($resutw2, MYSQLI_ASSOC)) {
+                   $MaxRequest = $ruw2['MaxRequest'];
+            }
+    return $MaxRequest;
+}
 ?>
