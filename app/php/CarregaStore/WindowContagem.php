@@ -11,7 +11,7 @@ $dataAtualx= date('Y-m-d');
 $mysqli->set_charset("utf8");
 $return_arr = array();
 
-//Num Request
+//Max Request
 $MaxRequest = MaxRequest($mysqli);
 
 //New Request

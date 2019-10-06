@@ -9,12 +9,7 @@ $return_arr = array();
 
 $username = $_COOKIE['cookieEmail'];
 
-
- $query0 = "SELECT MAX(`ID_Pedido`) as MaxIDRequest FROM Request where `ID_Func_Req`= RetornaIdFuncionario ('$username')";
-    $result0 = mysqli_query($mysqli, $query0);
-        while ($row = mysqli_fetch_array($result0, MYSQLI_ASSOC)) {
-            $MaxIDRequest = $row['MaxIDRequest'];
-        }
+$MaxIDRequest = MaxRequest($mysqli);
 
 $query = "call RetornaRequest ($MaxIDRequest)" ;   //Mando id pedido e retorna os registos
   $result = mysqli_query($mysqli, $query);

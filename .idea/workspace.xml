@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="__ EN&#10;Showing washes where employee works on a daily log grid&#10;&#10;__PT&#10;A mostrar lavagens onde o funcionário trabalha  numa grid em registo diário">
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="06-10-2019">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/WindowContagem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/WindowContagem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestPesquisa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestPesquisa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/Pesquisa2Dates.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/Pesquisa2Dates.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -427,13 +428,6 @@
       <workItem from="1567719368287" duration="1593000" />
       <workItem from="1567721241483" duration="13633000" />
     </task>
-    <task id="LOCAL-00160" summary="a registar contagem de um equipamento em RTP com a data especifica">
-      <created>1550160953339</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1550160953343</updated>
-    </task>
     <task id="LOCAL-00161" summary="A apagar registo da contagem do equipamento.">
       <created>1550192032020</created>
       <option name="number" value="00161" />
@@ -770,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567906394538</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="06-10-2019">
+      <created>1570325241298</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1570325241299</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="TodoView">
@@ -806,7 +807,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="mudança do algoritmo que gerava ID do pedido porque gerava problema.&#10;&#10;Inicio de Mostrar registos anteriores de um determinado contador em Registos do dia&#10;. falta query&#10;. ficheiros php a fazer load&#10;. store&#10;. e nova grid com os dados carregos" />
     <MESSAGE value="a mostrar grid ao lado do form em registos do dia" />
     <MESSAGE value="Alteração no algormito de inserir contagem em registos do dia para cas já exista contagem efetuar update aliás de inserir nova contagem" />
     <MESSAGE value="=&gt; Ao criar novo equipamento é inserido o limite diário no mesmo formulário.&#10;&#10;=&gt; Numero do equipamento é gerado automáticamente." />
@@ -831,7 +831,8 @@
     <MESSAGE value="botão de registar entrada e saida em registos do dia  passou a ser um só botão" />
     <MESSAGE value="otimização de código&#10; . Código que gerava ID_Request numa única função no Functions que é chamado no código quando é necessário usar ID Request" />
     <MESSAGE value="__ EN&#10;Showing washes where employee works on a daily log grid&#10;&#10;__PT&#10;A mostrar lavagens onde o funcionário trabalha  numa grid em registo diário" />
-    <option name="LAST_COMMIT_MESSAGE" value="__ EN&#10;Showing washes where employee works on a daily log grid&#10;&#10;__PT&#10;A mostrar lavagens onde o funcionário trabalha  numa grid em registo diário" />
+    <MESSAGE value="06-10-2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="06-10-2019" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
