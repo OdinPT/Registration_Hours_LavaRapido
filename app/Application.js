@@ -33,7 +33,8 @@ Ext.define('ConLogin.Application', {
         'ConLogin.store.Admin.CarregaGridEquiLavSelect',
         'ConLogin.store.Registo_Horas.RegistosTodosPostoSelect1',
         'ConLogin.store.Admin.CarregaGridContagemDiaAnt2',
-        'ConLogin.store.Admin.CarregaInFuncRD'
+        'ConLogin.store.Admin.CarregaInFuncRD',
+        'ConLogin.store.Admin.CarregaInLastRegFuncRD'
 
 
     ],

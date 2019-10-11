@@ -41,6 +41,14 @@ Ext.define('ConLogin.view.main.Main', {
             text: 'Logout',
             margin: '5 0',
             handler: 'onClickButton'
+                /*
+                Ext.Ajax.request({
+                    url: 'app/php/Admin/Login/LoginValidate.php',
+                      params: {
+                      user: Ext.getCmp('username').getValue(),
+                      pass: Ext.getCmp('password').getValue()
+                    },
+            */
         }]
     },
 

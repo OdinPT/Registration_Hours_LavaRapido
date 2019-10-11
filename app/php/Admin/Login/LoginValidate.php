@@ -22,7 +22,7 @@ $dataAtual= date('y/m/d');
 $mysqli->set_charset("utf8");
 
 $query = mysqli_query($mysqli, "Call Login('$username','$password')");
-$querz = mysqli_query($mysqli, "call RegLogin('$username')");
+//$querz = mysqli_query($mysqli, "call RegLogin('$username')");
 
 $rows = mysqli_num_rows($query);
 

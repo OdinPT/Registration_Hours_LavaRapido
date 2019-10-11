@@ -6,7 +6,8 @@ Ext.define('ConLogin.view.main.Admin.JuncaoIF_Loc_RD', {
 
     requires: [
         'ConLogin.store.Admin.CarregaINLocaisRD',
-        'ConLogin.view.main.Admin.FormInFunRd'
+        'ConLogin.view.main.Admin.FormInFunRd',
+        'ConLogin.view.main.Admin.FormInFuncLastRegRD'
         ],
 
     layout: {
@@ -21,13 +22,15 @@ Ext.define('ConLogin.view.main.Admin.JuncaoIF_Loc_RD', {
         bodyBorder: false,
         frame: false,
         scrollable:true,
-        height: 250
+        //height: 200
     },
 
     items:[{
             xtype: 'formInFuncRD'
         },{
-            xtype: 'GridINlocaisRD'
-        }]
-
+            xtype: 'formInLastRegRD'
+        },{
+           xtype: 'GridINlocaisRD'
+        }
+    ]
 });

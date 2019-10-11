@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="06-10-2019">
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="Informações do funcionario e ultimo registo separado em 2 formulários diferentes">
+      <change afterPath="$PROJECT_DIR$/app/php/CarregaStore/CarregaInFuncLastRegRD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/store/Admin/CarregaInLastRegFuncRD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/main/Admin/FormInFuncLastRegRD.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/WindowContagem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/WindowContagem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestPesquisa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/CarregaRequestPesquisa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/Pesquisa2Dates.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Pesquisa-mes_ant_lavagem/Pesquisa2Dates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/CarregaInFuncRD.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/CarregaInFuncRD.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/FormInFunRd.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/FormInFunRd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoIF_Loc_RD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoIF_Loc_RD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.jsonp" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.jsonp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -428,13 +436,6 @@
       <workItem from="1567719368287" duration="1593000" />
       <workItem from="1567721241483" duration="13633000" />
     </task>
-    <task id="LOCAL-00161" summary="A apagar registo da contagem do equipamento.">
-      <created>1550192032020</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1550192032020</updated>
-    </task>
     <task id="LOCAL-00162" summary="25-02">
       <created>1551055320352</created>
       <option name="number" value="00162" />
@@ -771,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570325241299</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="codigo todo otimizado?">
+      <created>1570326642978</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1570326642978</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TodoView">
@@ -807,8 +815,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="a mostrar grid ao lado do form em registos do dia" />
-    <MESSAGE value="Alteração no algormito de inserir contagem em registos do dia para cas já exista contagem efetuar update aliás de inserir nova contagem" />
     <MESSAGE value="=&gt; Ao criar novo equipamento é inserido o limite diário no mesmo formulário.&#10;&#10;=&gt; Numero do equipamento é gerado automáticamente." />
     <MESSAGE value="contagens de equipamentos em formulários diferentes do registos de contagens do dia atual.&#10; &#10; =&gt; falta ver da edição de registos anteriores &#10; &#10; ------------------------------------------&#10; |dia anterior &lt; dia atual &gt; dia seguinte |&#10; ------------------------------------------" />
     <MESSAGE value="contagens de equipamentos em formulários diferentes do registos de contagens do dia atual.&#10;&#10;. Warnings do cmd resolvidos&#10; &#10; =&gt; falta ver da edição de registos anteriores &#10; &#10; ------------------------------------------&#10; |dia anterior &lt; dia atual &gt; dia seguinte |&#10; ------------------------------------------" />
@@ -832,7 +838,9 @@
     <MESSAGE value="otimização de código&#10; . Código que gerava ID_Request numa única função no Functions que é chamado no código quando é necessário usar ID Request" />
     <MESSAGE value="__ EN&#10;Showing washes where employee works on a daily log grid&#10;&#10;__PT&#10;A mostrar lavagens onde o funcionário trabalha  numa grid em registo diário" />
     <MESSAGE value="06-10-2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="06-10-2019" />
+    <MESSAGE value="codigo todo otimizado?" />
+    <MESSAGE value="Informações do funcionario e ultimo registo separado em 2 formulários diferentes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Informações do funcionario e ultimo registo separado em 2 formulários diferentes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
