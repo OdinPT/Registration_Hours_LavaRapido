@@ -21,8 +21,8 @@ $dataAtualx= date('Y-m-d');
 $dataAtual= date('y/m/d');
 $mysqli->set_charset("utf8");
 
+$querz = mysqli_query($mysqli, "Call RegLogin('$username','$password')");
 $query = mysqli_query($mysqli, "Call Login('$username','$password')");
-//$querz = mysqli_query($mysqli, "call RegLogin('$username')");
 
 $rows = mysqli_num_rows($query);
 

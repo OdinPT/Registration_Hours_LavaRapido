@@ -5,8 +5,6 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ContagensPrincipal', {
     requires: [
         'Ext.layout.container.HBox',
         'ConLogin.store.Admin.TipoContacto',
-        //'ConLogin.store.Registo_Horas.GridRegistosPosto',
-        //'ConLogin.view.main.Admin.FormRegistaContagem',
         'ConLogin.store.Admin.CarregaWinContagem'
     ],
 

@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="Informações do funcionario e ultimo registo separado em 2 formulários diferentes">
-      <change afterPath="$PROJECT_DIR$/app/php/CarregaStore/CarregaInFuncLastRegRD.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/store/Admin/CarregaInLastRegFuncRD.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/main/Admin/FormInFuncLastRegRD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/php/Admin/Login/Logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Admin/CarregaLogin-Logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/CarregaLogin-Logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/CarregaInFuncRD.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/CarregaInFuncRD.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/FormInFunRd.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/FormInFunRd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoIF_Loc_RD.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoIF_Loc_RD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/teste.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ContagensPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ContagensPrincipal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/MainController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.jsonp" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.jsonp" afterDir="false" />
     </list>
@@ -436,13 +436,6 @@
       <workItem from="1567719368287" duration="1593000" />
       <workItem from="1567721241483" duration="13633000" />
     </task>
-    <task id="LOCAL-00162" summary="25-02">
-      <created>1551055320352</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1551055320354</updated>
-    </task>
     <task id="LOCAL-00163" summary="25-02-19&#10;&#10;backup">
       <created>1551094657078</created>
       <option name="number" value="00163" />
@@ -779,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570326642978</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="Informações do funcionario e ultimo registo separado em 2 formulários diferentes">
+      <created>1570806661863</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1570806661864</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TodoView">

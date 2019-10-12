@@ -5,11 +5,12 @@ include "../Functions.php";
 $mysqli->set_charset("utf8");
 $DataAtual = date("Y-m-d");
 
+
 $ID_Request = $_COOKIE['cookieContagemSelect'];
 $Num_Equip = $_COOKIE['cookieNum_Equip'];
-
 $ID_PPista = $_COOKIE['cookieID_PPista'];
 $username = $_COOKIE['cookieEmail'];
+
 $Contagem = $_POST['ContagemPPz'];
 
 $con = get_numeric($Contagem);
@@ -54,6 +55,7 @@ if ($con != $Contagem){
 
                     $ID_PPistas = $res['ID_PPistas'];
     	            $LastCongemFunc = $res['ContagemPP'];
+    	            //print "Last Contagem $LastCongemFunc ";
                }
 
             $querycheck= "SELECT COUNT(*) as Result FROM Postos_Pistas";
@@ -76,11 +78,12 @@ if ($con != $Contagem){
                  }
         } else {
                 $AntMaisLim = $LastCongemFunc + $LimMaxDiario;
-
+                //print $AntMaisLim ;
                      if ($Contagem < $AntMaisLim){
                          //print "<p>dentro do if #2.1 <p>";
                        $query2 = mysqli_query($mysqli, "call InsereContagem01('$Contagem','$DataAtual','$username',$Num_Equip,$ID_Request)");
                      }else{
+                        //print "else";
                         header('HTTP', true, 501);
                      }
         }

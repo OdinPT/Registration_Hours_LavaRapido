@@ -23,12 +23,12 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
 
     items: [
         {
-            title: 'Entradas e Saidas',
+            title: 'Entradas e Saidas ',
 
             margin: '5 5 0 0',
             collapsible:true,
             collapseDirection: "right",
-            width:430,
+            width:500,
             items: [{
                 xtype: 'registahoras'
 
