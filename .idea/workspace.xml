@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="Informações do funcionario e ultimo registo separado em 2 formulários diferentes">
-      <change afterPath="$PROJECT_DIR$/app/php/Admin/Login/Logout.php" afterDir="false" />
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="maybe  end commit  :) .&#10;&#10;#Be_Happy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Admin/CarregaLogin-Logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/CarregaLogin-Logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Admin/Login/LoginValidate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Registar/RegistarContagemRegistosDia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/teste.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ContagensPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ContagensPrincipal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/MainController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.jsonp" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.jsonp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -436,13 +425,6 @@
       <workItem from="1567719368287" duration="1593000" />
       <workItem from="1567721241483" duration="13633000" />
     </task>
-    <task id="LOCAL-00163" summary="25-02-19&#10;&#10;backup">
-      <created>1551094657078</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1551094657080</updated>
-    </task>
     <task id="LOCAL-00164" summary="a registar Limite diário no mesmo formulairo de registar equipamentos a uma lavagem">
       <created>1551207429116</created>
       <option name="number" value="00164" />
@@ -779,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570806661864</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="maybe  end commit  :) .&#10;&#10;#Be_Happy">
+      <created>1570843034807</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1570843034808</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TodoView">
@@ -815,7 +804,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="=&gt; Ao criar novo equipamento é inserido o limite diário no mesmo formulário.&#10;&#10;=&gt; Numero do equipamento é gerado automáticamente." />
     <MESSAGE value="contagens de equipamentos em formulários diferentes do registos de contagens do dia atual.&#10; &#10; =&gt; falta ver da edição de registos anteriores &#10; &#10; ------------------------------------------&#10; |dia anterior &lt; dia atual &gt; dia seguinte |&#10; ------------------------------------------" />
     <MESSAGE value="contagens de equipamentos em formulários diferentes do registos de contagens do dia atual.&#10;&#10;. Warnings do cmd resolvidos&#10; &#10; =&gt; falta ver da edição de registos anteriores &#10; &#10; ------------------------------------------&#10; |dia anterior &lt; dia atual &gt; dia seguinte |&#10; ------------------------------------------" />
     <MESSAGE value=". Em RTP ver se a a edição vai com antigo cookie e alterar para cookia do  id PPista &#10;&#10;. Ver da edição de registos anteriores e da edição de RTP ( registos em todos os postos)" />
@@ -840,7 +828,8 @@
     <MESSAGE value="06-10-2019" />
     <MESSAGE value="codigo todo otimizado?" />
     <MESSAGE value="Informações do funcionario e ultimo registo separado em 2 formulários diferentes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Informações do funcionario e ultimo registo separado em 2 formulários diferentes" />
+    <MESSAGE value="maybe  end commit  :) .&#10;&#10;#Be_Happy" />
+    <option name="LAST_COMMIT_MESSAGE" value="maybe  end commit  :) .&#10;&#10;#Be_Happy" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
