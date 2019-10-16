@@ -2,26 +2,27 @@ Ext.define('ConLogin.view.main.MainWidgetRegTodosPostos', {
 
     requires: [
         'ConLogin.store.Admin.TotalRegistoHoras',
-        'ConLogin.view.main.Admin.RetornaListTodosContadores'
+        'ConLogin.view.main.Admin.RetornaListTodosContadores',
+        'ConLogin.view.main.Admin.RegTodosPostos_Grid_RegLogin_logout'
     ],
 
     extend: 'Ext.tab.Panel',
     xtype: 'mainMenuTodosPostos',
 
-    //title:'Registo de Todos os postos',
-
     border: false,
     bodyBorder: false,
     frame: false,
+
     activeTab: 1,
 
     items: [
         {
-            title:'Total de Entradas e Saidas ',
+            title:'Total de Entradas e Saidas  e Logins efetuados',
             flex: 25,
+            scrollable:true,
             margin: '0 5 0 0',
             items: [{
-                xtype: 'mainMaxEnteSaidas'
+                xtype: 'JuncaoRTPgridLogin_Logout'
             }]
         },
         {
@@ -38,14 +39,7 @@ Ext.define('ConLogin.view.main.MainWidgetRegTodosPostos', {
             items: [{
                 xtype:'mainTotallistHoras'
             }]
-        },{
-            title: 'Logins e logouts',
-            scroll:true,
-            margin: '5 5 5 0',
-            items: [{
-                xtype: 'GridLGout'
-            }]
-        }
+        },
 
 
      ]

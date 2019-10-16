@@ -3,7 +3,7 @@
  error_reporting(0);
  include "../config.php";
 
-$id = $_COOKIE['cookieID_EF'];
+$id = $_COOKIE['cookieID_Tol'];
 
     $mysqli->set_charset("utf8"); // Convert DATA to utf8
 

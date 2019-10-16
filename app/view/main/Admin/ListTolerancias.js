@@ -26,7 +26,7 @@ Ext.define('ConLogin.view.main.Admin.ListTolerancias', {
     }],
 
     columns: [
-        {text: 'ID',  dataIndex: 'ID_Tolerancia', flex: 0.2 ,hidden:false,
+        {text: 'ID',  dataIndex: 'ID_Tolerancia', flex: 0.2 ,hidden:true,
             filter: {
             type: 'string'
             }},

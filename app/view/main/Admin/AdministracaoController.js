@@ -34,7 +34,7 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
 
                 failure: function (){alert('Erro... Registo não Editado');},
                 params: {
-                    ID_Reg_horas: Ext.getCmp('ID_Reg_horas').getValue()
+                    ID_Reg_horas: Ext.getCmp('ID_Reg_horasx').getValue()
                 }
             });
 

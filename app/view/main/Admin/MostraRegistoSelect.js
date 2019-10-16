@@ -33,7 +33,7 @@ Ext.define('ConLogin.view.main.Admin.MostraRegistoSelect', {
         {
         xtype: 'textfield',
         fieldLabel: 'ID:',
-        id: 'ID_Reg_horas',
+        id: 'ID_Reg_horasx',
          hidden:false,
         readOnly: true
     },
@@ -50,7 +50,7 @@ Ext.define('ConLogin.view.main.Admin.MostraRegistoSelect', {
             typeAhead: true,
             emptyText: 'Seleciona  Tipo de Registo ...',
 
-            id: 'Descricao_tipo_regg',
+            id: 'Descricao_tipo_reggx',
             submitValue:true,
             allowBlank: false,
             blankText: 'Selecione um Tipo de Registo'
@@ -59,7 +59,7 @@ Ext.define('ConLogin.view.main.Admin.MostraRegistoSelect', {
         {
             xtype: 'textfield',
             fieldLabel: 'Nome do utilizador:',
-            id: 'usernamee',
+            id: 'usernameex',
             readOnly: true
         },
 
@@ -68,7 +68,7 @@ Ext.define('ConLogin.view.main.Admin.MostraRegistoSelect', {
             fieldLabel: 'Data e hora :',
             submitFormat: 'YYYY-mm-dd H:i',
             submitValue : true,
-            id: 'Hora_entradaManha_rhh',
+            id: 'Hora_entradaManha_rhhx',
             emptyText: 'Insira a data no Seguinte Formato: Ano/mês/dia HH:min ',
             blankText: 'Insira uma Data e hora'
     },
@@ -86,7 +86,7 @@ Ext.define('ConLogin.view.main.Admin.MostraRegistoSelect', {
             displayField: 'Descricao_Local',
             typeAhead: true,
             emptyText: 'Selecione o Local ...',
-            id: 'Descricao_Localll',
+            id: 'Descricao_Localllx',
 
             submitValue:true,
             allowBlank: false,
@@ -97,7 +97,7 @@ Ext.define('ConLogin.view.main.Admin.MostraRegistoSelect', {
         {
             xtype: 'textfield',
             fieldLabel: 'Visível à lavagem',
-            id: 'Descrisao',
+            id: 'Descrisaox',
             readOnly: true
         },
         {
@@ -149,12 +149,12 @@ Ext.define('ConLogin.view.main.Admin.MostraRegistoSelect', {
             store.load({
                 callback: function (records, operation, success) {
                     var record = store.getAt(0);
-                    var a = Ext.getCmp('ID_Reg_horas').setValue(record.data.ID_Reg_horas);
-                    var b = Ext.getCmp('usernamee').setValue(record.data.username);
-                    var c = Ext.getCmp('Hora_entradaManha_rhh').setValue(record.data.Hora_entradaManha_rh);
-                    var d = Ext.getCmp('Descricao_Localll').setValue(record.data.Descricao_Local);
-                    var e = Ext.getCmp('Descricao_tipo_regg').setValue(record.data.Descricao_tipo_reg);
-                    var f = Ext.getCmp('Descrisao').setValue(record.data.Descrisao);
+                    var a = Ext.getCmp('ID_Reg_horasx').setValue(record.data.ID_Reg_horas);
+                    var b = Ext.getCmp('usernameex').setValue(record.data.username);
+                    var c = Ext.getCmp('Hora_entradaManha_rhhx').setValue(record.data.Hora_entradaManha_rh);
+                    var d = Ext.getCmp('Descricao_Localllx').setValue(record.data.Descricao_Local);
+                    var e = Ext.getCmp('Descricao_tipo_reggx').setValue(record.data.Descricao_tipo_reg);
+                    var f = Ext.getCmp('Descrisaox').setValue(record.data.Descrisao);
 
                 }
             });

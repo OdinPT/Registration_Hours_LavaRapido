@@ -34,7 +34,7 @@ Ext.define('ConLogin.view.main.Admin.RetornaListTodosContadores', {
     }],
 
     columns: [
-        {text: 'ID Pista ',  dataIndex: 'ID_Pista',hidden:false, flex: 0.9 ,
+        {text: 'ID Pista ',  dataIndex: 'ID_Pista',hidden:true, flex: 0.9 ,
             filter: {
             type: 'string'
             }},

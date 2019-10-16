@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="maybe  end commit  :) .&#10;&#10;#Be_Happy">
+      <change afterPath="$PROJECT_DIR$/app/view/main/Admin/RegTodosPostos_Grid_RegLogin_logout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/CarregaToleranciaSelecionada.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/CarregaToleranciaSelecionada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridLimConPosto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridLimConPosto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridLoginLogout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridLoginLogout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/ListTolerancias.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/ListTolerancias.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoSelect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/MainWidget2.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainWidget2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/MainWidgetRegTodosPostos.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainWidgetRegTodosPostos.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -424,13 +434,7 @@
       <workItem from="1567699019398" duration="847000" />
       <workItem from="1567719368287" duration="1593000" />
       <workItem from="1567721241483" duration="13633000" />
-    </task>
-    <task id="LOCAL-00164" summary="a registar Limite diário no mesmo formulairo de registar equipamentos a uma lavagem">
-      <created>1551207429116</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1551207429118</updated>
+      <workItem from="1571065433369" duration="15462000" />
     </task>
     <task id="LOCAL-00165" summary="28-03-2019&#10;&#10;mudança no layout dos funcionários e dos postos">
       <created>1551373332961</created>
@@ -768,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570843034808</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="maybe  end commit  :) .&#10;&#10;#Be_Happy">
+      <created>1570844303443</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1570844303443</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="TodoView">

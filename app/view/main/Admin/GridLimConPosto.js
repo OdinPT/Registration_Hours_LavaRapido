@@ -6,8 +6,7 @@ Ext.define('ConLogin.view.main.Admin.GridLimConPosto', {
 
     requires: [
         'ConLogin.store.Admin.CarregaGridLimMaxCont'
-        //'ConLogin.view.main.Admin.JuncaoRegContadorDiario',
-        //'Ext.toolbar.Paging'
+
     ],
 
     xtype: 'mainGridLimconPosto',
@@ -27,7 +26,7 @@ Ext.define('ConLogin.view.main.Admin.GridLimConPosto', {
     }],
 
     columns: [
-        {text: 'ID Request',  dataIndex: 'ID_Lim', flex: 0.9 ,hidden:true,
+        {text: 'ID Limit',  dataIndex: 'ID_Lim', flex: 0.9 ,hidden:false,
             filter: {
             type: 'string'
             }},

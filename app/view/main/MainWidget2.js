@@ -22,7 +22,6 @@ Ext.define('ConLogin.view.main.MainWidget2', {
     config: {
         autoLoad: true,
         scroll:true,
-        //bodyPadding: 5,
         style:{overflow: 'auto',overflowX: 'hidden'}
 
     },
