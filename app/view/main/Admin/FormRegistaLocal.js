@@ -30,7 +30,7 @@ Ext.define('ConLogin.view.main.Admin.FormRegistaLocal', {
         {
 
             xtype: 'textfield',
-            fieldLabel: 'Nome da Local',
+            fieldLabel: 'Nome do Local',
             id: 'Local',
             name: 'Local',
             emptyText : 'Insira o nome do Local',

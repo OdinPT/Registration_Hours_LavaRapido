@@ -26,19 +26,19 @@ Ext.define('ConLogin.view.main.Admin.GridLimConPosto', {
     }],
 
     columns: [
-        {text: 'ID Limit',  dataIndex: 'ID_Lim', flex: 0.9 ,hidden:false,
+        {text: 'ID Limit',  dataIndex: 'ID_Lim', flex: 0.9 ,hidden:true,
             filter: {
             type: 'string'
-            }},
-        { text: 'Limit max diário  :',  dataIndex: 'Limit_Diario', flex: 1.9,hidden:false,
-            filter: {
-                type: 'string'
             }},
         { text: 'Local:',  dataIndex: 'Local', flex: 1.2 ,
             filter: {
                 type: 'string'
             }},
         { text: 'Tipo de Equipamento :',  dataIndex: 'TipoEqui', flex: 1.2 ,
+            filter: {
+                type: 'string'
+            }},
+        { text: 'Limit max diário  :',  dataIndex: 'Limit_Diario', flex: 1.9,hidden:false,
             filter: {
                 type: 'string'
             }}

@@ -6,12 +6,7 @@ Ext.define('ConLogin.view.main.Admin.GridEquipamentosLavagem', {
 
     requires: [
         'ConLogin.store.Admin.CarregaEquipamentosLavagemGrid'
-        //'ConLogin.view.main.Admin.JuncaoRegContadorDiario',
-        //'Ext.toolbar.Paging'
     ],
-
-    width: 690,
-    height: 490,
 
     xtype: 'mainGridEquipamentosLavagem',
 
@@ -30,7 +25,7 @@ Ext.define('ConLogin.view.main.Admin.GridEquipamentosLavagem', {
     }],
 
     columns: [
-        {text: 'ID Equipamento',  dataIndex: 'ID_EquiLav', flex: 0.9 ,hidden:false,
+        {text: 'ID Equipamento',  dataIndex: 'ID_EquiLav', flex: 0.9 ,hidden:true,
             filter: {
             type: 'string'
             }},
@@ -48,31 +43,7 @@ Ext.define('ConLogin.view.main.Admin.GridEquipamentosLavagem', {
             }}
 
     ],
-    /*
-    listeners: {
-        itemclick: function(view, record, item, index, e) {
-            var id = record.get('ID_Request');
-            Ext.util.Cookies.set('cookieContagemSelect', id);
 
-            myRequest4 = Ext.Ajax.request({
-                url: 'app/php/VerificaAcessos/verificaUtilizador.php',
-                success: function (response, opts) {
-                    var Win = Ext.create("Ext.window.Window", {
-                        title:'Contagem diária',
-
-                        modal: true,
-
-                        items: [{
-                            xtype: 'JuncaoRegContadorDiario'
-                        }]
-                    });
-                    Win.show();
-                }
-
-            })
-        }
-    },
-    */
     GridAfterRender: function(CarregaEquiLabGrid){
         setInterval(function(){
             grid.store.load();

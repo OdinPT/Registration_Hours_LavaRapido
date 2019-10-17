@@ -28,28 +28,28 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoMockup', {
     items: [{
         xtype: 'textfield',
         fieldLabel: 'ID:',
-        id: 'ID_Reg_horas',
+        id: 'xID_Reg_horas',
         readOnly: true,
         hidden:true
     },{
         xtype: 'textfield',
         fieldLabel: 'Tipo de Registo:',
-        id: 'Descricao_tipo_regg',
+        id: 'xDescricao_tipo_regg',
         readOnly: true
     },{
             xtype: 'textfield',
             fieldLabel: 'Nome do utilizador:',
-            id: 'usernamee',
+            id: 'xusernamee',
             readOnly: true
     },{
             xtype: 'textfield',
             fieldLabel: 'Hora:',
-            id: 'Hora_entradaManha_rhh',
+            id: 'xHora_entradaManha_rhh',
             readOnly: true
     },{
             xtype: 'textfield',
             fieldLabel: 'Local:',
-            id: 'Descricao_Locall',
+            id: 'xDescricao_Locall',
             readOnly: true
     }],
 
@@ -59,11 +59,11 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.MostraRegistoMockup', {
             store.load({
                 callback: function (records, operation, success) {
                     var record = store.getAt(0);
-                    var a = Ext.getCmp('ID_Reg_horas').setValue(record.data.ID_Reg_horas);
-                    var b = Ext.getCmp('usernamee').setValue(record.data.username);
-                    var c = Ext.getCmp('Hora_entradaManha_rhh').setValue(record.data.Hora_entradaManha_rh);
-                    var d = Ext.getCmp('Descricao_Locall').setValue(record.data.Descricao_Local);
-                    var e = Ext.getCmp('Descricao_tipo_regg').setValue(record.data.Descricao_tipo_reg);
+                    var a = Ext.getCmp('xID_Reg_horas').setValue(record.data.ID_Reg_horas);
+                    var b = Ext.getCmp('xusernamee').setValue(record.data.username);
+                    var c = Ext.getCmp('xHora_entradaManha_rhh').setValue(record.data.Hora_entradaManha_rh);
+                    var d = Ext.getCmp('xDescricao_Locall').setValue(record.data.Descricao_Local);
+                    var e = Ext.getCmp('xDescricao_tipo_regg').setValue(record.data.Descricao_tipo_reg);
                 }
             });
         }

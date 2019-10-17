@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="maybe  end commit  :) .&#10;&#10;#Be_Happy">
-      <change afterPath="$PROJECT_DIR$/app/view/main/Admin/RegTodosPostos_Grid_RegLogin_logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/main/MainWidgetRegAnt0.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/CarregaStore/CarregaToleranciaSelecionada.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/CarregaStore/CarregaToleranciaSelecionada.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/FormRegistaLocal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/FormRegistaLocal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GestãoLimContPosto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GestãoLimContPosto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridBackups.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridBackups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridEquipamentosLavagem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridEquipamentosLavagem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridLimConPosto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridLimConPosto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridLoginLogout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridLoginLogout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/ListTolerancias.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/ListTolerancias.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoSelect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/MainWidget2.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainWidget2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/MainWidgetRegTodosPostos.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainWidgetRegTodosPostos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridTiposEquipamento.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridTiposEquipamento.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridsAssociacaoEquiPostoLimPosto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridsAssociacaoEquiPostoLimPosto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/ListEmpresaFuncionario2.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/ListEmpresaFuncionario2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoLF.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoLF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/JuncaoRegAnteriores.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListRegistosTodosPosto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListRegistosTodosPosto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoMockup.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoMockup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/MainWidget3.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainWidget3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Rhoras/ListHoras.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Rhoras/ListHoras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.jsonp" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.jsonp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

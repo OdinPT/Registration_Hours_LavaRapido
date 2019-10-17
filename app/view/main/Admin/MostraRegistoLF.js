@@ -30,7 +30,7 @@ Ext.define('ConLogin.view.main.Admin.MostraRegistoLF', {
         {
             xtype: 'textfield',
             fieldLabel: 'Nome do utilizador:',
-            id: 'usernamee',
+            id: 'usernameez',
             readOnly: true
         },
         {
@@ -43,7 +43,7 @@ Ext.define('ConLogin.view.main.Admin.MostraRegistoLF', {
             displayField: 'Descricao_Local',
             typeAhead: true,
             emptyText: 'Selecione a empresa...',
-            id: 'Locaiss',
+            id: 'Locaissz',
             submitValue:true,
 
             allowBlank: false,
@@ -89,8 +89,8 @@ Ext.define('ConLogin.view.main.Admin.MostraRegistoLF', {
             store.load({
                 callback: function (records, operation, success) {
                     var record = store.getAt(0);
-                    var a = Ext.getCmp('usernamee').setValue(record.data.usernamee);
-                    var b = Ext.getCmp('Locaiss').setValue(record.data.Locaiss);
+                    var a = Ext.getCmp('usernameez').setValue(record.data.usernamee);
+                    var b = Ext.getCmp('Locaissz').setValue(record.data.Locaiss);
                 }
             });
         }

@@ -46,7 +46,7 @@ Ext.define('ConLogin.view.main.Admin.GridBackups', {
             filter: {
                 type: 'string'
             }},
-        { text: 'username :',  dataIndex: 'username', flex: 1.2 ,
+        { text: 'Utilizador que fez Backup :',  dataIndex: 'username', flex: 1.2 ,
             filter: {
                 type: 'string'
             }}

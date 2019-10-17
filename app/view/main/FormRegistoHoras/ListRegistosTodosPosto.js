@@ -2,6 +2,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
     extend: 'Ext.grid.Panel',
     alias: 'widget.Registoposto',
     id: 'gridRegistoTodosPosto',
+
     xtype: 'mainlistTodosRegPosto',
 
     requires: [
@@ -16,6 +17,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.ListRegistosTodosPosto', {
         scroll:true,
         style:{overflow: 'auto',overflowX: 'hidden'}
     },
+    height: 280,
 
     store: {
         type: 'RTContadores'

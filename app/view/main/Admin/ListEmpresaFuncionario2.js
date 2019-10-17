@@ -30,15 +30,15 @@ Ext.define('ConLogin.view.main.Admin.ListEmpresaFuncionario2', {
 
 
     columns: [
-        {text: 'ID ',  dataIndex: 'ID_ef', flex: 0.9 ,
+        {text: 'ID ',  dataIndex: 'ID_ef', flex: 0.9 ,hidden:true,
             filter: {
             type: 'string'
             }},
-        { text: 'Username :',  dataIndex: 'username', flex: 1.2 ,
+        { text: 'Nome Utilizador :',  dataIndex: 'username', flex: 1.2 ,
             filter: {
                 type: 'string'
             }},
-        { text: 'Nome Empresa', dataIndex: 'Nome_Empresa', flex: 0.8 ,
+        { text: 'Empresa', dataIndex: 'Nome_Empresa', flex: 0.8 ,
             filter: {
                 type: 'string'
             }}

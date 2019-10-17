@@ -31,7 +31,7 @@ Ext.define('ConLogin.view.main.Admin.GestãoLimContPosto', {
 
     items: [
         {
-            title: 'Registo Lim dos contadores por  ao posto',
+            title: 'Registo Limites dos contadores por posto',
             flex: 1,
             margin: '0 5 0 0',
             height: 350,
@@ -43,7 +43,7 @@ Ext.define('ConLogin.view.main.Admin.GestãoLimContPosto', {
             }]
         },
         {
-            title: 'Lista Limites dos contadores por  Lavagem',
+            title: 'Lista Limites dos contadores por Lavagem',
             flex: 1,
             margin: '0 0 0 0',
             collapsed: false,

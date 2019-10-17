@@ -11,7 +11,7 @@ Ext.define('ConLogin.view.main.Admin.GridsAssociacaoEquiPostoLimPosto', {
         type: 'hbox',
         pack: 'start',
         align: 'stretch',
-        height: 300,
+        height: 500,
         width: 1300
 
     },

@@ -33,7 +33,7 @@ Ext.define('ConLogin.view.main.Admin.GridTiposEquipamento', {
             filter: {
             type: 'string'
         }},
-        { text:  'Tipo Equipamento:',  dataIndex: 'Tipo', flex: 1.2 ,hidden:false,
+        { text:  'Tipos de Equipamento:',  dataIndex: 'Tipo', flex: 1.2 ,hidden:false,
             filter: {
                 type: 'string'
         }}

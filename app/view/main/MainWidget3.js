@@ -42,12 +42,16 @@ Ext.define('ConLogin.view.main.MainWidget3', {
         {
             title: 'Associação Funcionários  a Postos e a empresas',
             padding:true,
-            xtype:'GridsAssociacaoFuncPostosEmpresas'
+            items: [{
+                xtype: 'GridsAssociacaoFuncPostosEmpresas'
+            }]
         },
         {
             title: 'Associação Equipamentos a Postos  e Limites diários a postos',
             padding:true,
-            xtype:'GridsAssociacaoEquiPostoLimPosto'
+            items: [{
+                xtype: 'GridsAssociacaoEquiPostoLimPosto'
+            }]
 
         }
         ]

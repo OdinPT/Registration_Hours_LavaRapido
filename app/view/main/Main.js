@@ -10,7 +10,8 @@ Ext.define('ConLogin.view.main.Main', {
         'ConLogin.view.main.MainModel',
         'ConLogin.view.main.List',
         'ConLogin.view.main.FormRegistoHoras.ListHorasDia',
-        'ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal'
+        'ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal',
+        'ConLogin.view.main.MainWidgetRegAnt0'
     ],
 
     controller: 'main',
@@ -92,7 +93,8 @@ Ext.define('ConLogin.view.main.Main', {
         title: 'Registos anteriores',
         iconCls: 'fa-user',
         items: [{
-            xtype: 'JuncaoRegAnteriores'
+            title: 'Registos horários anteriores',
+            xtype:  'MainWidgetRegAnt0'
         }]
     }
 

@@ -731,7 +731,7 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
 
                         Ext.defer(function () {
                             Ext.MessageBox.hide();
-                            Ext.getCmp('gridFuncContactos').getStore().load();
+                            Ext.getCmp('gridFuncContactos2').getStore().load();
                         }, 1200);
 
                         var win = Ext.WindowManager.getActive();
@@ -770,7 +770,7 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                     function hide_message() {
                         Ext.defer(function () {
                             Ext.MessageBox.hide();
-                            Ext.getCmp('gridFuncContactos').getStore().load();
+                            Ext.getCmp('gridFuncContactos2').getStore().load();
 
                         }, 1200);
                         var win = Ext.WindowManager.getActive();
@@ -788,8 +788,8 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                 },
 
                 params: {
-                    usernamee: Ext.getCmp('usernamee').getValue(),
-                    Locaiss: Ext.getCmp('Locaiss').getValue(),
+                    usernamee: Ext.getCmp('usernameez').getValue(),
+                    Locaiss: Ext.getCmp('Locaissz').getValue(),
                     Tipo_validacao: Ext.getCmp('Tipo_validacao15').setValue('1.5'),
                     Tipo_validacao: Ext.getCmp('Tipo_validacao15').getValue()
                 }
