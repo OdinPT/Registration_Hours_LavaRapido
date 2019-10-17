@@ -16,6 +16,8 @@ Ext.define('ConLogin.view.main.Admin.MostraRegistoLF', {
 
     width: 730,
     height: 160,
+    border: false,
+    bodyBorder: false,
 
     layout: {
             type: 'form',

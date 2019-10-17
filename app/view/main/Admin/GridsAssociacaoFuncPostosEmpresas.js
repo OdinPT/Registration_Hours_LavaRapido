@@ -35,11 +35,9 @@ Ext.define('ConLogin.view.main.Admin.GridsAssociacaoFuncPostosEmpresas', {
             }]
         },{
             title: 'Funcionários aos Postos',
-
             flex: 1,
             margin: '0 5 0 5',
             autoScroll: true,
-
             items: [{
                 xtype: 'mainlisFuncP2'
             }]

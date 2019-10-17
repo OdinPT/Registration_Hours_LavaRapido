@@ -54,6 +54,8 @@ Ext.define('ConLogin.view.main.Admin.ListFuncPostos2', {
                     var myWin = Ext.create("Ext.window.Window", {
                         title: 'Registo Selecionado',
                         modal: true,
+                        border: false,
+                        bodyBorder: false,
                         items: [{
                             xtype: 'MostraRegLF'
                         }]

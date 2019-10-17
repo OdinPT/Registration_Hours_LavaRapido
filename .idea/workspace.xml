@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="maybe  end commit  :) .&#10;&#10;#Be_Happy">
-      <change afterPath="$PROJECT_DIR$/app/view/main/MainWidgetRegAnt0.js" afterDir="false" />
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="17-10-2019">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Admin/Backup_BD/BACKUP_DIR/Backup_invest_13-08-19.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Admin/Backup_BD/BACKUP_DIR/Backup_invest_19-08-19.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/php/Edit/Edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Edit/Edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/FormRegistaLocal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/FormRegistaLocal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GestãoLimContPosto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GestãoLimContPosto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridBackups.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridBackups.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridEquipamentosLavagem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridEquipamentosLavagem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridLimConPosto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridLimConPosto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridTiposEquipamento.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridTiposEquipamento.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridsAssociacaoEquiPostoLimPosto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridsAssociacaoEquiPostoLimPosto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/ListEmpresaFuncionario2.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/ListEmpresaFuncionario2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridsAssociacaoFuncPostosEmpresas.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridsAssociacaoFuncPostosEmpresas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/ListFuncPostos2.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/ListFuncPostos2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoLF.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoLF.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/JuncaoRegAnteriores.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListRegistosTodosPosto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListRegistosTodosPosto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoMockup.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/MostraRegistoMockup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/MainWidget3.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainWidget3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Rhoras/ListHoras.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Rhoras/ListHoras.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.jsonp" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.jsonp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-workbench-community.deb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -445,13 +436,6 @@
       <workItem from="1567721241483" duration="13633000" />
       <workItem from="1571065433369" duration="15462000" />
     </task>
-    <task id="LOCAL-00165" summary="28-03-2019&#10;&#10;mudança no layout dos funcionários e dos postos">
-      <created>1551373332961</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1551373332962</updated>
-    </task>
     <task id="LOCAL-00166" summary="redefinição do layout do funcionário selecionado">
       <created>1551459049567</created>
       <option name="number" value="00166" />
@@ -788,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570844303443</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="17-10-2019">
+      <created>1571317516753</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1571317516755</updated>
+    </task>
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="TodoView">
@@ -824,7 +815,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="contagens de equipamentos em formulários diferentes do registos de contagens do dia atual.&#10; &#10; =&gt; falta ver da edição de registos anteriores &#10; &#10; ------------------------------------------&#10; |dia anterior &lt; dia atual &gt; dia seguinte |&#10; ------------------------------------------" />
     <MESSAGE value="contagens de equipamentos em formulários diferentes do registos de contagens do dia atual.&#10;&#10;. Warnings do cmd resolvidos&#10; &#10; =&gt; falta ver da edição de registos anteriores &#10; &#10; ------------------------------------------&#10; |dia anterior &lt; dia atual &gt; dia seguinte |&#10; ------------------------------------------" />
     <MESSAGE value=". Em RTP ver se a a edição vai com antigo cookie e alterar para cookia do  id PPista &#10;&#10;. Ver da edição de registos anteriores e da edição de RTP ( registos em todos os postos)" />
     <MESSAGE value="Problema na pesquisa entre 2 datas resolvido" />
@@ -849,7 +839,8 @@
     <MESSAGE value="codigo todo otimizado?" />
     <MESSAGE value="Informações do funcionario e ultimo registo separado em 2 formulários diferentes" />
     <MESSAGE value="maybe  end commit  :) .&#10;&#10;#Be_Happy" />
-    <option name="LAST_COMMIT_MESSAGE" value="maybe  end commit  :) .&#10;&#10;#Be_Happy" />
+    <MESSAGE value="17-10-2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="17-10-2019" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

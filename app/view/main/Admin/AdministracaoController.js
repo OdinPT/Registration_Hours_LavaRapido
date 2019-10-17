@@ -765,19 +765,15 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
 
                 success: function (response, opts) {
                     Ext.MessageBox.alert(' Atenção', 'Associação registada!');
-
-
                     function hide_message() {
                         Ext.defer(function () {
                             Ext.MessageBox.hide();
                             Ext.getCmp('gridFuncContactos2').getStore().load();
-
                         }, 1200);
                         var win = Ext.WindowManager.getActive();
                         if (win) {
                             win.close();
                         };
-
                     }
                     hide_message();
                 },
@@ -788,8 +784,8 @@ Ext.define('ConLogin.view.main.Admin.AdministracaoController', {
                 },
 
                 params: {
-                    usernamee: Ext.getCmp('usernameez').getValue(),
-                    Locaiss: Ext.getCmp('Locaissz').getValue(),
+                    usernameez: Ext.getCmp('usernameez').getValue(),
+                    Locaissz: Ext.getCmp('Locaissz').getValue(),
                     Tipo_validacao: Ext.getCmp('Tipo_validacao15').setValue('1.5'),
                     Tipo_validacao: Ext.getCmp('Tipo_validacao15').getValue()
                 }
