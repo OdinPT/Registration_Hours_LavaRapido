@@ -75,9 +75,7 @@ Ext.define('ConLogin.view.main.Admin.GridContagem', {
                 success: function (response, opts) {
                     var Win = Ext.create("Ext.window.Window", {
                         title:'Contagem diária',
-
                         modal: true,
-
                         items: [{
                             xtype: 'JuncaoRegLogContadorDiaAnt0'
                         }]

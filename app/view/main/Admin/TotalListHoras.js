@@ -13,11 +13,12 @@ Ext.define('ConLogin.view.main.Admin.TotalListHoras', {
     ],
 
     config: {
-        autoLoad: true,
         scroll:true,
-        style:{overflow: 'auto',overflowX: 'hidden'},
-        height: 700
+        height: 700,
+        layout: 'fit',
+        width:'100%',
     },
+
 
     title: 'Registos de Todos os Postos',
 
@@ -102,7 +103,7 @@ Ext.define('ConLogin.view.main.Admin.TotalListHoras', {
                     var myWin = Ext.create("Ext.window.Window", {
                         title: 'Editar Registo Selecionado',
                         modal: true,
-
+                        height:550,
                         items: [{
                             xtype: 'MostraRegTodosPostos'
 

@@ -22,7 +22,7 @@ Ext.define('ConLogin.view.main.Admin.JuncaoRegLogContadorDiaAnt1', {
         frame: false,
         scrollable:true,
         width:930,
-        height: 330
+        height: 280
     },
 
 

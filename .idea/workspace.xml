@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="17-10-2019">
+    <list default="true" id="9e3245b1-0501-42b6-a2b6-8279cc7d9e18" name="Default" comment="Bug que não permitia alterar local do funcionário  resolvido">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Admin/Backup_BD/BACKUP_DIR/Backup_invest_13-08-19.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Admin/Backup_BD/BACKUP_DIR/Backup_invest_19-08-19.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/php/Edit/Edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/php/Edit/Edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/AdministracaoController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridsAssociacaoFuncPostosEmpresas.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridsAssociacaoFuncPostosEmpresas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/ListFuncPostos2.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/ListFuncPostos2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoLF.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoLF.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.jsonp" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.jsonp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql-workbench-community.deb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridContagem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridContagem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/GridEquiLav.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/GridEquiLav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogContadorDiaAnt0.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogContadorDiaAnt0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogContadorDiaAnt1.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/JuncaoRegLogContadorDiaAnt1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/MostraRegisto.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/MostraRegisto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/MostraRegistoSelect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/RegTodosPostos_Grid_RegLogin_logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/RegTodosPostos_Grid_RegLogin_logout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/RetornaListTodosContadores.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Admin/TotalListHoras.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Admin/TotalListHoras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/ListHorasDia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/FormRegistoHoras/RegHorasPrincipal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/MainWidgetRegTodosPostos.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainWidgetRegTodosPostos.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -435,13 +437,8 @@
       <workItem from="1567719368287" duration="1593000" />
       <workItem from="1567721241483" duration="13633000" />
       <workItem from="1571065433369" duration="15462000" />
-    </task>
-    <task id="LOCAL-00166" summary="redefinição do layout do funcionário selecionado">
-      <created>1551459049567</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1551459049567</updated>
+      <workItem from="1571326643881" duration="182000" />
+      <workItem from="1571338916347" duration="15606000" />
     </task>
     <task id="LOCAL-00167" summary="alterações no layout do funcionário selecionado">
       <created>1551658182860</created>
@@ -779,7 +776,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571317516755</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="Bug que não permitia alterar local do funcionário  resolvido">
+      <created>1571326813891</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1571326813892</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TodoView">
@@ -815,7 +819,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="contagens de equipamentos em formulários diferentes do registos de contagens do dia atual.&#10;&#10;. Warnings do cmd resolvidos&#10; &#10; =&gt; falta ver da edição de registos anteriores &#10; &#10; ------------------------------------------&#10; |dia anterior &lt; dia atual &gt; dia seguinte |&#10; ------------------------------------------" />
     <MESSAGE value=". Em RTP ver se a a edição vai com antigo cookie e alterar para cookia do  id PPista &#10;&#10;. Ver da edição de registos anteriores e da edição de RTP ( registos em todos os postos)" />
     <MESSAGE value="Problema na pesquisa entre 2 datas resolvido" />
     <MESSAGE value="Download BD Backup" />
@@ -840,7 +843,8 @@
     <MESSAGE value="Informações do funcionario e ultimo registo separado em 2 formulários diferentes" />
     <MESSAGE value="maybe  end commit  :) .&#10;&#10;#Be_Happy" />
     <MESSAGE value="17-10-2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="17-10-2019" />
+    <MESSAGE value="Bug que não permitia alterar local do funcionário  resolvido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug que não permitia alterar local do funcionário  resolvido" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

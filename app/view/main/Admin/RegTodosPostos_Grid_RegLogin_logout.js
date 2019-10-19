@@ -25,7 +25,7 @@ Ext.define('ConLogin.view.main.Admin.RegTodosPostos_Grid_RegLogin_logout', {
         title: 'Logins e logouts',
         scroll:true,
         margin: '5 5 5 0',
-        height: 500,
+        height: 200,
         items: [{
             xtype: 'GridLGout'
         }]

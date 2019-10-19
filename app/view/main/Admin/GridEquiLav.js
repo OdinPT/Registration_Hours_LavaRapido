@@ -75,7 +75,7 @@ Ext.define('ConLogin.view.main.Admin.GridEquiLav', {
                         modal: true,
 
                         width: 950,
-                        height: 500,
+                        height: 380,
 
                         items: [{
                             xtype:'GestaoContRDP'

@@ -28,7 +28,9 @@ Ext.define('ConLogin.view.main.MainWidgetRegTodosPostos', {
         {
             title:'Registos dos Contadores',
             scroll:true,
+
             margin: '5 5 5 0',
+            maxHeight: 900,
             items: [{
                 xtype: 'mainRetornRegTodosPostosDia'
             }]

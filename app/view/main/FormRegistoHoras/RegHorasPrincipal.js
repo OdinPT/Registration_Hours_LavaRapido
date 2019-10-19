@@ -28,7 +28,8 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
             margin: '5 5 0 0',
             collapsible:true,
             collapseDirection: "right",
-            width:500,
+            //width:300,
+            flex: 2,
             items: [{
                 xtype: 'registahoras'
 
@@ -39,8 +40,7 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
             flex: 3,
             margin: '5 5 0 0',
             autoScroll: true,
-            height: 440,
-
+            height: 190,
             items: [{
                 xtype: 'mainlistHorasDia'
             }]
@@ -49,8 +49,8 @@ Ext.define('ConLogin.view.main.FormRegistoHoras.RegHorasPrincipal', {
             title: 'Informações do  Funcionário',
             collapsible:true,
             collapseDirection: "left",
-            flex: 1.3,
-            margin: '0 0 0 0',
+            flex: 2,
+            margin: '5 5 0 0',
             items: [{
                 xtype: 'JuncaoRegInflocRD'
 

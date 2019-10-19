@@ -12,7 +12,7 @@ Ext.define('ConLogin.view.main.Admin.MostraRegistoSelect', {
         'ConLogin.view.main.Admin.AdministracaoController'
     ],
 
-    title:'Conteúdo Principal',
+
 
     id: 'staticPageForm',
     frame: true,

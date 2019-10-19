@@ -33,8 +33,13 @@ Ext.define('ConLogin.view.main.Admin.MostraRegisto', {
     },
 
         items:[
-             {xtype: 'MostraRegSelect'},
-            {xtype: 'mainLogRegistoHoras'}
+         {
+             title:'Conteúdo Principal',
+             height:300,
+             xtype: 'MostraRegSelect'
+         },{
+            xtype: 'mainLogRegistoHoras'
+         }
         ]
 
 });
